@@ -1,0 +1,3436 @@
+﻿CHANGE_ANALYST,CHANGE_NO,CHANGE_DESCRITPION,REASON_FOR_CHANGE,CCB_SUBMIT_DATE
+Prameela R,ECO-61235,"Prod: Release of EX-Old Monk Manufacturing Test Requirements Per Affected Items.
+
+PROC-10190 Old monk Manufacturing_Test_Requirements: 
+- Rev 01 release to prototype lifecyle.",PROC-10190_Old monk Manufacturing_Test_Requirements releasing to Agile as per DRT review and approved,46:49.0
+Sherry Nguyen,ECO-61461,"Prod: PROC-9797 Juniper Laminate Electrical Performance Data: Business Process update per the Affected Items Section Part Object Attachments.
+
+1. PROC-9797: Rev 09
+- Updated Data
+- Created LG8 Data tab","Updated Data
+Created Loss Group 8 data tab",23:10.0
+Sherry Nguyen,ECO-61356,"Prod: Release of MX960-P3DC-IP-B10 to be created for AT&T as an Advanced fixed System. Per Affected Items Section.
+
+1. Releasing to Production Lifecycle, Rev AA:
+
+MX960-P3DC-IP-B10
+
+Note: PDC to update the below details post CCB approvals and before ECO Release
+- FRS Commit Date = ECO Release Date",Production Release of MX960-P3DC-IP-B10,14:55.0
+Sarangabani S,ECO-61442,"Proto: 711-179262 Assy, PCA, Fan Tray Adapter Board, MX-Model-X.
+
+Release Etch 2 files for MX-Model-X FAN Tray Adapter Board: Update per the Affected Items Section.
+
+1. 711-179262, Rev 02
+- Reference BOM redlines for specific changes.
+- SCH-188609 Proto release, Rev 01
+- OUTLN-188609 Proto release, Rev 01
+
+2. 511-188609
+- Proto release, Rev 01
+
+3. 750-184478
+- Rev to Track",Fan connector pinout change,19:35.0
+Pradeep Holla,ECO-61378,"Prod: vJunos-Switch,24.2/R1-S2: New SW Release per the Affected Items Section.
+
+This ECO releases ""820/822"" P/N's into Production as standalone images.
+
+1. ""820/822"" Application Package Production Release.","Production Release of vJunos-Switch,24.2/R1-S2. This (3) image is being posted to the Web for download. Distribution Type - General.",37:45.0
+Prameela R,ECO-61200,"Prod: New shippable junos release for SKU's, QFX-Absinthe, EX-Opus Ridge
+
+For QFX-Absinthie:
+
+Update 23.4R2-S2 on QFX5120 platform per the affected items section and BOM redlines.
+
+1. Under all below product number BOM's:
+QFX5120-48T-AFI
+QFX5120-48T-AFI-T
+QFX5120-48T-AFO
+QFX5120-48T-AFO-T
+QFX5120-48T-CHAS
+QFX5120-48T-DC-AFI
+QFX5120-48T-DC-AFO:
+
+- DELETE 817-179464 22.4R3.25
+- ADD 817-185239 23.4R2-S2      
+
+For EX4600-Ridge OS Update per affected items BOM redlines.
+
+Under all below product number BOMs
+EX4600-40F-AFI
+EX4600-40F-AFI-T
+EX4600-40F-AFO
+EX4600-40F-AFO-T
+EX4600-40F-DC-AFI
+EX4600-40F-DC-AFO
+EX4600-40F-S   
+
+- DELETE 817-180181   21.4R3-S6.5
+- ADD 817-184275   21.4R3-S8.5
+
+Note:
+1. Validation log is at ""Attachments"" tab.","1. Update 23.4R2-S2 on QFX5120 platform.
+2. Update 21.4R3-S8.5 on EX4600 models.",39:51.0
+Girija Amaragol,M38705B,"EOL Reactivation for CRMA
+
+Transaction was not completed. Hence reactivation again w.r.t M38705
+
+SKU : SRX3K-PWR-DC2
+RMA R200542377 
+SN J152RQ002C03Z
+SKU : PWR-MX960-AC-S 
+RMA ID: R200541520
+Part SN:  ACPG5324
+
+PDC Note:
+For EOS HW/SW/SVC: Change from EOS (Obsolete) to SHIP (Production) 
+Push EOS date out from 10/31/2020 and 12/01/2023 to 12/31/2099",EOL Reactivation for CRMA,51:00.0
+Abel Alcantar,DEV-24781,"Prod: The purpose of this Deviation is to allow FVN/FJZ to make the following part(s) substitutions for qualification purposes.
+
+New Qual Part(s) are from,
+
+Qual MPN 1 & MFR 1 => MAX7310AUE+T & Maxim
+Qual MPN 2 & MFR 2 => PCA9557PWR & Texas
+
+A. Replace JPN: 310-013175 with above mentioned MPN(s) on the following as described in C
+
+B.	Mfg.Partner to work request MFR free of charge samples that will be shipped to Mfg.Partner directly from MFR, Mfg.Partner shall copy Juniper GCM found in Agile under “Commodity Manager” field under the respective Qual JPN & CEs, found in Agile under “Component Engineer” and “Context Component Engineer” fields of the Qual JPN along with the DEV Originator on all samples related communication with MFRs.
+
+C.	Factory Instructions:
+
+C1. Build: 711-XXX -> 750-XXX qty= 1per below each for each new supplier for each MPN under qual 
+(New AVL to be qualified: TWO suppliers) 
+
+1. MPN 1 & MFR 1 => MAX7310AUE+T & Maxim
+2. MPN 2 & MFR 2 => PCA9557PWR & Texas
+
+Build path 
+
+310-013175->711-057161->750-055992->MIC-MRATE = QTY=10 (MIC-MRATEs tested in MPC line cards use needed MPC line cards to test 10 MICs) 
+
+C2. Qualification samples will be only new build. However, FGI may be used for qualification samples where the SKU being requested in the DEV has not had any demand 90 days after the DEV release date.
+
+*********************************
+
+Qualification tests to be performed, DVT followed by ORT on DVT tested HW
+
+********************************
+1. DVT test is required - 
+
+All Qual Assemblies need to go through full MFG test (production test and capture yield report In spared sheet and add in MCO when initiated to add 2nd source MPNs
+
+********************************
+
+Perform DVT per below (whichever is applicable) 
+
+  1. PROC-9980 for products FRS in 2020 OR 
+  2. PROC-8423 for products released before 2020
+
+Specific test:
+
+**************
+HOT swap / power cycle / system reboot (which ever applicable for each DUT) 
+test to be perform 100 times at 25C, COLD and HOT for each DUT  	
+
+**************
+No SW Test required
+
+*************
+ORT test > Subset of On-going Reliability Test 
+
+1. After DVT testing completed run Subset of On-going Reliability Test (ORT test per PROC-8989) use one full system to test these cards (you can piggyback with any other ORT test) Subset of On-going Reliability Test to be run  
+
+***********
+
+   a> run while the system is in a hot box at an elevated temperature, typically 40-45C.   
+   b> The default test time will be 168 hours (1 week).  
+   c> Capture ORT test results (In spreadsheet when MCO is initiated to add 2nd source)
+
+Additional information 
+The On-going Reliability test (ORT) test is an extended reliability test which is performed under a single extreme corner case environmental condition. In general, the test will be an extended consumer-like traffic test (such as Line Rate JIT or Data Path Test) The test will not require any mastership switches, but instead will run entirely in the default mastership state as it would in a customers' environment.  If there are any product specific requirements that deviate from this process, they will be detailed in the product's test plan",Qualifying Maxim and Texas MPNs as additional sources.,44:11.0
+Girija Amaragol,DEV-25270,"Prod: The purpose of this Deviation is to allow ACCTON to make the following part substitutions for qualification purposes
+
+New Qual Part is VIRTIUM TECHNOLOGY MPN: VTUEL0GJXC008-BJ11.
+
+With each of the above-mentioned new Qual parts, build each of 650-level systems as listed below.
+
+A. Substitute 740-141571 with the above-mentioned alternate at respective locations.
+
+740-141571->611-133584->650-134054->650-134042->EX4100-48MP System required = 10
+
+B. Juniper CE team is already working with VIRTIUM for the samples and samples will be shipped ACCTON.
+
+C. Factory Instructions:
+
+C1. Qualification qty breakup:
+--------------------------------------------------------------------------------
+3 x 740-141571->611-133584->650-134054->650-134042->EX4100-48MP -> DVT
+1 x 740-141571->611-133584->650-134054->650-134042->EX4100-48MP -> S/W Certification Test
+--------------------------------------------------------------------------------
+
+C2. Qualification samples will be only new build. However, FGI may be used for qualification samples where the SKU being requested in the DEV has not had any demand 90 days after the DEV release date
+
+C3. All Qualification units need to go through standard manufacturing and Test processes with the following specific actions. Yield reports should be submitted once manufacturing production process is completed.
+
+- Install DEV-25270 on all Qual sample assemblies.
+- Record all serial numbers with DEV label and put on the NO SHIP list
+- Send the product test yield reports as soon as all units have completed Mfg tests to CM-DVT- HTR reports CM-DVT-HTR-reports@juniper.net  and the DEV Originator.  
+- Ensure email header subject line indicates the Qual JPN, Qual MFR, and the DEV#.
+
+C4. The qualification assemblies shall be shipped to Juniper (see Special Instructions) as soon as the required number of units have passed Mfg Test, prior to DVT
+
+C5. ACCTON should send DVT test plan document to Michael Nguyen <michaeln@juniper.net>. ACCTON shall start the DVT procedure once test plan is approved by Michael.
+
+C6. After completion of DVT, prepare and review HTR report with the Juniper On site TE team and then email to CM-DVT-HTR alias CM-DVT-HTR-reports@juniper.net. and the DEV Originator.  Ensure email header subject line indicates the Qual JPN, Qual MFR and the DEV#.
+
+D. Completion / Closure
+
+The qualification units are not to be used for any other DVT and customer shipments until the qualification has been fully completed by Juniper, reports reviewed and an ECO / MCO has been signed off.
+
+See Special Instructions Section of DEV for shipping directions.",VIRTIUM TECHNOLOGY current MPN (VTDU31XC008G-A902) is EOL and they have suggested VTUEL0GJXC008-BJ11 as an alternate.,51:09.0
+Girija Amaragol,DEV-25260,"Proto: PTX-Octomore: 711-173307 Assy, PCA, SIB-8, PTX-Octomore: This Deviation is to request Flextronics-Penang to perform the following changes in the SIB P1C build.
+
+DEV Qty: 92
+
+Instructions:
+1. Mount JPN: 310-119479  instead of JPN:310-178896.
+
+-Track the affected SNs.
+- Affix the DEV-25260 label on the board.",Due to part shortage,17:09.0
+Girija Amaragol,DEV-25258,"Prod: QFX-Tomatin: Mechanical Hard tool parts qualification. This DEVIATION is to instruct Accton VN to perform qualification on the following P/Ns and per the Affected Items:
+
+A) QFX-Tomatin: 760-178445: Hard tooled parts/assy by Interplex VN as multi-source
+
+760-178440 - Assy, Sub, Rack Rail Front, RMK, 2RU, V2, QFX-Tomatin  
+760-178441 - Assy, Sub, Chassis Side U-Bracket, RMK, 2RU, V2, QFX-Tomatin  
+760-178444 - Assy, Sub, Floating Rail, RMK, 2RU, V2, QFX-Tomatin
+
+B) Qualification samples procurement info:
+
+- Interplex VN has already built & sent the HT samples/assy to Accton VN for qualification
+- Accton VN did the HT samples FFF Check
+
+C) Qualification instructions to Accton VN:
+
+1. Qualification to be done through standard incoming inspection process (In-process inspection & assembly check).
+2. Items will go through standard production assembly process to evaluate form, fit and functional checks. In addition, cosmetics compliance as well.
+3. Assemble the respective items according to Assy DWG & findings to be shared in FFF.
+4. Compare the qualifications of new HT items wrt older HT items. Report all findings during the overall assembly process.
+5. Accton VN to release the qualification build report (i.e. inspection and FFF results) after completing the build & same will be attached in MCO (Post DEV release).
+
+Notes:
+- No functional tests are required as this is a mechanical hard tooled parts qualification. Change will not impact mfg. test and the electrical function of the product.
+- Qual was already completed & this deviation is just for record purpose. AVL update to be made in Agile thru MCO post DEV release.",This DEV will qualify the mechanical hard-tooled production solution parts from Interplex VN as part of VE qual.,27:07.0
+Girija Amaragol,DEV-25301,"Preliminary/Proto: PTX-Octomore: This deviation allows flex to accept the  WUS PCBs which are built with ""EM892K+EM891+MC24"" and ""EM890K(A)+MC24""Laminate material as this material has not been UL Certified..
+
+FAB PN#: 511-183443, FAB, PCB, Teeling Base with Enhanced Stiffener, 43.2T BXF-based, 54 Ports, 800G, Etch1, PTX-Octomore
+
+Build: P1C , Build qty: 22 + 9 pcs.
+
+- Do not affix the DEV label",This is a tracking deviation. Since this is the proto build WUS didn't complete the UL certification for Hybrid material stackup and WUS plan to complete the UL Certification before Pilot build.,04:19.0
+Sarangabani S,ECO-59404,"Production: Releasing Rev 04 of SPEC-9744 document (Juniper Component Derating Design Requirements) to include below changes:
+
+1) Values of ""Minimum Temperature Derating Factor wrt Tj (°C) (To be followed for Juniper designs)"" and ""Minimum Temperature Derating Factor wrt Ta/Tc (°C) (To be followed for Juniper designs, ONLY if Tj value not available in Agile)"" for Commodity Code ""21001"" are being updated from 10°C to 20°C for POL Input Caps (for ≥12V and < 12V) by adding new separate rows as per NPI Hardware Engineering feedbacks.
+
+2) Updated Maximum voltage allowed (%), Maximum current allowed (%) and Justification values for Commodity Codes "" 23001,23002,23003,25002"".
+
+
+This is Juniper internal document. Hence no CM / ODM notification is required.
+
+Note: PDC to place latest revision attachment file in shared location "" \\jnprcorpprddat1\agile_data\Control_Documents\JNPR_Component_Derating_SPEC-9744_reference_copy\",Releasing Rev 04 of SPEC-9744 document (Juniper Component Derating Design Requirements.,28:52.0
+Sherry Nguyen,M38754,"Prod: MCO to change the LC of TE connectivity PN for the JPN 450-149795 as mentioned below 
+
+1. Change existing TE Connectivity Ltd MPN 2302014-1 Lifecycle from ""Active"" to ""Deplete""
+2. Add new TE Connectivity Ltd MPN 2481259-1 to ""Active""
+
+Alternate Part qualified in Alpha Vietnam in Onyx platform where the issue was reported. Since the same part number is used in Gamora, changing the part number through an MCO. Alpha has to update there HBOM based on the results.Issue at Alpha occured and the test report from Alpha as well as TE attached in MCO.
+
+Qual report and PCN document are attached.
+Z2 ticket 14873 submitted for Compliance update of new PN  2481259-1",PCN received for MPN change.,24:00.0
+Girija Amaragol,M38775,"Proto: MCO to update JPN Part Type, Commodity Code & Description as illustrated below
+
+Please make the following updates to JPN 540-177624
+
+New Commodity Code: 45009 - IC Socket
+
+New Description: Conn Assy, LGA4677 IC socket, Carrier Assembly-E1B, SRX-Casino Royale
+
+Note:
+PDC will update Commodity Code and Description upon approval before release this mco","Correction of JPN Part Type, Commodity Code & Description as per discussion had with GCMs & CEs",46:43.0
+Pooja Siraskar,M38766,"Proto:MCO to Attach following FAI report into respective JPN attachments.
+
+      JPN	                                     File Name
+560-188563	560-188563_programmable_first_article_inspection.xlsx
+560-188564	560-188564_programmable_first_article_inspection.xlsx
+560-188565	560-188565_programmable_first_article_inspection.xlsx
+560-188566	560-188566_programmable_first_article_inspection.xlsx
+560-188926	560-188926_programmable_first_article_inspection.xlsx
+
+Note to PDC: Once FAI report is attached, update "" File Category"" field as ""FAI Report"" for the respective files in the ""Attachments"" section.",FVN completed programming procedure for affected JPNs and provided the FAI reports. Hence attaching the reports into JPN attachments.,32:03.0
+Sherry Nguyen,M38771,"Prod: EX2300-C-MGNT-MNT AVL changes.
+
+EX2300-C-MGNT-MNT
+- Add Accton Irvine to EX2300-C-MGNT-MNT AVL.",Add additional AVL for EX2300-C-MGNT-MNT.,40:01.0
+Abel Alcantar,DEV-24872A,"Proto: PTX-Octomore: 750-175158., Assy, Top, Teeling 800G QSFPDD, MezzA, 36 Ports, PTX-Octomore.
+
+Apply kepton tape on the GND stitch vias as per the attached instruction and make sure do not to place the tape on the busbar PCB PAD.
+
+Build: P1B
+Qty: 88 pcs.
+
+- Affix the DEV-24872 label.
+- Track the affected SNs.","REASON FOR EXTENSION (A): Build still in progress. New ""Effective To"" Date: 03/15/2025
+
+Discovered busbar contact very close to the GND stitching Vias and it will cause potential short issues. This issue will be fixed in net etch.",01:29.0
+Pradeep Holla,DEV-24979A,"Proto: PTX-Octomore.750-173325/750-173322  Assy, Top, 43.2T BXF-based 54x 800G QSFP-DD800, PTX-Octomore  This Deviation is to request Flextronics-Penang to perform the following changes in the P1B build.
+Build :P1B
+Affected assy:
+750-173325 Assy, Top, 43.2T BXF-based 54x 800G QSFP-DD800, PTX-Octomore
+750-175158 QDD Mezz A build qty 40
+750-175159 QDD Mezz B build qty 40
+750-173322 Assy, Top, 43.2T BXF-based 54x 800G OSFP, PTX-Octomore
+750-175154 OSFP Mezz A build qty 54
+750-175157 OSFP Mezz B build qty 54
+Use attached ISP programming guideline to upgrade the MPM54524 & FPGA.","Reason for extension: P1B is still in progress/ extend till 3/31/25
+
+To improve the OSFP/QDD functional performance",45:20.0
+Richard Hood,DEV-24977,"Proto: PTX-Aegon: Applying TPCM7200 TIM to BXF dice then baking Aegon LC. Include increasing Torque when assembling the pressure plate: This Deviation is to instruct Flextronics-Penang to perform the following.
+
+750-173866 - Assy, Top, LC-36x800G, PTX-Aegon, etch2
+750-173865 - Assy, Sub, Main Board, LC, 36x800G, PTX-Aegon, etch2
+750-153146 - Assy, Top, Aegon PMB, PTX-Aegon
+540-178433 - Fab, Plastic, Alignment Plate, HS Spring, BXF, PTX-Aegon
+540-185060 - Fab, Alignment Plate, HS Spring, BXF, PTX-Aegon, V2
+420-185390 - Hdwr, Spring, Compression, 0.5in OD, 0.75in Free Length, 0.062in Wire DIA Max, k=62.4 lb/in, Closed + ground, Music Wire, Zn
+420-164923 - Hdwr, Spring, Compression, 0.48in OD, 5/8in L, 0.35in CL, k=56lb/in, Closed + ground, Music Wire, Zn
+420-011814 - Hdwr, Screw, Flat Hd, Phil, 6-32 x .375"""", Stl, Zn, w/Nylon Patch, Undercut
+430-182806 - PCM,TIM PAD,19.4x27mm,Tpcm 7200, 0.2mm thick, BXF fabric
+430-182808 - PCM, TIM PAD,29x49mm,Tpcm 7200, 0.2mm thick, BXF SoC
+
+Flextronics-Penang (FMY) to follow the following process for the Tpcm 7200 TIM application to BXF dice surface. Instruct FMY to install alternative heatsink spring and alignment plate and bake the 750 assemblies to melt/bond phase change material. This activity is to be performed on the remaining P2A2 LCs that have not yet started mechanical assembly.
+
+1. Clean the BXF H/S Pedestals and the ASIC die surfaces.
+2. Trim 430-182806 to 17.5x25.5mm and trim 430-182808 to 29x47mm
+3. Apply the Tpcm7200 trimmed TIM pads onto the BXF dice, care should be taken not to tear the TIM pads or form air pockets.
+4. Mount the H/S's per the assembly steps on the assembly drawing
+        - Use 420-185390 in place of 420-164923
+        - Use 540-185060 in place of 540-178433
+        - Torque 420-011814 to 10lbs.in when assembling the pressure plate        
+5. Do not assemble the PMB Top Assy, 750-153146, to the Aegon LC Top Assy, 750-173865.
+        - If present, remove 750-153146, PMB Assemble, from the 750-173865 Top Level Aegon Assembly and set aside. The PMB Assy has a battery that may be damaged when exposed to 75C ambient temperatures.
+6. 750-173865 needs to be baked using the following temperature profile:
+         - Ramp up from 25C to 75C at 2C/minutes.  [25 minutes]
+         - Hold 75C for two hours.
+         - Ramp down using Ambient Temperature
+         - Total Time = ~2 hours, 50 minutes.
+
+7. After baking, install/re-install the PBM Assy and complete Assy process. 
+8. Baking must be performed prior to line card first power up.
+9. Apply deviation label.",Factory DOE shows better yield when attaching the TCPM to the die surface. Increasing Torque and using a different spring arrangement to improve heatsink spring pressure and distribution. Baking will ensure that TIM melts and creates a thin bondline between BXF ASIC and heatsinks. Changes are required to improve ASIC cooling performance.,27:45.0
+Sarangabani S,DEV-25297,"Prod: This DEV is to allow FOXCONN-VIETNAM to use old DC material only in Q1/2025 to support production build based on good result of solderability test.
+
+1. JPN 240-126496
+Description: Xtal, 25MHz, 20ppm tolerance, 20ppm stability, 20pF, 30 Ohm ESR, Extended Temp, SMD-4, 3.2x2.5mm
+MPN: FL2500316Z
+Supplier: DIODES, INC.
+Site balance: FOXCONN JUAREZ MEXICO (CM site)
+Total Qty to use: 2246 pcs (DC 2153); 13 pcs (DC 2206); 30 pcs (DC 2220)
+
+
+2. JPN 240-128943
+Description: Xtal, 49.152MHz, 20ppm Tol, 20ppm Stability, 12pF, 40Ohm, Industrial Temp, SMD-4, 3.2x2.5mm	
+MPN: 7M49170002
+Supplier: TXC CORPORATION INC
+Total Qty to use: 1615 pcs
+DC: 2213",To allow FOXCONN-VIETNAM to use old DC material only in Q1/2025 to support production build based on good result of,31:03.0
+Pooja Siraskar,M38736,"Proto: MCO to update AVL as illustrated below
+
+Moving Zymet MPN under respective JPN to ""Prod_IPQ"" status
+
+110-151981 => ZYMET INC USA => UA-2605 BT2
+
+Note to PDC Team: Please make the redlining for Prod_IPQ move
+Note to RoHS CE Review Group: # 14799 raised in Z2 for compliance field update",Moving Zymet MPN to Prod_IPQ status prior to Proto exit,26:18.0
+Girija Amaragol,M38757,"1. Prod:  Changing the life cycle status of the below Hisense Broadband MPNs to Prd_IPQ.
+
+              JPN                       MPN
+           740-157138              LCQ638BS-PC+JP3  
+           740-157132              LCQ6380S-PC+JP4
+
+2. Removing LCQ6380S-PC+JP3  from AVL under JPN   740-157132 
+
+3. To add EEPROM MPN  under AVL for
+
+           Supplier MPN             EEPROM MPN
+           LCQ638BS-PC+JP3            2E2ZGA
+           LCQ6380S-PC+JP4            2E5ZFA
+
+Note: JPN Rev'up proposed with LCQ638BS-PC+JP & LCQ6380S-PC+JP4,  will be implemented when the parts will be moved to Active. The updated P-Spec also will be added under JPN level attachment with the 'Active' LC move.","Data pack review is completed for the affected MPN and documents are attached in the MPN attachments.
+
+Removing LCQ6380S-PC+JP3 from AVL as Juniper has no qual plan for the part & currently qualifying the next Gen LCQ6380S-PC+JP4",23:41.0
+Girija Amaragol,DEV-24935,"Prod: The purpose of this Deviation is to allow Flex Penang to make the following part(s) substitutions for qualification purposes
+
+New Qual Part(s) are from,
+
+Qual MPN & MFR => PMEG100V100ELPE & Nexperia
+
+A.	Replace JPN: 320-023403 with the above-mentioned MPN(s) on the following as described in C
+
+B.	Mfg.Partner to work request MFR free of charge samples that will be shipped to Mfg.Partner directly from MFR, Mfg.Partner shall copy Juniper GCM found in Agile under “Commodity Manager” field under the respective Qual JPN & CEs, found in Agile under “Component Engineer” and “Context Component Engineer” fields of the Qual JPN along with the DEV Originator on all samples related communication with MFRs.
+
+C.	Factory Instructions:
+
+C1. Build : 711-XXXXX -> 750-XXXXX quantity = 10 each for each new supplier with MPN under qual Build path,
+
+320-023403 -> 711-116522 -> 750-116523 -> JNP10008-SF2-BB -> Required Assy Qty ten (10)
+320-023403 -> 711-118931 -> 750-118932 -> JNP10016-SF3-BB -> Required Assy Qty ten (10)
+320-023403 -> 711-116522 -> 750-116523 -> MX10K8-4F-P128-AC -> Required Assy Qty ten (10)
+
+C2. Qualification samples will be only new build. However, FGI may be used for qualification samples where the SKU being requested in the DEV has not had any demand 90 days after the DEV release date
+
+** Qualification tests to be performed – DVT & Full MFG test ** 
+
+-	DVT test is required - (Fully loaded the system with line cards under test) 
+-	All Qual Assemblies need to go through full MFG test (production test and capture yield report In spared sheet and add in MCO when initiated to add 2nd source MPNs
+-	Perform DVT per below  (whichever is applicable)
+o	PROC-9980 for products FRS in 2020  OR 
+o	PROC-8423 for products released before 2020 DVT in Fully loaded  system
+
+Specific test: HOT swap / power cycle / system reboot (whichever applicable for each DUT) test to be perform 100 times at  25C, COLD and HOT for each DUT
+
+C3.  Qualification units need to go through standard manufacturing and Test processes with the following specific actions:
+
+- Install DEV-24935 on all Qual sample assemblies.
+- Record all serial numbers with DEV label and put on the NO SHIP list
+- Send the product test yield reports as soon as all units have completed Mfg tests to CM-DVT-   HTR reports CM-DVT-HTR-reports@juniper.net and the DEV Originator.  
+- Ensure email header subject line indicates the Qual JPN, Qual MFR and the DEV#
+
+C4. The qualification assemblies shall be shipped to Juniper (see Special Instructions) as soon as the required number of units have passed Mfg Test, prior to DVT.
+
+C5. After completion of DVT, prepare and review HTR report with the Juniper On site TE team and then email to CM-DVT-HTR alias CM-DVT-HTR-reports@juniper.net. and the DEV Originator. Ensure email header subject line indicates the Qual JPN, Qual MFR and the DEV#.
+    
+D. Completion / Closure
+
+The qualification units are not to be used for any other DVT and customer shipments until the qualification has been fully completed by Juniper, reports reviewed and an ECO / MCO has been signed off.",Qualifying Nexperia as potential replacement,46:05.0
+Girija Amaragol,DEV-25302,"Preliminary_BOM/Proto/Prod:	This DEV is to allow Flex Penang to use old date code inventory for oscillator/crystal  (per attached PN) to support production.
+
+240-007738
+240-014105
+240-014473
+240-023128
+240-023480
+240-026719
+240-031037
+240-037947
+240-044903
+240-045828
+240-053071
+240-054786
+240-054812
+240-054840
+240-055138
+240-067841
+240-079738
+240-094352
+240-095229
+240-114218
+240-115464
+240-115523
+240-115912
+240-126496
+240-139985
+240-153669
+
+No deviation label required.","This DEV is to allow Flex Penang to use old date part to support production.
+PN:240-007738, DC:2240, Qty:969, MFG PN:VCC1-B3G-2M04800000 ,MFG:MICROCHIP , Remark:24mth & above
+PN:240-014105, DC:2128, Qty:21, MFG PN:VCC6-QCB-125M000000 ,MFG:MICROCHIP , Remark:24mth & above
+PN:240-014473, DC:2119, Qty:6, MFG PN:S1803A-8.1920(T) ,MFG:DIODES , Remark:24mth & above
+PN:240-023128, DC:2222, Qty:500, MFG PN:TS250F22CLT ,MFG:CTS , Remark:24mth & above
+PN:240-023128, DC:2313, Qty:46, MFG PN:9C25077004 ,MFG:TXC , Remark:Above 21mth
+PN:240-023480, DC:2106, Qty:276, MFG PN:EXS00A-CS00871 ,MFG:NDK , Remark:24mth & above
+PN:240-026719, DC:2314, Qty:11, MFG PN:9C25070007 ,MFG:TXC , Remark:Above 21mth
+PN:240-031037, DC:2209, Qty:586, MFG PN:7C50077002 ,MFG:TXC , Remark:24mth & above
+PN:240-031037, DC:2231, Qty:560, MFG PN:7C50077002 ,MFG:TXC , Remark:24mth & above
+PN:240-031037, DC:2309, Qty:19, MFG PN:7C50077002 ,MFG:TXC , Remark:Above 21mth
+PN:240-037947, DC:2115, Qty:45, MFG PN:MC-306 32.7680K-E0:ROHS ,MFG:EPSON , Remark:24mth & above
+PN:240-037947, DC:2139, Qty:36, MFG PN:MC-306 32.7680K-E0:ROHS ,MFG:EPSON , Remark:24mth & above
+PN:240-044903, DC:2245, Qty:613, MFG PN:VCC1-B3F-2M04800000 ,MFG:MICROCHIP , Remark:24mth & above
+PN:240-045828, DC:2308, Qty:85, MFG PN:VC-708-ECW-FNXN-156M250000 ,MFG:MICROCHIP , Remark:Above 21mth
+PN:240-053071, DC:2215, Qty:31, MFG PN:531EC125M000DGR ,MFG:SKYWORKS , Remark:24mth & above
+PN:240-054786, DC:2226, Qty:1345, MFG PN:9H03200031 ,MFG:TXC , Remark:24mth & above
+PN:240-054812, DC:2312, Qty:163, MFG PN:512805 ,MFG:RAKON , Remark:Above 21mth
+PN:240-054812, DC:2314, Qty:231, MFG PN:512805 ,MFG:RAKON , Remark:Above 21mth
+PN:240-054840, DC:2306, Qty:500, MFG PN:VC-820-EAE-KAAN-33M3330000 ,MFG:MICROCHIP , Remark:Above 21mth
+PN:240-055138, DC:2304, Qty:8, MFG PN:VC-820A-EAE-KAAN-25M0000000 ,MFG:MICROCHIP , Remark:Above 21mth
+PN:240-067841, DC:2303, Qty:185, MFG PN:STP3214LF ,MFG:RAKON , Remark:Above 21mth
+PN:240-079738, DC:2134, Qty:60, MFG PN:7X33070001 ,MFG:TXC , Remark:24mth & above
+PN:240-094352, DC:2314, Qty:1118, MFG PN:7M48020003 ,MFG:TXC , Remark:Above 21mth
+PN:240-095229, DC:2203, Qty:98, MFG PN:7M48072001 ,MFG:TXC , Remark:24mth & above
+PN:240-114218, DC:2302, Qty:22, MFG PN:TG5032CGN 25.0000M-CMGHNA0 ,MFG:EPSON , Remark:24mth & above
+PN:240-114218, DC:2306, Qty:293, MFG PN:TG5032CGN 25.00000MHZ CMGHNA ,MFG:EPSON , Remark:Above 21mth
+PN:240-115464, DC:2207, Qty:11, MFG PN:531AB50M0000DGR ,MFG:SKYWORKS , Remark:24mth & above
+PN:240-115523, DC:2032, Qty:14, MFG PN:7XA1470001 ,MFG:TXC , Remark:24mth & above
+PN:240-115523, DC:2302, Qty:45, MFG PN:7XA1470001 ,MFG:TXC , Remark:24mth & above
+PN:240-115523, DC:2312, Qty:233, MFG PN:7XA1470001 ,MFG:TXC , Remark:Above 21mth
+PN:240-115912, DC:2105, Qty:284, MFG PN:7X02070003 ,MFG:TXC , Remark:24mth & above
+PN:240-126496, DC:2201, Qty:1194, MFG PN:VXM7-1372-25M0000000TR ,MFG:MICROCHIP , Remark:24mth & above
+PN:240-126496, DC:2247, Qty:28, MFG PN:FL2500316Z ,MFG:DIODES , Remark:24mth & above
+PN:240-139985, DC:2217, Qty:12, MFG PN:8W48070009 ,MFG:TXC , Remark:24mth & above
+PN:240-153669, DC:2225, Qty:799, MFG PN:FL6000011 ,MFG:DIODES , Remark:24mth & above",30:33.0
+Sherry Nguyen,DEV-25295,"Proto: PTX_Octomore,711-168970 Assy, PCA, FTC board enhanced, PTX-Octomore. This deviation authorizes Flex to make the following changes in the P1A build.
+
+Instructions:
+Allow flex to use old DC parts for following parts.
+JPN:320-000173
+DC:2139
+Qty:100
+Supplier:DIODES 
+
+JPN:310-011999
+DC:2207
+Qty:100
+Supplier:TEXAS INSTRUMENTS 
+
+JPN:310-025867
+DC:2146
+Qty:150
+Supplier:TEXAS INSTRUMENTS 
+
+
+JPN:320-016692
+DC:2221
+Qty:200
+Supplier:NEXPERIA 
+
+JPN:310-025867
+DC:2301
+Qty:100
+Supplier:DIODES 
+
+JPN:320-016692
+DC:2203
+Qty:200
+Supplier:VISHAY
+
+-Track the SNs
+- Affix the DEV label",Due to part shortage,58:24.0
+Pradeep Holla,ECO-61463,"Proto: Release the following parts to Prototype life cycle. 
+
+520-188612 Insulator, SIB Guide, Long, PTX-Aegon  
+520-188613 Insulator, SIB Guide, Short, PTX-Aegon  
+540-188604  Fab, Sheetmetal, Spacer, Helical Ejector, Line Card, PTX-Aegon","Aegon project.  Release 3 parts to prototype so that we can purchase them to possibly use in a prototype build to make minor improvements to the angular mating of the Molex Impulse connectors.
+Currently these parts report nowhere.  If we decide to implement changes to include these parts, we will ECO them onto the Aegon SIB and Line Card BOM's.",49:11.0
+Sherry Nguyen,ECO-61423,"Proto: 711-173321 Assy, PCA, 43.2T BXF-based 54x 800G OSFP, PTX-Octomore: Update per the Affected Items Section.
+
+1. 711-173321: Rev 08
+-  Add: 560-188567, qty 1 to ""Prototype"" LC status
+- Remove: 560-185061, qty 1
+
+2. 560-185061: OBA 
+- Move to ""Obsolete"" LC status
+
+3. SCH-183443: Rev 03
+
+4. 750-173322, 750-173325:
+- Rev to Track.
+
+5. 560-188567: 
+- Change description From: Prog Dev, FLASH, FPGA Code, Teeling TIC FPGA, 3.0, PTX-Octomore
+- To: Prog Dev, FLASH, FPGA Code, Teeling TIC FPGA, 0x25010617, PTX-Octomore
+
+PDC Note: PDC will update the description before release of this ECO.",REV03 BOM Release.,00:39.0
+Sunil H K,ECO-61438,"Prod: ECO to Change in CG BOM as below.
+
+- Add JPN 740-186783 to CG_CBL-C13-NG-02, Quantity as 1.
+
+- Move the JPN 740-186783 lifecycle from ""Preliminary"" to ""production"" lifecycle.
+
+- Move the MPN lifecycle status as "" Active"" for JPN 740-186783
+
+- Change the Product type code as ""41 - HW"" for 740-186783
+
+PDC Note: Product type code will be updated post approval before ECO release.",Adding Taiwan country specific power cords to existing CG_CBL-C13-NG-02,50:27.0
+Girija Amaragol,ECO-61441,"Preliminary_Bom: New optics for Plugfest 2025
+
+Creating and releasing the following SKUs to Prelim BOM Lifecycle. Rev 0A:
+
+SFP-1G-DT-ZRC2
+
+Note::Refer attached product number key field validation report for ease of viewing product number attributes.",Internal Release per SST Request 0003047,52:43.0
+Girija Amaragol,M38696,"NOTE: DO NOT RELEASE MCO TILL ROB Fontaine gives approval to release
+Add Rob F into CCB 
+
+Product Name(s): MX-Summit;EX-Summit : This mco is to update Claim Code FLAG as explained below:
+
+Claim Code FLAG to be set to ""Yes""
+
+Model Numbers
+JNP204-CHAS
+JNP204-CHAS-BB 
+
+Set ""Claim Code FLAG"" flag to ""Yes"" in ""Product Number - Process Engineering"" section of Model cover pages.
+
+Note:
+PDC will update Claim Code FLAG upon approval before release this mco",Claim Code flag enablement on models for SAP data integrity checks.,37:14.0
+Girija Amaragol,DEV-25298,"Inactive/Prod: This DEV is to allow FOXCONN-VIETNAM to use material with DC over 2 years to support production build based on good result of solderability test.
+
+JPN 240-022681
+Description: Osc, 155.52MHz, 20ppm, 45/55, 3.3V, diff LVPECL, OEH, Tri, SMT-6, 5x7mm
+MPN: PBF550016
+Supplier: DIODES, INC.
+Site balance: PCG TRADING, LLC DBA CONVERGE (JNP HUB)
+Total Qty to use: 30 pcs
+DC: 2143",To allow FOXCONN-VIETNAM to use material with DC over 2 years to support production build based on good result of solderability test,46:54.0
+Pooja Siraskar,DEV-25290,"Prod:This DEV is to allow FOXCONN-VIETNAM to use material with old DC to support production build based on good result of solderability test.
+
+1. JPN 240-034503
+Description: Osc, 25.000MHz, 50ppm, 45/55, 3.3V, CMOS, 15pF, OEH, Ind T, SMT-4, 5x7mm
+MPN: VCC1-B3D-25M0000000
+Supplier: MICROCHIP TECHNOLOGY
+Total Qty to use: 489 pcs
+DC: 2112
+
+2. JPN 240-044911
+Description: OSC, 100MHz, 100ppm, 45/55, 2.5V, diff LVPECL, OEH, Tri, I-temp, SMT-6, 5x7mm
+MPN: VCC6-RCC-100M000000
+Supplier: MICROCHIP TECHNOLOGY
+Total Qty to use: 66 pcs (DC 2128) & 26 pcs (DC 2116)
+
+3. JPN 240-084064
+Description: OSC, 50MHz, 50ppm, 45/55, 3.3V,15pF, 0.1ps, CMOS, Ind-temp, OEH, SMT-6, 3.2x5mm
+MPN: UX51500001
+Supplier: DIODES, INC.
+Total Qty to use: 1180 pcs (DC 2134) & 631 pcs (DC 2220)",To allow FOXCONN-VIETNAM to use material with old DC to support production build based on good result of solderability test,15:32.0
+Girija Amaragol,DEV-24443,"Prod: The purpose of this Deviation is to allow FLEXTRONICS PENANG to make the following part substitutions for qualification purposes.
+
+A. 230-073097->711-072984->750-087304->750-174927->JNP10K-LC1202
+     230-073097->711-157121->750-157123->JNP10K-LC9600
+- >Substitute JPN:230-073097 with KEMET MPN:MPCG1040LR45  as per PCN-MSA(PM)23-049-02 update from KEMET - change copper wires manufacture for Power Inductor.
+
+B. Mfg. Partner to work request MFR free of charge samples that will be shipped to Mfg. Partner directly from MFR, Mfg. Partner shall copy Juniper GCM found in Agile under “Commodity Manager” field under the respective Qual JPN & CEs, found in Agile under “Component Engineer” and “Context Component Engineer” fields of the Qual JPN along with the DEV Originator on all samples related communication with MFRs.
+
+C>. Factory Instructions:
+  C1>. Qualification build: 
+    Replace  JPN:230-073097 with KEMET  MPN:MPCG1040LR45  as per PCN-MSA(PM)23-049-02 on the following assembly:
+   1. 230-073097->711-072984->750-087304->750-174927->JNP10K-LC1202 - Required Assy Qty 10 @ loc L380
+   2. 230-073097->711-157121->750-157123->JNP10K-LC9600- Required Assy Qty 10 @ loc L16001,L16401
+  
+  C1B>. All Qual Assemblies need to go through full MFG test prior to DVT test at CM.
+   1. 230-073097->711-072984->750-087304->750-174927->JNP10K-LC1202 - Required Assy Qty 10 @ loc L380
+   2. 230-073097->711-157121->750-157123->JNP10K-LC9600- Required Assy Qty 10 @ loc L16001,L16401
+   
+C1C>. DVT Per PROC-8423 Test Plan, Tested at CM for:
+         1. 230-073097->711-072984->750-087304->750-174927->JNP10K-LC1202 - Required Assy Qty 10 @ loc L380
+        2. 230-073097->711-157121->750-157123->JNP10K-LC9600- Required Assy Qty 10 @ loc L16001,L16401
+
+C1D>. power cycle test for 10 cycles at room temp with an off interval of 5 min b/w each cycle
+
+C2>. Qualification samples will be only new build
+
+C3>. Qualification units need to go through standard Manufacturing and Test processes with the following specific actions:
+
+         - Install DEV-24443 label on all qual sample assemblies.
+         - Record all serial numbers with DEV label and put on the NO SHIP list.         -
+         - Send the product test yield reports as soon as all units have completed Mfg tests to CM-DVT-HTR-reports@juniper.net and the DEV Originator.  
+         - Ensure email header subject line indicates the Qual DEV#, JPN, when shipped to Juniper testing.  
+
+  C4>. After completion of DVT, prepare and review CM Test Report.
+       Email results to CM-DVT-HTR alias CM-DVT-HTR-reports@juniper.net. and the DEV Originator.  
+       Ensure email header subject line indicates the Qual JPN, Qual MFR and the DEV#
+
+D>.Completion / Closure
+    The qualification units are not to be used for any other DVT or customer shipments until the qualification has been fully completed by Juniper, reports reviewed and an ECO/MCO has been signed off.
+
+NOTE: SW test is not required",New AVL to be qualified: KEMET  MPN:MPCG1040LR45  as per PCN-MSA(PM)23-049-02 update from KEMET - change copper wires manufacture for Power Inductor.,55:39.0
+Abel Alcantar,DEV-25125,"Proto: PTX-Ardbeg/PTX-Safe House 3 - Ardmore: Deviation requests Foxconn Nanning to ship 2 backing plates 760-181208 assembled with custom PEM nut: YSO4-106799, instead of SO4-3.5M3-4.21 called out in the drawing.
+
+FMY is requested to assemble the two backing plates in P1C PTX-Ardbeg: 750-180688 and share fitment report to Juniper. These 2 units can be shipped to Juniper Bangalore as part of planned allocation. Deviation sticker to be pasted on the units for identification.",The custom PEM nut is being checked as improvement proposal to check if a stopper function can be added to the PEM nut to prevent screw protrusion out of backing plate. Due to any accidental use of an incorrect longer screw by FMY. Refer attachment Backing Plate protrusion.pdf,20:28.0
+Pooja Siraskar,DEV-25309,"Prod:This Deviation instructs FMY to perform the following test screening for SRX4600 systems.
+
+1. Take 5qty new production build and 7qty of systems from same WO# as the DOA units reported by Sojitz (SNs listed below). These boards need to go through the std Mfg tests until SW Test.
+2. Before SW Test, install “JUNOS-64-22.4R3-S2.11"" shippable image onto the 12qty SRX4600 systems.
+3. Perform screening test by executing following test instructions.
+ jmtf -dut <tester_id> -fspec/nfs/home/leehk/HKLEE/hklee/SUMMIT/SRX4600_SHIPPABLE_REBOOT.xml -no_sw_check
+4. Record system SNs and logfile and share the results to Juniper Mfg test team and PQE.
+5. Only pass unit allowed to proceed to SW Test.
+6. Units that fail screening test must be put on hold. Share failure details with Juniper and wait for further instructions
+7. Use the first 3qty systems from the fresh production build that successfully pass the Mfg tests and DEV screening to ship DOA replacement to customer Sojitz (SO# 16372219_1000, 16372225_1000 and 16372232_1000).
+8. Remaining 9qty systems that successfully pass the Mfg tests and DEV screening can be used for customer shipments.","Customer Sojitz reported 4qty DOA for SRX4600-AC failing boot up with fail symptom ""Major FPC 0 CBC FPGA Version Mismatch"" alarm.
+performing additional test screen before shipping DOA replacement and replicate issue for Root cause analysis.",39:07.0
+Girija Amaragol,M38329,"Pilot/production: MCO for MPN LC update from ""Hold"" to ""Active"": Update per the Affected Items Section & Part Object Attachments.
+
+Promote below mentioned AVL part numbers from ""Hold"" to ""Active"" LC status for respective JPN's:
+
+740-171275 => FELLER US CORP-GUNSELSDORF => 5262-224-0-4500
+740-171277 => FELLER US CORP-GUNSELSDORF => 5266-224-0-4500
+740-171278 => FELLER US CORP-GUNSELSDORF => 5267-224-0-4500
+740-174308 => FELLER US CORP-GUNSELSDORF => 5241-224-0-2500
+740-036168 => FELLER US CORP-GUNSELSDORF => 5222-221-0-2500
+
+Renewed Certificates are attached under respective MPN attachment section",Renewed India certs are received from supplier and updated against respective MPNs,49:53.0
+Girija Amaragol,M38610,"Proto: Optical Transceiver listed below completed testing and needs to change from COMP_IPQ state to ACTIVE.
+
+SKU: QSFP-100G-ZR
+JPN: 740-172665
+MPN: FTLC3351S3PL1-J3",QSFP-100G-ZR (740-172665) needs to be in ACTIVE state.,17:56.0
+Ranjith Soundarrajan,M38672,Production To move the Amphenol MPN 584990002 to Active Lifecycle status under the JPN 740-030077.,"MCO M38518 had been submitted for the MPN correction of 584990002 Rev. A  to 584990002 to align with the supplier MPN format.
+
+The previous MPN 584990002 Rev. A was in Active LC status. After the implementation of name correction MCO, the new MPN remained in Comp_IPQ status, instead of Active status.
+
+MCO M38672 is for changing the LC status of the new MPN to Active Lifecycle.",13:17.0
+Ranjith Soundarrajan,M38767,"production:
+1. Changing the Amphenol MPN to align with the supplier MPN format, based on the latest drawing shared by the supplier.
+
+JPN                 Current MPNs                 New MPNs
+
+740-030076       584990001 Rev. A           584990001
+740-031838       584990006 Rev.A            584990006
+
+2. To move the Amphenol MPN 584990001 & 584990006  to Active Lifecycle status under the JPN 740-030076 & 740-031838
+
+3. Add the latest drawing & Label format under both MPN 584990001 & 584990006 level attachment. (Added under MCO attachment)
+
+
+4. Keep the TRR as 0 - Low Risk :No identified Technical Risks.","1.The Amphenol MPN was wrongly added with a Rev.A, not included in the actual supplier MPN. The MCO is for the error correction and changing the LC of the corrected MPN to Active ( The MPN getting corrected is already Active)
+
+2. MPN level attachment",46:19.0
+Girija Amaragol,M38681,"Prod: QCS has provided PCNs to update label for adding BIS safety mark. 
+
+Rolling up MPN rev of below QCS-MUMBAI MPNs to Active under respective JPNs.
+
+    JPN           MPN
+740-151173   DCJ22002-05 REV A
+740-110419   DCJ22002-01 REV A
+740-110865   DCJ22002-02 REV A
+
+Move the existing MPN LC to Deplete and update Technical Risk Reason to 3- Other reasons"".
+
+Only MPN level attachment update for following MPNs.
+
+  JPN              MPN
+740-134839   DCK4002-03_Rev:B (Active)
+740-134837   DCJ4002-03 RevA (Active)
+740-044332   DCJ6502-01 RevD (EOL_Notified)
+740-041741   DCJ6502-02 RevD (EOL_Notified)
+
+Note to PDC: PDC will update the Technical Risk Reason before releasing this MCO.",QCS issued PCN for adding BIS mark on Part label. MPN rev rolled up to REV A; MPN level attachments updated.,00:50.0
+Pooja Siraskar,M38752,"Prod: MCO to update AVL as illustrated below
+
+Adding Nefab Vietnam MPNs under respective JPNs to ""Active"" status
+
+550-127941 => NEFAB VIETNAM => 550-127941
+550-106313 => NEFAB VIETNAM => 550-106313",Adding Nefab Vietnam to the AVL as part of multi-sourcing,37:12.0
+Prameela R,DEV-25306,"Proto: PTX-Octomore. 750-173945 Assy, TOP, RCB, Router Control Board, PTX-Octomore: This Deviation is to request Flextronics-Penang to perform the following changes in the P1C build.
+
+Build Qty:23
+
+Affected Assy#:711-173944 Assy, PCA, RCB, Router Control Board, PTX-Octomore 
+
+Rework Instructions:
+1) Remove top cover
+2) Remove the DTP mezz board
+3) Remove Resistor R78594
+4) Install JPN: 220-055512 (Res, 0402, 12.1K Ohm) at location R78594.
+5) Post rework, perform visual inspection & ensure no soldering-related issue.
+
+Special Instructions:
+- Paste the DEV-25306 label on the board.
+- Record the serial nos",Upgrading the LCD module in the system requires a resistor rework on the current P1C RCB main boards that we have built to support this effort.,34:32.0
+Abel Alcantar,DEV-25312,"Ptoto: 750-136652 Assy, Top, SIB-8, PTX-Aegon
+
+The purpose of this deviation is to allow FMY to build Aegon SIB8 (750-136652) P2 build utilizing Timson manufactured Faceplates (760-163366), Qty 20.
+
+750-136652 - Assy, Top, SIB-8, PTX-Aegon
+760-163366 - Assy, Sub,  Face Plate, SIB8, PTX-Aegon
+
+FMY to perform FFF and provide a report to Ken Allen (kallen@juniper.net), apply dev label.",The current supplier is not able to hold CTF dimensions. This is a design requirement to improve Quality.,29:33.0
+Sherry Nguyen,DEV-25314,"Prod: 740-087003, Assy, OEM, DRAM, RDIMM, DDR4-2400, 16GB, 2Gx72, 1200MHz, Dual Rank, Registered, ECC, 288P, 1.2V, x4-based, C-Temp: The purpose of this Deviation is to allow Accton Taiwan to make the following part substitutions for qualification purposes.
+
+A. Qual Assemblies:
+
+ 740-087003->650-092125->650-096240->NFX350-S2-AC; Required Assy Qty (5).
+
+B. Sample Procurement Instructions:
+Accton Taiwan to place PO based on quote with pricing and MOQ provided by appropriate Juniper GCM. Mfg Partner to contact Juniper GCM found in Agile under “Commodity Manager” field under the respective Qual JPN. In all emails to GCM, please also copy CEs, found in Agile under “Component Engineer” and “Context Component Engineer” fields of the Qual JPN along with the DEV Originator.
+
+C. Factory Instructions:
+
+C1>. Qualification build:
+Replace JPN:740-070983, with INNODISK: M4RE-AGS1BCUN-GB553 in all locations on the following assembly:
+
+ 740-087003->650-092125->650-096240->NFX350-S2-AC; Required Assy Qty (5).
+
+C1B>.  All Qual Assemblies need to go through full MFG test prior to DVT test at ODM.
+ 740-087003->650-092125->650-096240->NFX350-S2-AC; Required Test Qty (5).
+
+C1C>.  DVT at ODM for:
+ 740-087003->650-092125->650-096240->NFX350-S2-AC; Required Test Qty (3).
+
+C1D>. SW CERT at Juniper for:
+ 740-087003->650-092125->650-096240->NFX350-S2-AC; Required Test Qty (1).
+ *NOTE:  See Special Instructions Section of DEV for shipping directions.
+
+C2. Qualification boards can be new build or FGI.  
+
+C3. Qualification units need to go through standard manufacturing and Test processes with the following specific actions:
+- Install DEV-25314 on all qual sample assemblies.
+- Record all serial numbers with DEV label and put on the NO SHIP list.
+- Send the product test yield reports as soon as all units have completed Mfg tests to CM-DVT-HTR-reports@juniper.net, michaeln@juniper.net, and the DEV Originator.  
+- Ensure email header subject line indicates the Qual JPN, Qual MFR and the DEV#.
+
+C4. The qualification assemblies shall be shipped to Juniper (see Special Instructions) as soon as the required number of units have passed Mfg Test, prior to DVT, if applicable.
+
+C5. Perform DVT, as per the Accton Qual Plan.
+Please email Accton Qual Plan to CM-DVT-HTR-reports@juniper.net, michaeln@juniper.net for Approval and copy DEV originator before performing DVT. After approval, CE will request PDC to upload Accton Qual plan to DEV Attachment.
+
+C6. After completion of DVT, prepare and review HTR report with the Juniper On site TE team and then email to CM-DVT-HTR-reports@juniper.net, michaeln@juniper.net, and the DEV Originator. Ensure email header subject line indicates the Qual JPN, Qual MFR and the DEV#.
+
+D. Completion / Closure:
+The qualification units are not to be used for any other DVT and customer shipments until the qualification has been fully completed by Juniper, reports reviewed and an ECO / MCO has been signed off.","Qualification of replacement memory modules due to Samsung announced EOL on the D1x node DDR4 DRAM, requested by PLM team (see attachment).",00:23.0
+Sherry Nguyen,DEV-25149,Prod: This deviation is being issued to allow FMY to convert part number 750-101345  to 750-101822.,FMY does not limited version RE's to validate the latest PTX mfg twig with Obsidian power supplies.,22:54.0
+Sherry Nguyen,DEV-24727B,"Proto: 711-151145; Assy, Hamilton MPC 4.8T, MX-Hamilton 
+
+Build: post pilot, pre-FRS, FRS and production
+
+This Deviation to instruct Flextronics-Penang to perform the following for post-pilot builds,
+Special Handling for P/N 310-147986:
+Run Manage Chassis: Upgrade Programmable Revisions prior to running mfg tests.
+Note: upgrade to the version indicated in the readme attached to the part.
+
+Place DEV-24171 label at 711 and 750 level","REASON FOR EXTENSION (B): JPN 310-147986 still requires firmware reprogrammed to Juniper qualified version in Production. New ""Effective To"" Date: 05/06/2025 
+
+REASON FOR EXTENSION (A): Affected part JPN 310-147986 still requires firmware reprogrammed to Juniper qualified version in Production. New ""Effective To"" Date: 02/06/2025 
+
+System downgrade to the Juniper qualified firmware version on P/N 310-147986 for post pilot builds of 711-156635",07:48.0
+Sunil H K,ECO-61427,"Prod:Plugefst(Optics): ECO to Release below SKU's and its child items to ""production"" lifecycle.
+
+-SKU Name: Release to production lifecycle
+QSFP-100G-LRBD-U
+QSFP-100G-LRBD-D
+
+-Update the weight and dimension details on the cover page as per the attached ""Dimensions and Weight Details_QSFP-100G.xlsx""
+
+- Add CLEI-IPU3BJDHAA into 740-173674 BOM.
+
+-Update the CLEI code details for SKU: QSFP-100G-LRBD-D as below.
+Number	                        Barcode/ECI	  CLEI Code	            CPR
+QSFP-100G-LRBD-D-A	    1B4521	  IPU3BJDHAA	    U72KUA
+
+-HTR-5001 is provided in the attachment section.
+
+PDC Note: Wt & Dm will be updated for SKUs post approval before ECO release.","Releasing to ""production"" lifecycle for the QSFP-100G-LRBD-U and QSFP-100G-LRBD-D",40:11.0
+Sarangabani S,ECO-61212,"Prod: SKU's, QFX5120-48YM- Pyrite and EX4300 Mojito Copper Update per the Affected Items Section.
+
+1. For Pyrite QFX5120-48YM models
+
+QFX5120-48YM-AFI
+QFX5120-48YM-AFO
+QFX5120-48YM-CHAS
+QFX5120-48YM-DC-AI
+QFX5120-48YM-DC-AO
+
+- Delete Junos 22.2R3-S4.7. Software P/N 817-182566. Filename: install-media-host9-pxe-qfx-5e-ng-flex-x86-64-22.2R3-S4.7-secure-signed.tgz
+- Add Junos 23.4R2-S2. Software P/N 817-185245. Filename: install-media-host9-pxe-qfx-5e-ng-flex-x86-64-23.4R2-S2.1-secure-signed.tgz
+
+2. For Mojito EX4300 models
+
+EX4300-24P
+EX4300-24P-S
+EX4300-24P-TAA
+EX4300-24T
+EX4300-24T-S
+EX4300-24T-TAA
+EX4300-48P
+EX4300-48P-S
+EX4300-48P-TAA
+EX4300-48T
+EX4300-48T-AFI
+EX4300-48T-AFI-TAA
+EX4300-48T-DC
+EX4300-48T-DC-AFI
+EX4300-48T-DC-TAA
+EX4300-48T-DCI-TAA
+EX4300-48T-S
+EX4300-48T-TAA
+
+- Delete Junos 21.4R3-S6 software 810-180120. Filename:jinstall-ex-4300-21.4R3-S6.5-signed.tgz
+- Add Junos 21.4R3-S8 software 810-184211. Filename:jinstall-ex-4300-21.4R3-S8.5-signed.tgz
+
+Note:
+- New shippable Junos release, regression report / test log as attached.","1. Pyrite update shippable Junos from 22.2R3-S4.7 to 23.4R2-S2
+2. Mojito Copper replace 21.4R3-S6 with 21.4R3-S8 shippable Junos on EX4300-24/48 P/T platforms.",07:57.0
+Richard Hood,ECO-61455,"Prod/Prelim: SKU's, EX-Emerald, EX-Gollum: Update per the Affected Items Section.
+
+ECO for updating Junos for EX4100.
+
+1. For the following EX4100 SKU's:
+------------------------------------
+EX4100-24MP
+EX4100-24MP-CHAS
+EX4100-24MP-TAA
+EX4100-24P
+EX4100-24P-CHAS
+EX4100-24P-TAA
+EX4100-24T
+EX4100-24T-CHAS
+EX4100-24T-DC
+EX4100-24T-DC-TAA
+EX4100-24T-TAA
+EX4100-48MP
+EX4100-48MP-CHAS
+EX4100-48MP-TAA
+EX4100-48P
+EX4100-48P-CHAS
+EX4100-48P-TAA
+EX4100-48T
+EX4100-48T-AFI
+EX4100-48T-AFI-TAA
+EX4100-48T-CHAS
+EX4100-48T-DC
+EX4100-48T-DC-T1
+EX4100-48T-DC-TAA
+EX4100-48T-TAA
+EX4100-48T-TCHAS
+EX4100-F-12P
+EX4100-F-12P-TAA
+EX4100-F-12T
+EX4100-F-12T-TAA
+EX4100-F-24P
+EX4100-F-24P-TAA
+EX4100-F-24T
+EX4100-F-24T-TAA
+EX4100-F-48P
+EX4100-F-48P-TAA
+EX4100-F-48T
+EX4100-F-48T-TAA
+
+- Delete Junos 22.4R3.25. Software P/N 811-179455. Filename: junos-install-media-net-ex-arm-64-22.4R3.25.tgz
+- Add Junos 22.4R3-S3.3. Software P/N 811-183967. Filename: junos-install-media-net-ex-arm-64-22.4R3-S3.3.tgz
+
+Notes:
+1. Validation passed log is on ""Attachments"" page. (.cap can be opened with Wordpad).
+2. During regression, encountered major alarm after upgrading POE software.  Added a Power Cycle then alarm gone. Power Cycle is acceptable after software upgrade.",Update Junos software as per SW engineering recommendation.,51:33.0
+Prameela R,ECO-61432,"Prod: Production Release Of QFX-Glendronach Allardice TAA SKUs And Associated Child Assemblies Per Affected Items Section.
+
+1] Transition the below SKUs to production lifecycle:
+QFX5700E-BASE-AC-T
+QFX5700E-BASE-DC-T
+
+2] Update Title page for SN mask and Weight & Dimensions for the affected SKUs:
+Serialization(*):Yes
+Serial Number Mask:QFX5700-xxxx (QFX5700 Family)|'JN'@@@@@@@'JHA'
+Install Base Required:Yes
+Dimensions UOM:IN
+Dimensions Length:24
+Dimensions Width:19
+Dimensions Height:8.8
+Weight UOM:lb
+Product weight (in lbs):110
+Packaged Weight (in lbs)::110
+Aluminum:0
+Cardboard:0
+Corrugated:0
+Paper:0
+Plastic:0
+Product Steel band and wire:0
+Product Steel drums:0
+Product Steel plate:0
+Wood:0
+Wood pallets:0
+
+PDC Note: FRS date, SN mask, weights and dimensions will be set post approvals, prior to eco release.",Production release of Glendronach Allardice TAA SKUs,02:09.0
+Sunil H K,ECO-61406,"Prod: Update ECO Work Instructions and Global Change Management Approver and Observer Matrix Per Affected Items Section.
+
+1] J2.05.P05.W01 ECO Work Instructions: Rev 50
+- Updated  Section 9.3.1 TAB Process step 19 - Added reference for TAB status approval matrix.
+- Updated Section 9.3.1 TAB Process steps 18 & 29 to include Cost consolidation, Locking and Unlocking automation.
+- Updated Section 9.3.1 TAB Process steps 31 to include reference for Repair Routing Guide in PDC SharePoint.
+- Added 9.3.2 section for Error Handling in TAB Process Automation.
+- Updated Section 9.4 External Cost Fields to include new field  “CMx JOI Scrap Cost”.
+- Updated Section 9.4 Internal Cost Fields to include new fields “CM/ODM/Supplier Owned Cost” & “JOI Estimated Scrap Cost” & “Actual Depot Purge completion date”.
+- Section 9.4: Updated ECO Cost Rollup tool formula calculation table.
+- Updated Section 9 Ref Info: PDC/System Fields - Added additional list options and their definitions under Reasons for Delay field.
+
+2] J2.05.P05.M02 Global Change Management Approver and Observer Matrix: Rev 37
+- Updated section 6 “ECO Approvers and Observers” matrix to include TAB status approvers and Observers.
+- Updated section 8.6 Added “Service PLM Review Group” as an approver to Open Books Release/ Order Management Flag update Matrix.",#NAME?,40:35.0
+Girija Amaragol,M38746,"Proto: This mco is to update Add the following AVL to following SKUs.
+
+SKUs:
+--------
+EX4000-12-CGD 
+EX4000-8-CGD
+
+- Add DOF-EIMILUSROWFGI , DOF-EIAMSBONDFGI & US-FGIPURCH as AVL
+
+Note: Requestor's email as in Attachment",Support order management,12:24.0
+Sherry Nguyen,M38429,"Prod: Update the Short and Long description. Update per the Affected Items Section.
+
+ACX7300-FRPNL:
+- Long Description: ACX7348/ACX7332 3RU Front Panel with Air Filter, Spare
+- Short Description: ACX7300 3RU Front Panel with FLTR, Spare
+
+PDC Note: PDC will update the Short and Long description before release of this MCO.",SKU description changes,16:13.0
+Prameela R,M38759,"Proto: Open Books (PP) for SRX-Casino Royale Product Number Per Affected Items.
+
+Set Order Management Flag to PP-Available to Order for: 
+JNP-SSD-1TB
+JNP-SSD-2TB
+SRX4700-CHAS
+SRX4700-FAN-1RU
+CBL-SRX-PWR-C19-IN
+CBL-SRX-PWR-C19-NA
+CBL-SRX-PWR-C19-SK
+CBL-SRX-PWR-C19-TW
+
+Note:
+1] Order Management flag will be set to PP-Available to Order post approvals, prior to release.
+2] Attached product number key field validation report for reference.",Open-Books required to enable bookings in SAP.,41:42.0
+Girija Amaragol,DEV-24817,"Prod: The purpose of this Deviation is to allow FOXCONN-VIETNAM  to make the following part substitutions for qualification purposes.
+
+A. 230-073097->711-070910->750-072571->750-086583->MX2K-MPC11E
+     230-073097->711-070865->750-070866->SCBE3-MX-S
+    230-073097->711-166103->750-166104->MIC-3D-10GE-SFP-E
+- >Substitute JPN:230-073097 with KEMET  MPN:MPCG1040LR45  as per PCN-MSA(PM)23-049-02 update from KEMET - change copper wires manufacture for Power Inductor.
+
+B. Mfg. Partner to work request MFR free of charge samples that will be shipped to Mfg. Partner directly from MFR, Mfg. Partner shall copy Juniper GCM found in Agile under “Commodity Manager” field under the respective Qual JPN & CEs, found in Agile under “Component Engineer” and “Context Component Engineer” fields of the Qual JPN along with the DEV Originator on all samples related communication with MFRs.
+
+C>. Factory Instructions:
+  C1>. Qualification build: build enough line card to fully load 2 systems MX2020 for each supplier part
+    Replace  JPN:230-073097 with KEMET  MPN:MPCG1040LR45  as per PCN-MSA(PM)23-049-02 on the following assembly:
+   1. 230-073097->711-070910->750-072571->750-086583->MX2K-MPC11E - Required Assy Qty 10 @ loc L380
+   2. 230-073097->711-070865->750-070866->SCBE3-MX-S- Required Assy Qty 10 @ loc L11401
+  
+  C1B>. All Qual Assemblies need to go through full MFG test prior to DVT test at CM.
+   1. 230-073097->711-070910->750-072571->750-086583->MX2K-MPC11E - Required Assy Qty 10 @ loc L380
+   2. 230-073097->711-070865->750-070866->SCBE3-MX-S- Required Assy Qty 10 @ loc L11401
+
+Suggest to include below711/750/SKU if available to rework existing FIG inventory per above qual plan
+230-073097->711-166103->750-166104->MIC-3D-10GE-SFP-E @ loc L33000
+
+C1C>. DVT Per PROC-8423 Test Plan, Tested at CM for:
+1. 230-073097->711-070910->750-072571->750-086583->MX2K-MPC11E - Required Assy Qty 10 @ loc L380
+   2. 230-073097->711-070865->750-070866->SCBE3-MX-S- Required Assy Qty 10 @ loc L11401
+
+C1D>. power cycle test for 10 cycles at room temp with an off interval of 5 min b/w each cycle
+
+C2>. Qualification samples will be only new build
+
+C3>. Qualification units need to go through standard Manufacturing and Test processes with the following specific actions:
+
+         - Install DEV-24817  label on all qual sample assemblies.
+         - Record all serial numbers with DEV label and put on the NO SHIP list.         -
+         - Send the product test yield reports as soon as all units have completed Mfg tests
+           to CM-DVT-HTR-reports@juniper.net, mlemeshow@juniper.net and the DEV Originator.  
+         - Ensure email header subject line indicates the Qual DEV#, JPN, when shipped to Juniper testing.  
+
+C4>. The qualification assembly, not used for DVT, shall be shipped to Juniper (see Special Instructions) as soon as the required number of units have passed Mfg Test, prior to DVT.
+
+C5>.After completion of DVT, prepare and review Test Report.
+     Email results to CM-DVT-HTR alias CM-DVT-HTR-reports@juniper.net, mlemeshow@juniper.net and the DEV Originator.  
+     Ensure email header subject line indicates the Qual JPN, Qual MFR and the DEV#.
+
+D>.Completion / Closure
+    The qualification units are not to be used for any other DVT or customer shipments until the qualification has been fully completed by Juniper, reports reviewed and an ECO/MCO has been signed off.
+
+
+NOTE: SW test is not required",New AVL to be qualified: KEMET  MPN:MPCG1040LR45  as per PCN-MSA(PM)23-049-02 update from KEMET - change copper wires manufacture for Power Inductor.,13:38.0
+Abel Alcantar,DEV-25259,"Prod: 740-070983, Assy, OEM, DRAM, RDIMM, DDR4-2400, 8GB, 1Gx72, 1200MHz, Single Rank, Registered, ECC, 288P, 1.2V, CT: The purpose of this Deviation is to allow Accton Taiwan to make the following part substitutions for qualification purposes.
+
+A. Qual Assemblies:
+
+740-070983->650-070887->NFX250-LS1 (QTY=2)
+740-070983->650-075319->NFX150-S1  (QTY=2)
+740-070983->650-078100->650-078099->EX4300-48MP (QTY=2)
+
+B. Sample Procurement Instructions:
+Accton Taiwan to place PO based on quote with pricing and MOQ provided by appropriate Juniper GCM. Mfg Partner to contact Juniper GCM found in Agile under “Commodity Manager” field under the respective Qual JPN. In all emails to GCM, please also copy CEs, found in Agile under “Component Engineer” and “Context Component Engineer” fields of the Qual JPN along with the DEV Originator.
+
+C. Factory Instructions:
+
+C1>. Qualification build:
+Replace JPN:740-070983, ATP: X4B08QD8BNRCME-R-JP1 with SMART Modular: SR5721G8JNP24KP1SG in all locations on the following assemblies:
+   1. 740-070983->650-070887->NFX250-LS1 - Required Assy Qty two (2).
+   2. 740-070983->650-075319->NFX150-S1 - Required Assy Qty two (2).
+   3  740-070983->650-078100->650-078099->EX4300-48MP - Required Assy Qty two (2).
+
+C1B>.  All Qual Assemblies need to go through full MFG test prior to DVT test at ODM.
+   1. 740-070983->650-070887->NFX250-LS1 - Required Test Qty two (2).
+   2. 740-070983->650-075319->NFX150-S1 - Required Test Qty two (2).
+   3  740-070983->650-078100->650-078099->EX4300-48MP - Required Test Qty two (2).
+
+C1C>.  DVT at ODM for:
+   1. 740-070983->650-070887->NFX250-LS1 - Required Test Qty two (2).
+   2. 740-070983->650-075319->NFX150-S1 - Required Test Qty two (2).
+   3  740-070983->650-078100->650-078099->EX4300-48MP - Required Test Qty two (2).
+
+C1D>.  SW Certification test at Juniper is NOT required.
+
+C2. Qualification boards can be new build or FGI.  
+
+C3. Qualification units need to go through standard manufacturing and Test processes with the following specific actions:
+- Install DEV-25259 on all qual sample assemblies.
+- Record all serial numbers with DEV label and put on the NO SHIP list.
+- Send the product test yield reports as soon as all units have completed Mfg tests to CM-DVT-HTR-reports@juniper.net, nguyenq@juniper.net, and the DEV Originator.  
+- Ensure email header subject line indicates the Qual JPN, Qual MFR and the DEV#.
+
+C4. The qualification assemblies shall be shipped to Juniper (see Special Instructions) as soon as the required number of units have passed Mfg Test, prior to DVT, if applicable.
+
+C5. Perform DVT, as per the Accton Qual Plan.
+Please email Accton Qual Plan to CM-DVT-HTR-reports@juniper.net, nguyenq@juniper.net for Approval and copy DEV originator before performing DVT.
+After approval, CE will request PDC to upload Accton Qual plan to DEV Attachment.
+
+C6. After completion of DVT, prepare and review HTR report with the Juniper On site TE team and then email to CM-DVT-HTR-reports@juniper.net, nguyenq@juniper.net, and the DEV Originator. Ensure email header subject line indicates the Qual JPN, Qual MFR and the DEV#.
+
+D. Completion / Closure:
+The qualification units are not to be used for any other DVT and customer shipments until the qualification has been fully completed by Juniper, reports reviewed and an ECO / MCO has been signed off.",Qualification of replacement memory modules due to Samsung announced EOL on the D1x node DDR4 DRAM.,55:06.0
+Girija Amaragol,DEV-24895A,"Inactive/Prod/Proto: This DEV is to allow Flex Penang to use old date code inventory for oscillator/crystal  (per attached PN) to support production.
+
+240-003098
+240-014105
+240-024974
+240-026130
+240-053071
+240-060695
+240-066862
+240-069945
+240-079738
+240-112390
+240-115912
+240-126496
+240-139985
+240-151747
+240-156379
+240-167168
+240-054786
+
+No deviation label required.","Reason for extension: 04/16/2025: : FMY still have qty to deplete.
+
+PN: 240-003098, DC: 2242, Qty: 358, MFG PN: CB3LV-3C-25M000000
+PN: 240-024974, DC: 2239, Qty: 56, MFG PN: MO18R-1009-33.333M
+PN: 240-026130, DC: 2248, Qty: 10, MFG PN: 531AB156M250DGR
+PN: 240-060695, DC: 2242, Qty: 128, MFG PN: 7M14377002
+PN: 240-115912, DC: 2105, Qty: 14, MFG PN: 7X02070003
+PN: 240-139985, DC: 2217, Qty: 145, MFG PN: 8W48070009
+PN: 240-167168, DC: 2212, Qty: 92, MFG PN: SIT1602BI-71-33S-77.760000E
+
+This DEV is to allow Flex Penang to use old date part to support production.
+
+PN: 240-003098, DC: 2242, Qty: 358, MFG PN: CB3LV-3C-25M000000 ,MFG: CTS , Remark: Above 21 months
+PN: 240-014105, DC: 2240, Qty: 37, MFG PN: VCC6-QCB-125M000000TR ,MFG: MICROCHIP , Remark: 24 months and above
+PN: 240-024974, DC: 2239, Qty: 56, MFG PN: MO18R-1009-33.333M ,MFG: IMPACT LLC , Remark: 24 months and above
+PN: 240-026130, DC: 2248, Qty: 10, MFG PN: 531AB156M250DGR ,MFG: SKYWORKS , Remark: Above 21 months
+PN: 240-053071, DC: 2215, Qty: 17, MFG PN: 531EC125M000DGR ,MFG: SKYWORKS , Remark: 24 months and above
+PN: 240-054786, DC: 2226, Qty: 3000, MFG PN: 9H03200031 ,MFG: TXC , Remark: 24 months and above
+PN: 240-060695, DC: 2242, Qty: 192, MFG PN: 7M14377002 ,MFG: TXC , Remark: Above 21 months
+PN: 240-066862, DC: 2110, Qty: 140, MFG PN: 511ACA25M0000AAG ,MFG: SKYWORKS , Remark: 24 months and above
+PN: 240-069945, DC: 2238, Qty: 264, MFG PN: 9H03277011 ,MFG: TXC , Remark: 24 months and above
+PN: 240-079738, DC: 2134, Qty: 672, MFG PN: 7X33070001 ,MFG: TXC , Remark: 24 months and above
+PN: 240-112390, DC: 2110, Qty: 16, MFG PN: 7X25000056 ,MFG: TXC , Remark: 24 months and above
+PN: 240-115912, DC: 2105, Qty: 69, MFG PN: 7X02070003 ,MFG: TXC , Remark: 24 months and above
+PN: 240-126496, DC: 2247, Qty: 75, MFG PN: FL2500316Z ,MFG: DIODES , Remark: Above 21 months
+PN: 240-139985, DC: 2217, Qty: 665, MFG PN: 8W48070009 ,MFG: TXC , Remark: 24 months and above
+PN: 240-151747, DC: 2237, Qty: 11, MFG PN: UX21480001 ,MFG: DIODES , Remark: 24 months and above
+PN: 240-156379, DC: 2241, Qty: 131, MFG PN: UF32A00001 ,MFG: DIODES , Remark: Above 21 months
+PN: 240-167168, DC: 2212, Qty: 92, MFG PN: SIT1602BI-71-33S-77.760000E ,MFG: SITIME , Remark: 24 months and above",56:28.0
+Abel Alcantar,DEV-25274,"Prod: 740-054324,Assy, OEM, DRAM, VLP RDIMM, DDR4-2133, 16GB, 2Gx72, 1067MHz, Dual Rank, Registered, ECC, 288P, 1.2V, C-Temp
+The purpose of this Deviation is to allow Flex Penang (FMY) to make the following part substitutions for qualification purposes.
+
+This Deviation supersedes DEV-25128 due to incorrect Affected Item list.
+
+A. Qual Assemblies:
+
+740-054324->750-100243->750-174928->PTX10001-36MR-AC (Build Qty=2)
+Substitute 740-054324 with ATP: D416G0RD218HGSC-JNP1 at all locations (Qty=1)
+Substitute 740-054324 with INNODISK: M4RE-AGS1DCSJ-GB553 at all locations (Qty=1)
+
+740-054324->750-175198->750-175197->750-175631->PTX10001-36MRKAC-T (Build Qty=2)
+Substitute 740-054324 with ATP: D416G0RD218HGSC-JNP1 at all locations (Qty=1)
+Substitute 740-054324 with INNODISK: M4RE-AGS1DCSJ-GB553 at all locations (Qty=1)
+
+B. Sample Procurement Instructions:
+FMY to place PO based on quote with pricing and MOQ provided by appropriate Juniper GCM.
+
+C. Factory Instructions:
+C1. Qualification 740-054324->750-100243->750-174928->PTX10001-36MR-AC; QTY=1 unit for ATP and 1 unit for INNODISK.
+a. 740-054324->750-100243->750-174928->PTX10001-36MR-AC; CM DVT QTY=1 unit for ATP and 1 unit for INNODISK.
+b. 740-054324->750-100243->750-174928->PTX10001-36MR-AC; SW CERT QTY=0 (Not Needed)
+
+C1. Qualification 740-054324->750-175198->750-175197->750-175631->PTX10001-36MRKAC-T; QTY=1 unit for ATP and 1 unit for INNODISK.
+a. 740-054324->750-175198->750-175197->750-175631->PTX10001-36MRKAC-T; CM DVT QTY=1 unit for ATP and 1 unit for INNODISK.
+b. 740-054324->750-175198->750-175197->750-175631->PTX10001-36MRKAC-T; SW CERT QTY=1 unit for ATP and 1 unit for INNODISK.
+
+C2. Qualification boards can be new build or FGI.  
+
+C3. Qualification units need to go through standard manufacturing and Test processes with the following specific actions:
+- Install DEV-25274 on all qual sample assemblies.
+- Record all serial numbers with DEV label and put on the NO SHIP list.
+- Send the product test yield reports as soon as all units have completed Mfg tests to CM-DVT-HTR reports CM-DVT-HTR-reports@juniper.net  and the DEV Originator.  
+- Ensure email header subject line indicates the Qual JPN, Qual MFR and the DEV#.
+
+C4. The qualification assemblies shall be shipped to Juniper (see Special Instructions) as soon as the required number of units have passed Mfg Test, prior to DVT.
+
+C5. Perform DVT, as per the Qty mentioned in C1 per:
+- PROC-8423 (applicable for products released before 2020).
+- PROC-9980 (applicable for products that FRS during and after 2020).
+
+C6. After completion of DVT, prepare and review HTR report with the Juniper On site TE team and then email to CM-DVT-HTR alias CM-DVT-HTR-reports@juniper.net. and the DEV Originator. Ensure email header subject line indicates the Qual JPN, Qual MFR and the DEV#.
+
+D. Completion / Closure:
+The qualification units are not to be used for any other DVT and customer shipments until the qualification has been fully completed by Juniper, reports reviewed and an ECO / MCO has been signed off.
+
+See Special Instructions Section of DEV for shipping directions.",Qualification of replacement memory modules due to Samsung announced EOL on the D1x node DDR4 DRAM,05:02.0
+Richard Hood,ECO-61140,"Prod: SKU's, EX-Aberlour, EX-Lagavulin, EX-Gollum: Update per the Affected Items Section.
+
+1. On following Lagavulin SKU's:
+EX4400-24MP
+EX4400-24MP-S
+EX4400-24MP-TAA
+EX4400-24P
+EX4400-24P-S
+EX4400-24P-TAA
+EX4400-24T
+EX4400-24T-AFI
+EX4400-24T-AFI-TAA
+EX4400-24T-DC
+EX4400-24T-DC-AFI
+EX4400-24T-DC-TAA
+EX4400-24T-S
+EX4400-24T-TAA
+EX4400-48F
+EX4400-48F-AFI
+EX4400-48F-AFI-TAA
+EX4400-48F-DC
+EX4400-48F-DC-AFI
+EX4400-48F-DC-TAA
+EX4400-48F-S
+EX4400-48F-TAA
+EX4400-48MP
+EX4400-48MP-S
+EX4400-48MP-TAA
+EX4400-48P
+EX4400-48P-S
+EX4400-48P-TAA
+EX4400-48T
+EX4400-48T-AFI
+EX4400-48T-AFI-TAA
+EX4400-48T-DC
+EX4400-48T-DC-AFI
+EX4400-48T-DC-T1
+EX4400-48T-DC-TAA
+EX4400-48T-S
+EX4400-48T-TAA
+EX4400-48T-TS
+
+- Delete Junos 22.4R3.25. Software P/N 811-179449. Filename: junos-install-media-usb-ex-x86-64-22.4R3.25.img.gz
+- Add Junos 23.4R2-S2.1. Software P/N 811-185197. Filename: junos-install-media-usb-ex-x86-64-23.4R2-S2.1.img.gz
+
+2. On following Aberlour SKU's:
+EX4400-24X
+EX4400-24X-AFI
+EX4400-24X-AFI-TAA
+EX4400-24X-AFO-TAA
+EX4400-24X-DC
+EX4400-24X-DC-AFI
+EX4400-24X-S
+
+- Delete Junos 23.2R1-S2.5. Software P/N 811-178325. Filename: junos-install-media-usb-ex-x86-64-23.2R1-S2.5.img.gz
+- Add Junos 23.4R2-S2.1. Software P/N 811-185197. Filename: junos-install-media-usb-ex-x86-64-23.4R2-S2.1.img.gz
+
+Note: Validation passed logs are in ""Attachments"" tab.",New Junos deployment as per SW Engineering recommendation.,22:00.0
+Richard Hood,ECO-60829,"Prod: This ECO is for ""Selective purge of SVC Depot and Repair Center"" involving the following assemblies:
+
+1) Affected assemblies:
+711-065897
+750-101823
+750-101345
+
+2) Affected SKUs:
+JNP10K-RE1-E128
+JNP10K-RE1-E
+
+3) Instructions for SVC Depot and Repair Center:
+
+A) SVC Depot:
+- Verify the inventory against the serial numbers listed in the attached spreadsheet ""Dung_Scapa_Bin_File_Programming_issue_22nd_July[1].xlsx"".
+- Ship affected boards to Repair Center.
+
+B) Repair Center:
+
+- 711-065897/750-101823/JNP10K-RE1-E128: reprogram EEprom with bin file: BIN-101825
+- 711-065897/750-101345/JNP10K-RE1-E reprogram EEprom with with bin file: BIN-101345","The EEPROM content of JNP10K-RE1-E128 and JNP10K-RE1-E at offset 0x31 was programmed with wrong value ""0xff"" instead of ""0xfd"". This causes the ""mixed RE types"" alarm.",30:30.0
+Richard Hood,ECO-60371,"Prod: 740-034724, 740-063043 Assy, Power Supplies, AC, SRX family: Proactive replacement of Delta FAN assembly in all 740-034724 (Non-RoHS) and 740-063043 (RoHS compliant) (QCS- DCJ41001-01P) with new FAN assembly in PEMs that are five years old.
+
+1. This ECO applies to SVC depot and RMAs only.
+2. This ECO only applies to those PEMs that are 5 years old from data of manufacture:
+     740-034724 is SRX5800-PWR-4100-AC (Non-RoHS)
+     740-063043 is SRX5800-PWR-4100-AC (RoHS compliant)
+3. Please see CMX repair center- special instructions for identifying year and WW of QCS PEM assembly, replacing the fan assembly and labeling each new FAN assembly after installation.
+4. JNPR part # and SKU minor rev roll.
+5. CMX repair center to Keep record of all SNs of the PEMs that are replaced with FAN assembly.","Proactive replacement of Delta FAN assembly in all 740-034724 (Non-RoHS) and 740-063043 (RoHS compliant) (QCS- DCJ41001-01P ) with new FAN assembly in PEMs that are five years old. Proactive replacement is due to high PEM RMA retunes for FAN failures. Upon analysis it was found - FAN/s were failing due to ware out, dust, reaching life expectancy of the FAN.
+
+This ECO is copy of ECO-41714, which was directed at the PWR-MX960-4100-AC-S, this ECO is directed at the SRX5800-PWR-4100-AC.",53:29.0
+Girija Amaragol,M38762,"Prod: MCO for changing LC of AVL TTM TECHNOLOGIES INC-CHIPPEWA FALLS as per below details.
+
+1. Change lifecycle of 511-101162 (TTM TECHNOLOGIES INC-CHIPPEWA FALLS) from ""Active"" to ""Hold""","Backdrill stub issue is identified in TTM PCB for Scapa. 
+MPN need to be on hold until TTM is requalified for this part",24:43.0
+Sherry Nguyen,M37342U,"***Revert back on 01/23/2025***
+
+Closure of EOL Reactivation for HW - Inventory required from CM
+
+Restore to EOL (Inactive) from SHIP (Production):
+** already approved - please reactivate for booking ***
+
+This change order is the continuation of M36771.
+Orders are booked by single customer in multiple Sales orders.
+Using new MCO number as we have ran out of alphabets.
+Limit approvals to reactivation team.
+
+EOL product: MX2K-MPC8E-RB    ---Qty 3
+                       S-MPC8E-IR
+                       S-MPC8E-R
+Distributor: WESTCON SOLUTIONS (HK) LTD.
+Enduser: SHENZHEN TENCENT CO. LTD.
+Quote: 9465238
+
+SCO Approval : Hana
+Note : Account Manager agreed to e-license",Closure of EOL Reactivation for HW - Inventory required from CM,05:44.0
+Girija Amaragol,DEV-25268,"Prod: EX4100-F-12P:  740-136665: This dev allows FVN to use 3.5k qty risk buy Delta PSU procured via Dev-25114 and qualified per Dev-25009  to support customer shipments in lieu of the forthcoming ECO. Below is the PSU details and SN list is attached for 2041 qty received at FVN, remaining 1459 qty will be received in March.
+
+JPN: 740-136665 Rev 01C
+MPN: ADP-280BR BG
+Qty: 3500 units
+
+Note: 1. Remaining 1459qty once received FVN needs to provide the SN list, which will be attached in the attachment section.
+2. DEV label is required for the risk buy PSUs.
+3. ECO number yet to be pulled up. ECO# will be referenced before expiring this DEV",Delta PSU qualified per Dev-25009 and allowed to build and hold per Dev-25114 to FVN are now allowed to use for customer shipments in this DEV for 3.5K qty as qual has been completed.,36:11.0
+Girija Amaragol,DEV-25300,"Inactive/Preliminary/Prod/Proto: This DEV is to allow FOXCONN-VIETNAM to use material with DC over 2 years to support production build based on good result of solderability test.
+
+1. JPN 240-007738
+Description: Osc, 2.048MHz, 20ppm, 45/55, 3.3V, HCMOS, 15pF, Commercial Temp, OEH, SMT-4P, 5x7mm
+MPN: VCC1-B3G-2M04800000
+Supplier: MICROCHIP TECHNOLOGY
+Total Qty to use: 798 psc
+DC: 2247
+Released required date: 01/21/2025
+
+2. JPN 240-000108
+Description: Osc, 66.667MHz, 100ppm, 45/55, 3.3V, HCMOS, 15pF, SMT-4P, 5x7x2mm
+MPN: FO7HSCAE66.667-T1
+Supplier: FOX ELECTRONICS
+Total Qty to use: 1500 pcs
+DC: 2229
+Released required date: 01/21/2025
+
+3. JPN 310-049847
+Description: IC, FPGA, ECP3, 1.2V, LFE3-150EA-7FN, FBGA-672,ITemp, 27X27mm, SAC305
+MPN: LFE3-150EA-7FN672I
+Supplier: LATTICE SEMICONDUCTOR
+Total Qty to use: 117 (DC 2228) + 71 pcs (DC 2234) + 291 pcs (DC 2239) + 200 pcs (DC 2240)
+Released required date: 02/01/2025",To allow FOXCONN-VIETNAM to use material with DC over 2 years to support production build based on good result of solderability test,49:27.0
+Richard Hood,ECO-61440,"Prod: SKU's, JNP10K-RE1-2, JUNOS-EVO, PTX10K4-PREM3: Update per the Affected Items Section.
+
+Update shippable OS version 23.4R2-S2.3-EVO for PTX10004, PTX10008, PTX10016, JNP10K-RE1-E, JNP10K-RE1-E128, JNP10K-RE2-E128.
+
+On following STD SKUs:
+---------------------------------
+1. JUNOS-EVO-64, JUNOS-EVO-64-BB:
+- Add 811-185407, Qty=0
+- Add ""PTX10004, PTX10008, PTX10016"" in the ""Ref Des"" field of 811-185407
+- Add ""23.4R2-S2.3-EVO for PTX10004/PTX10008/PTX10016 system"" in the ""Notes"" field of 811-185407.
+
+2. JNP10K-RE1-E:
+- Delete 811-173489
+- Add 811-185407 
+
+3. JNP10K-RE1-E128, JNP10K-RE2-E128:
+- Delete 811-180858
+- Add 811-185407 
+
+4. PTX10K4-PREM3-SCAC, PTX10K4-PREM3-SCDC:
+- Delete 811-180858
+- Add 811-185407
+
+On following LTD SKUs:
+--------------------------------
+5. JUNOS-EVO-LTD-64, JUNOS-EVO-LTD64-BB:
+- Add 811-185409, Qty=0
+- Add ""PTX10004, PTX10008, PTX10016"" in the ""Ref Des"" field of 811-185409
+- Add ""23.4R2-S2.3-EVO for PTX10004/PTX10008/PTX10016 system"" in the ""Notes"" field of 811-185409.
+
+6. JNP10K-RE1-ELT:
+- Delete 811-173491
+- Add 811-185409
+
+Note: Pass logs at the factory are in ""Attachments"" tab.","New OS updates for PTX10004, PTX10008 and PTX10016 systems and RE Spare as per SW engineering recommendation.",49:17.0
+Sherry Nguyen,ECO-61391,"EOS/Obsolete: EOS Plan of record update per affected items and attachments TSB16895v2.0 
+MCO # M35956 should have added EOS date of 03/31/2024 to the SW and SVC SKU's but was missed while performing clean up activities of the JSA product line. This ECO is to correct that error to make the 
+
+Transition the product numbers on affected items to obsolete lifecycle: Rev OBA
+
+SKU's EOS as per the plan of record. QTY 29 SW SKU and 58 SVC SKUS 
+
+Note: On 11/20/2023 TSB16895 was updated and republished with the EOS date of 3/31/2024. Agile & SAP need updating to stop renewals. Requested by PLM Ray Budavari
+
+PDC Note: PDC to import changes via PDC change details tabs Jan 14th for both SW & SVC SKU's before release of this ECO.",Record change only to set SKU's EOS date.,47:39.0
+Prameela R,ECO-61338,"**Checking with originator, it this is a record change to fix the QTY error or a real time change. Rev to track will be added if it is a new change**
+
+Prod: CG BOM updates.
+
+1. Change 740-128524 qty to 2 in following BOMs.
+CG_CBL-C15-02
+CG_CBL-C15-04",Power cord quantity correction.,33:40.0
+Prameela R,ECO-61401,"Prod: Release MIST-AP/Edge Ruby-WW Product Numbers to Production Lifecycle per affected items section.
+
+Releasing the below Ruby-WW product numbers and the associated child parts to production lifecycle:
+AP47-WW
+AP47D-WW
+AP47E-WW
+
+Note:
+Product weights and dimensions are on the attachment tab.
+Reference the attached Product Number Validation Report for ease of viewing Product Number attributes.
+
+PDC Note: Weights, dimensions and FRS date for the SKUs will be set post approvals, prior to ECO release.",Production release,53:20.0
+Pooja Siraskar,ECO-61433,"Prod: EX-Lonewolf TAA SKUs Production release.
+
+Releasing the following SKUs to Production Lifecycle, Rev AA:
+Affected Items:
+EX4400-48MXP-TAA
+EX4400-48XP-TAA
+
+PDC Action: PDC to Update the FRS Date of the above SKUs = ECO Release date, post CCB Approval, prior to ECO Release.
+Attach Key Validation Report","Production release of EX Lonewolf TAA SKUs.
+
+No Pilot lifecycle change required, as all child parts in Production.",47:24.0
+Sherry Nguyen,M38772,"Proto/Prod: Through this MCO, Updating the LC of respective MPNs from ""Active"" to ""EOL_Notified"" 
+
+LTB: 08 Oct 2025
+LTS: 08 Apr 2026
+
+JPN: 320-018279 | MPN: FZT649
+JPN: 310-070969 | MPN: NCD9830DBR2G
+JPN: 310-035199 | MPN: NCD9830DBR2G
+
+There is No replacement offered by Onsemi 
+
+- CE Team recommended LTB assessment for JPN 310-070969 and 310-035199 to check whether One Active MPN from Texas will meet the high demand
+- No LTB Assessment for JPN 320-018279 since its Inactive with one more Active MPN, Any Service or repair demands will be met by other Active AVL",Onsemi issued EOL notice PD26576XH [JPCN-100104893A],16:52.0
+Ranjith Soundarrajan,M38528,"Prod: MCO to update AVL as illustrated below
+
+Adding Nefab Vietnam under below JPN to ""Active"" status
+
+550-035730 => NEFAB VIETNAM => 719297-101
+
+Adding Packaging drawing under JPN level attachment of 550-015421. Currently available under MCO attachment","Adding Nefab Vietnam to the AVL as part of sourcing localization
+
+Adding Packaging drawing under JPN level attachment which was missed during initial release",55:54.0
+Girija Amaragol,M38595,"Proto/Prod/Inactive: MCO to update Mfr. Name as illustrated below
+
+- Changing Mfr. Name of MPNs from ""REFLEX MALAYSIA"" to ""NEFAB MALAYSIA""
+
+- Total of 108 JPNs are impacted by this change
+
+- Update older Mfr. Name REFLEX MALAYSIA MPNs life cycle to Deplete
+
+- Need to perform bulk creation of 108 AVL-MPN with new Mfr. Name ""NEFAB MALAYSIA"" in Agile. New Mfr. Name already exists in Agile
+
+- All the change details and new AVL-MPN attributes can be found in attached excel file ""MPN - MFR Name Transition Data_REFLEX MALAYSIA to NEFAB MALAYSIA""
+
+- JPCN-100104801 is created in PCN tool for this change
+
+- All concerned CM / ODM are requested to take a note of this change especially from PO perspective
+
+Note1: PCN# REF-FLEX-2024-12-10 document is attached for reference
+
+Note2: Put ""DO NOT USE -"" prefix in front of older Mfr. Name ""REFLEX MALAYSIA""
+
+Note to RoHS CE Review Group: # 14384 raised in Z2 for compliance field update for Mechanical part affected
+
+PDC Note: Old Mfr will be prefixed with DO NOT USE post MCO release",Mfr. Name change based on PCN# REF-FLEX-2024-12-10 received (Reflex Malaysia has been acquired by Nefab Malaysia),55:56.0
+Sunil H K,DEV-24780,"*** HTR# number to be provided before release ***
+
+Prod: The purpose of this Deviation is to allow Flex Penang to make the following part(s) substitutions for qualification purposes
+
+New Qual Part(s) are from,
+
+Qual MPN 1 & MFR 1 => MAX7310AUE+T & Maxim
+Qual MPN 2 & MFR 2 => PCA9557PWR & Texas
+
+A. Replace JPN: 310-013175 with above mentioned MPN(s) on the following as described in C
+
+B.	Mfg.Partner to work request MFR free of charge samples that will be shipped to Mfg.Partner directly from MFR, Mfg.Partner shall copy Juniper GCM found in Agile under “Commodity Manager” field under the respective Qual JPN & CEs, found in Agile under “Component Engineer” and “Context Component Engineer” fields of the Qual JPN along with the DEV Originator on all samples related communication with MFRs.
+
+C.	Factory Instructions:
+
+C1. Build: 711-XXX -> 750-XXX qty= 1per below each for each new supplier for each MPN under qual 
+(New AVL to be qualified: TWO suppliers) 
+
+1. MPN 1 & MFR 1 => MAX7310AUE+T & Maxim
+2. MPN 2 & MFR 2 => PCA9557PWR & Texas
+
+Build path 
+
+310-013175->711-078358->750-080696->750-158182->PTX10003-160C-AC = QTY = 2 
+
+C2. Qualification samples will be only new build. However, FGI may be used for qualification samples where the SKU being requested in the DEV has not had any demand 90 days after the DEV release date.
+
+*********************************
+
+Qualification tests to be performed, DVT followed by ORT on DVT tested HW
+
+********************************
+1. DVT test is required - 
+
+All Qual Assemblies need to go through full MFG test (production test and capture yield report In spared sheet and add in MCO when initiated to add 2nd source MPNs
+
+********************************
+
+Perform DVT per below (whichever is applicable) 
+
+  1. PROC-9980 for products FRS in 2020 OR 
+  2. PROC-8423 for products released before 2020
+
+Specific test:
+
+**************
+HOT swap / power cycle / system reboot (which ever applicable for each DUT) 
+test to be perform 100 times at 25C, COLD and HOT for each DUT  	
+
+**************
+No SW Test required
+
+*************
+ORT test > Subset of On-going Reliability Test 
+
+1. After DVT testing completed run Subset of On-going Reliability Test (ORT test per PROC-8989) use one full system to test these cards (you can piggyback with any other ORT test) Subset of On-going Reliability Test to be run  
+
+***********
+
+   a> run while the system is in a hot box at an elevated temperature, typically 40-45C.   
+   b> The default test time will be 168 hours (1 week).  
+   c> Capture ORT test results (In spreadsheet when MCO is initiated to add 2nd source)
+
+Additional information 
+The On-going Reliability test (ORT) test is an extended reliability test which is performed under a single extreme corner case environmental condition. In general, the test will be an extended consumer-like traffic test (such as Line Rate JIT or Data Path Test) The test will not require any mastership switches, but instead will run entirely in the default mastership state as it would in a customers' environment.  If there are any product specific requirements that deviate from this process, they will be detailed in the product's test plan",Qualifying Maxim and Texas MPNs as additional sources,55:34.0
+Girija Amaragol,DEV-25176,"Inactive/proto/prod: This DEV is to allow FOXCONN-VIETNAM to use material with old date code to support production build based on good result of solderability test.
+
+JPN 240-026719
+Description: Xtal, 25MHz, 10ppm Tol, 20ppm Stabil, 16pF Load, 30 Ohm ESR, SMD, HS-49S, 2P, 4.8x11.4mm
+Supplier: IMPACT LLC
+MPN: 49MLR-25.00M-C2R2-16T
+Total Qty to use: 3101 pcs
+DC: 2222",To allow FOXCONN-VIETNAM to use material with old date code to support production build based on good result of solderability test,43:47.0
+Sherry Nguyen,DEV-24926A,"Proto: PTX-Octomore, This deviation is authorized to use the following old DC parts on the  P1B build.
+
+711-173321 Assy, PCA, 43.2T BXF-based 54x 800G OSFP, PTX-Octomore 
+
+JPN: 210-151995
+MFR: VISHAY
+MPN: VJ0402Y472KXAPW1BC
+DC: 1622
+Qty Accepted: 300 pcs
+
+
+JPN: 310-045595
+DC: 2107 
+Qty: 98
+vendor: Maxim
+MPN: DS1708SEUA+,
+
+Solderability test reports are attached
+
+Affix DEV label on the boards
+Track the SNs","Reason For Deviation (A): Due to P1B is still in progress. New ""Effective To"" Date: 03/31/2025.
+
+Part shortage for multisource qual boards",15:35.0
+Sherry Nguyen,DEV-24759A,"Prod: The purpose of this DEV is to allow FMY factory to rework 740-168322 Assy, Pwr Sply AC, 6000/7800W, 200VAC-240VAC, 4-input C21 by upgrading New Firmware using the JMTF architecture.
+
+Firmware Change details:
+1. Update comm F.W from v2.9 to v3.8 Optimize FW which includes functions: black box, health check, fault LED alarm elimination, limit fan speed in case of any input changes from ok to not ok, firmware soft start functionality for main output.
+2. Update secondary F.W from v2.5 to v3.1 to optimized health check  voltage threshold to 13V from 13.2V, and for soft start function.
+3. Update pri F.W from v2.3 to v2.4 to cooperate comm MCU to eliminate PFC (Power factor correction) alarm
+
+
+This DEV will be followed by a future change order that will encompass incoming material from the power supply supplier, and disposition customer service depot inventory.  Field inventory can be upgraded using in-system programming and will be handled with a Technical Service Bulletin.
+
+This deviation rework instructions are needed to allow CMs and ODMs to keep shipping the PSUs affected until the permanent ECO change is finalized.
+
+PCN attached.
+
+This change in PSU firmware has been qualified by the Obsidian NPI Power, software, systest, and manufacturing test eng.
+
+Special instructions:
+1. “DEV-24759"" label to be installed on PSUs that are reworked under this DEV.
+
+2. FMY to record and provide the serial nos. list to be attached in the deviation later.
+
+3. The PSUs existing JPN, MPN revisions and CLEI codes (if any) are maintained for this DEV.
+
+4. PTX upgrade instructions: enter the ""jmtf -dut <> -uutsubtest ManageChassis::UpgradeProgrammableRevisions -uut PSM"" command.
+
+5. MX upgrade instructions: enter the ""jmtf -dut <> -uutsubtest ManageChassis::UpgradeProgrammableRevisions -uut PEM"" command.  Note that operator interaction will be required to do a power cycle as part of the test flow.
+
+6. After upgrade, retest all units through FST_SPARES
+
+7. Ship as needed to support backlog.""","Reason For Deviation (A): DEV will be used in to Support Obsidian PSU-AC2 Units. New ""Effective To"" Date: 04/17/2025.
+
+Timeline commitments to customer.
+This deviation rework instructions are needed to allow CMs and ODMs to keep shipping the PSUs affected until the permanent ECO change is finalized.",22:37.0
+Ranjith Soundarrajan,ECO-61424,"proto:  MFGTEST-LOOPBACK - Loopbacks (FOR MFG TEST) Do Not Delete. This is an Engineering BOM, It needs to remain at a Preliminary Lifecycle. 
+
+1. creating a BOM for part with rev
+2. updating description from 'prelim' to 'proto' info",MFGTEST-LOOPBACK re-reacted in a system and now updating with BOM,13:39.0
+Prameela R,ECO-61358,"Prod: Release MIST-AP/Edge Ruby-US and Ruby-WW Product Numbers to Production Lifecycle per affected items section.
+
+Releasing the below Ruby-US and Ruby-WW product numbers and the associated child parts to production lifecycle:
+AP47-US
+AP47D-US
+AP47E-US
+
+Note: 
+Product weights and dimensions are on the attachment tab.
+Reference the attached Product Number Validation Report for ease of viewing Product Number attributes.
+
+PDC Note: Weights, dimensions and FRS date for the SKUs will be set post approvals, prior to ECO release.",Production release,20:26.0
+Sherry Nguyen,ECO-61431,"Prod: CG BOM updates. Update per the Affected Items Section.
+
+1. Remove CG_CBL-C13-01, add CG_CBL-C13-NG-01 and CG_CBL-C13-PSE-TUV with qty 1 each for following SKUs.
+EX4100-F-12P
+EX4100-F-12T
+SRX300
+SRX300-C
+SRX300-SYS-JB
+SRX300-SYS-JE
+SRX320-POE
+SRX320-SYS-JB-P
+SRX320-SYS-JE-P
+
+2. Remove CG_CBL-C13-08, add CG_CBL-C13-NG-01 and CG_CBL-C13-PSE-UL with qty 1 each for following SKUs.
+NFX150-C-S1
+SRX320
+SRX320-SYS-JB
+SRX320-SYS-JE
+SSR120
+SSR120-AA
+SSR120-AE
+SSR130
+SSR130-AA
+SSR130-AE
+
+3. Move CG_CBL-C13-01, CG_CBL-C13-08 to ""Inactive"" status.",Restructure CG BOMs.,14:17.0
+Pooja Siraskar,ECO-61375,"Prelim_BOM: Internal Release of Obsidian fans and fan tray controllers for Scapa-16 SKUs.
+
+Creating and Releasing the following SKUs to Prelim_BOM Lifecycle, Rev 0A:
+
+JNP10016-FAN3
+JNP10016-FTC3
+
+Note:Refer attached product number key field validation report for ease of viewing product number attributes.",Internal Release per SST Request 0003038.,49:06.0
+Ranjith Soundarrajan,M38768,"Proto: MCO to update AVL as illustrated below
+
+Adding Cymmetrik Vietnam MPNs under respective JPNs to ""Comp_IPQ"" status
+
+520-187765 => CYMMETRIK VIETNAM => 520-187765
+520-187766 => CYMMETRIK VIETNAM => 520-187766
+520-187774 => CYMMETRIK VIETNAM => 520-187774",Adding Cymmetrik Vietnam to the AVL since the ODM is Foxconn-Vietnam,26:11.0
+Girija Amaragol,M38597,"Prod/Inactive: Changing MPN Lifecycle Status to “EOL_Notified"" and Technical Risk Reason to ""3 - EOL Notice from Supplier"" for below ARTESYN TECHNOLOGIES-LAGUNA MPN's
+
+    JPN          MPN
+740-045933  700-010685-0000 RevBU
+740-045932  700-010684-0000_Rev:BX
+
+PCN Document and Where used report is attached for reference.
+
+Note: PDC will update technical risk reason before releasing this MCO","ARTESYN TECHNOLOGIES-LAGUNA has submitted the EOL PCN for the below reason:
+No Demand",43:00.0
+Girija Amaragol,M38745A,"****** Restore back to 01/23/2025 *******
+
+EOL Reactivation for CS EOS Returns
+
+Question	Answer
+Customer/ Partner	Juniper CS
+SKU(s)	 See the attached
+Description of product	 See the attached
+Quantity Requested	
+Reason for Reactivation 	CSS EOS return
+Requestor	Sigeon Richard A
+Reason: 	To process internal transactions
+PDC Action:	Temporarily change material status from EOS to EOL",EOL Reactivation for CS EOS Returns,22:25.0
+Pooja Siraskar,M38763,"Prod: Remove existing Eoptolink Comp_IPQ MPNs  from AVL and adding new MPNs as Comp_IPQ.
+
+  JPN                                Existing MPNs                             Proposed MPNs
+
+740-088322 	               EOLQ-131HG-O-5H-J3               EOLQ-131HG-O-5H-J4            
+740-088320               EOLQ-131HG-O-02-J3               EOLQ-131HG-O-02-J4
+740-096178               EOLQ-131HG-O-10-J3               EOLQ-131HG-O-10-J4","Adding new Eoptolink MPNs under Comp_IPQ status & removing the existing ones, based on supplier confirmation (email attached)",46:09.0
+Sherry Nguyen,DEV-25137,"Proto/Prod: Soft Deviation: This DEV is to allow Flex Penang to use old date code inventory for oscillator/crystal  (per attached PN) to support production.
+
+240-007738
+240-014105
+240-014473
+240-023128
+240-031037
+240-037795
+240-044903
+240-045828
+240-053071
+240-054786
+240-054812
+240-054840
+240-054861
+240-067405
+240-067841
+240-079738
+240-084064
+240-086944
+240-094352
+240-114218
+240-115523
+240-126496
+240-151747
+240-153669
+240-156379
+
+No deviation label required.","This DEV is to allow Flex Penang to use old date part to support production.
+PN: 240-007738, DC: 2240, Qty: 1043, MFG PN: VCC1-B3G-2M04800000 ,MFG: MICROCHIP , Remark: 24 months and above
+PN: 240-014105, DC: 2128, Qty: 182, MFG PN: VCC6-QCB-125M000000 ,MFG: MICROCHIP , Remark: 24 months and above
+PN: 240-014473, DC: 2119, Qty: 282, MFG PN: S1803A-8.1920(T) ,MFG: DIODES , Remark: 24 months and above
+PN: 240-023128, DC: 2313, Qty: 681, MFG PN: 9C25077004 ,MFG: TXC , Remark: Above 21 months
+PN: 240-023128, DC: 2317, Qty: 1000, MFG PN: 9C25077004 ,MFG: TXC , Remark: Above 21 months
+PN: 240-031037, DC: 2306, Qty: 338, MFG PN: 7C50077002 ,MFG: TXC , Remark: Above 21 months
+PN: 240-031037, DC: 2317, Qty: 188, MFG PN: 7C50077002 ,MFG: TXC , Remark: Above 21 months
+PN: 240-037795, DC: 2229, Qty: 17, MFG PN: STP3219 LF ,MFG: RAKON , Remark: 24 months and above
+PN: 240-037795, DC: 2236, Qty: 3, MFG PN: STP3219 LF ,MFG: RAKON , Remark: 24 months and above
+PN: 240-044903, DC: 2245, Qty: 700, MFG PN: VCC1-B3F-2M04800000 ,MFG: MICROCHIP , Remark: 24 months and above
+PN: 240-045828, DC: 2306, Qty: 154, MFG PN: VC-708-ECW-FNXN-156M250000 ,MFG: MICROCHIP , Remark: Above 21 months
+PN: 240-045828, DC: 2308, Qty: 1345, MFG PN: VC-708-ECW-FNXN-156M250000 ,MFG: MICROCHIP , Remark: Above 21 months
+PN: 240-045828, DC: 2311, Qty: 688, MFG PN: VC-708-ECW-FNXN-156M250000 ,MFG: MICROCHIP , Remark: Above 21 months
+PN: 240-053071, DC: 2215, Qty: 59, MFG PN: 531EC125M000DGR ,MFG: SKYWORKS , Remark: 24 months and above
+PN: 240-053071, DC: 2311, Qty: 86, MFG PN: 531EC125M000DGR ,MFG: SKYWORKS , Remark: Above 21 months
+PN: 240-054786, DC: 2122, Qty: 8, MFG PN: 9H03200031 ,MFG: TXC , Remark: 24 months and above
+PN: 240-054812, DC: 2312, Qty: 1531, MFG PN: 512805 ,MFG: RAKON , Remark: Above 21 months
+PN: 240-054812, DC: 2314, Qty: 414, MFG PN: 512805 ,MFG: RAKON , Remark: Above 21 months
+PN: 240-054840, DC: 2306, Qty: 1000, MFG PN: VC-820-EAE-KAAN-33M3330000 ,MFG: MICROCHIP , Remark: Above 21 months
+PN: 240-054861, DC: 2315, Qty: 2025, MFG PN: 7M54072001 ,MFG: TXC , Remark: Above 21 months
+PN: 240-054861, DC: 2317, Qty: 301, MFG PN: 7M54072001 ,MFG: TXC , Remark: Above 21 months
+PN: 240-067405, DC: 2309, Qty: 162, MFG PN: VC-820-EAE-EAAN-18M4320000 ,MFG: MICROCHIP , Remark: Above 21 months
+PN: 240-067405, DC: 2316, Qty: 1412, MFG PN: VC-820-EAE-EAAN-18M4320000 ,MFG: MICROCHIP , Remark: Above 21 months
+PN: 240-067841, DC: 2303, Qty: 87, MFG PN: STP3214LF ,MFG: RAKON , Remark: Above 21 months
+PN: 240-079738, DC: 2314, Qty: 1884, MFG PN: 7X33070001 ,MFG: TXC , Remark: Above 21 months
+PN: 240-084064, DC: 2201, Qty: 8, MFG PN: 545CAA50M0000BBGR ,MFG: SKYWORKS , Remark: 24 months and above
+PN: 240-086944, DC: 2222, Qty: 145, MFG PN: SIT9120AC-1B2-XXE125.000000Y ,MFG: SITIME , Remark: 24 months and above
+PN: 240-094352, DC: 2304, Qty: 299, MFG PN: VXM7-1367-48M0000000 ,MFG: MICROSEMI , Remark: Above 21 months
+PN: 240-094352, DC: 2314, Qty: 834, MFG PN: 7M48020003 ,MFG: TXC , Remark: Above 21 months
+PN: 240-114218, DC: 2302, Qty: 92, MFG PN: TG5032CGN 25.0000M-CMGHNA0 ,MFG: EPSON , Remark: Above 21 months
+PN: 240-114218, DC: 2306, Qty: 1630, MFG PN: TG5032CGN 25.00000MHZ CMGHNA ,MFG: EPSON , Remark: Above 21 months
+PN: 240-115523, DC: 2313, Qty: 3000, MFG PN: 7XA1470001 ,MFG: TXC , Remark: Above 21 months
+PN: 240-126496, DC: 2201, Qty: 8, MFG PN: VXM7-1372-25M0000000TR ,MFG: MICROCHIP , Remark: 24 months and above
+PN: 240-126496, DC: 2315, Qty: 9, MFG PN: 7M25070132 ,MFG: TXC , Remark: Above 21 months
+PN: 240-151747, DC: 2237, Qty: 257, MFG PN: UX21480001 ,MFG: DIODES , Remark: 24 months and above
+PN: 240-153669, DC: 2225, Qty: 1299, MFG PN: FL6000011 ,MFG: DIODES , Remark: 24 months and above
+PN: 240-156379, DC: 2241, Qty: 18, MFG PN: UF32A00001 ,MFG: DIODES , Remark: 24 months and above",08:59.0
+Girija Amaragol,DEV-25282,"Prod: This DEV is to allow FOXCONN-VIETNAM to use material with old DC over 5 years to support production build based on good result of solderability test.
+1. JPN 220-047531
+Description: Res, 2512, 0.003 Ohm, 1%, 2W
+MPN: PMR100HZPFV3L00
+Supplier: ROHM
+Site balance: PCG (JNP Hub)
+Total Qty to use: 70 pcs
+Date code: 1836
+
+2. JPN 310-077759
+Description: IC, PHY, VSC8584, GbE Quad Phy, Macsec256, 1.0V, BGA-256, 17X17mm, SAC305
+MPN: VSC8584XKS-11
+Supplier: MICROCHIP TECHNOLOGY
+Site balance: PCG (JNP Hub)
+Total Qty to use: 110 pcs
+Date code: 1908
+
+3. JPN 310-080446
+Description: IC, LTC3887, I Grade, Digital PWM Controller, 4.5V-24Vin, 0.5V-5.5Vout, QFN-40, 6X6mm
+MPN: LTC3887IUJ#TRPBF
+Supplier: ANALOG DEVICES
+Site balance: PCG (JNP Hub)
+Total Qty to use: 298 pcs
+Date code: 1909",To allow FOXCONN-VIETNAM to use material with DC over 5 years to support production build based on good result of solderability test,45:32.0
+Sarangabani S,DEV-25299,"Prod: This DEV is to allow Flex Penang to use old date code part 310-134378 from INTEL from  ARROW GLOBAL SUPPLY CHAIN SERVICES INC (ARROW 3PL) to support immediate shortages. For BGA, no solderability test report for component level. Flex will maintain the record of aged BGA during production loading.  
+
+JPN: 310-134378 
+MPN: FH8068604436405S RM1C
+MFR: INTEL
+DC/QTY: 
+2247 - 189pcs
+2249 - 31pcs
+
+No deviation label required.",This DEV is to allow Flex Penang to use old date code part to support production build.,41:56.0
+Sherry Nguyen,DEV-25187,"Prod: This Deviation allows CMY to use and ship 10qty PSU JPN:640-171878, Rev 03 for the below-mentioned PSU details. These 10 PSUs have labels containing additional safety/compliance logos UL CE UKCA FCC VCCI RCM S-TUV + CCC BSMI KCC +EAC compared to the initial shipment batch of Rev S4 labels that had S4 + UL CE UKCA FCC VCCI RCM S-TUV logos.
+
+Vendor: Delta
+JPN:640-171878, Rev: 03
+MPN:DPS-340AB-4 A S4
+
+SN number list for 10 qty PSU allowed to ship with additional logs as described is listed below-
+
+1EHHE4300FB
+1EHHE4300FD
+1EHHE4300FE
+1EHHE4300FF
+1EHHE4300FG
+1EHHE4300FJ
+1EHHE4300F0
+1EHHE4300F4
+1EHHE4300FS
+1EHHE4300G6
+
+UL certificates and COC reports are completed and available in Agile under DPS-340AB-4 A S5.
+
+PSU label (MPN: DPS-340AB-4 A S4) should have all the logos UL CE UKCA FCC VCCI RCM S-TUV + CCC BSMI KCC +EAC per the attached sample label picture.","To support China customer shipment CMY is using existing S4 labels with added UL CE UKCA FCC VCCI RCM S-TUV + CCC BSMI KCC +EAC. Since MPN Rev. S5 (JPN Rev. 04) PSUs with CCC mark are not yet available at CMY and ECO-60942 is in CCB stage. CCC, BSMI, KCC along with few more safety logos are getting added into MPN Rev. S5 (JPN Rev. 04) under ECO-60942.",01:51.0
+Sarangabani S,ECO-61219,"Prototype:  Octomore PMB 
+Release the following:
+[1].  BOM: 711-173946, REV05
+[2].  SCHEM: SCH-182293, REV04
+[3].  560-188261 (Boot CPLD)
+[4].  560-188273 (Boot CPLD golden image SPI Flash)
+[5].  560-188539 (v33.05 BIOS Primary image)
+[6].  560-188560 (v33.05 BIOS Golden image)","Needed BOM changes per P1A debug efforts:
+[1].  Adding CPU WAFL-ZVSS resistors. 
+[2].  Removing J2001 debug connector.  
+[3].  Releasing the new BIOS firmware, which includes the AMD CPU PCIe Link ID fix.  
+[4].  Releasing the new Boot CPLD, which includes the updated power-up sequence for the Aldrin ethernet switch.
+[5].  Removing unused debug SFP circuit.
+[6].  Removing unused GND clips.",07:34.0
+Richard Hood,ECO-60467,"Prod: SKU's, SRX-GreatWall: Update per the Affected Items Section.
+
+MODEL NUMBERS:
+SRX4100-AC
+SRX4100-CHAS
+SRX4100-DC
+SRX4100-SYS-JB-AC
+SRX4100-SYS-JB-DC
+SRX4100-SYS-JE-AC
+SRX4100-SYS-JE-DC
+SRX4200-AC
+SRX4200-CHAS
+SRX4200-DC
+SRX4200-SYS-JB-AC
+SRX4200-SYS-JB-DC
+SRX4200-SYS-JE-AC
+SRX4200-SYS-JE-DC
+
+- DELETE 811-158888.
+- ADD 811-187534.
+
+Routine factory shipping OS version update - from 21.2R3-S2.9 to 23.4R2-S3.9. validation results attached.",Routine Factory shipping OS to later hardened version.,03:47.0
+Sherry Nguyen,ECO-61067,"Prod: Reactivate Document J2.05.P05.W27: Business Process, Agile Environmental Compliance Field Controls. Update per the Affected Items Section.
+
+J2.05.P05.W27: Rev 03
+
+1] Document name is updated From - "" Business Process, Agile ROHS Field Controls"" to ""Business Process, Agile Environmental Compliance Field Controls"" to accommodate both RoHS and REACH. 
+
+2] Removed RoHS Exemption (CE Input) from Quick Reference Table
+
+3] Removed QPoint RoHS Exemption(s) Escalation resolution
+
+4] Removed Redmine Ticket Creation/ Edit Rules
+
+5] Removed Technical Risk section
+
+6] Removed Component Life Cycle Status & Component Life Cycle Status Date-Stamp section
+
+7] Removed RoHS Availability Date section
+
+8] Removed BOM Risk Roll Up section
+
+9] Removed RoHS Disposition
+
+10] Removed Pb Free PCBA Assembly Process Compatible
+
+11] Updated Roll-Up Automation Rules
+
+12] Included Determining “Least Common Denominator"" for REACH
+
+13] Add RoHS Part Classification table",Agile Environmental Compliance Field Controls document has been updated with RoHS and REACH field details and automation script logic.,55:06.0
+Prameela R,ECO-61448,"Prod: Update Test Requirement Documents to update to add Management Port 0 (Ethernet0) MAC address capture requirement.
+
+Release the revised proc document:
+PROC-9588: Rev 09
+PROC-9604: Rev 10
+PROC-9690: Rev 08
+PROC-9794: Rev 04
+PROC-9826: Rev 09
+PROC-9928: Rev 07
+PROC-9965: Rev 06",Support to provide Management Port 0 (Ethernet0) MAC address data to Juniper's end-customers.,04:45.0
+Sherry Nguyen,M38255,"Prelim_BOM: Plugfest(Optics);QFX-Garnet. Update per the Affected Items Section.
+
+1. Change the Clarity ID number on these SKUs to JPR13688.
+
+QDD-2X400G-VR4-P
+OSFP-2X400G-DR4
+
+PDC Note: PDC will update the Clarity ID number before release of this MCO.",Change the Clarity ID number.,34:38.0
+Girija Amaragol,M38751,"Prelim_BOM: MCO to update AVL as illustrated below
+
+1). Adding Laird Technologies MPN under respective JPN to ""Comp_IPQ"" status
+
+420-174870 => LAIRD TECHNOLOGIES => JUN-LT23NA3742
+
+2). Removing Laird Technologies MPN under respective JPN
+
+420-174870 => LAIRD TECHNOLOGIES => 420-174870
+
+3). Please add Laird Technologies drawing under corresponding JPN level attachment of 420-174870 (JPN, MPN and MFR mentioned in Datasheet title). Currently available in MCO attachment","1. Replacing existing Laird Technologies MPN with correct orderable one
+
+2. Adding supplier drawing under JPN level attachment for broader visibility",47:40.0
+Sherry Nguyen,M38725,"Prod: MX-Obsidian: Update per the Affected Items Section.
+
+740-168322:  
+
+The purpose of this MCO is to roll up MPN revision for updating to soft terminal MLCC. 
+
+Hardware:
+Old:
+Yageo 100pF/50V 0402 - usual MLCC.
+
+New: 
+Yageo 100pF/50V 0402 - Soft terminal MLCC.
+
+- Add New MPN rev DCJ78002-01 REV: C to Active. 
+
+- Move the Old MPN rev LC to Deplete. Also update the Technical Risk Reason to ""3 - Other reasons""
+
+Note : PDC will update the tech risk before releasing the MCO.",Adding new MPN rev to Active and updating technical risk reason,08:36.0
+Girija Amaragol,M38750,"Prod: MCO to update AVL as illustrated below
+
+Adding Foxconn NWE2-Vietnam MPN under respective JPN to ""Active"" status
+
+760-046576 => FOXCONN NWE2-VIETNAM => 760-046576",Adding Foxconn NWE2-Vietnam to the AVL as part of sourcing localization,41:10.0
+Abel Alcantar,DEV-25255,"Prod: 740-093813, Assy, OEM, DRAM, RDIMM, DDR4-2400, 4GB, 512Mx72, 1200MHz, Single Rank, Registered, ECC, 288P, 1.2V, CT: The purpose of this Deviation is to allow Accton Taiwan to make the following part substitutions for qualification purposes.
+
+A. Qual Assemblies:
+
+740-093813->650-097090->650-097091->SRX380-P-SYS-JB-AC (Total Assy Qty=4)
+
+B. Sample Procurement Instructions:
+Accton Taiwan to place PO based on quote with pricing and MOQ provided by appropriate Juniper GCM. Mfg Partner to contact Juniper GCM found in Agile under “Commodity Manager” field under the respective Qual JPN. In all emails to GCM, please also copy CEs, found in Agile under “Component Engineer” and “Context Component Engineer” fields of the Qual JPN along with the DEV Originator.
+
+C. Factory Instructions:
+
+C1>. Qualification build:
+Replace JPN:740-093813 with ATP: D44G00RD2681GSC-JNP1 at location, CONN13 on the following assembly:
+   1. SRX380:  650-097090->650-097091->SRX380-P-SYS-JB-AC - Required Assy Qty two(2). Label these assemblies as GROUP-1.
+
+Replace JPN:740-093813 with Innodisk: M4RE-4GSSACIK-GB553 at location, CONN13 on the following assembly:
+   1. SRX380:  650-097090->650-097091->SRX380-P-SYS-JB-AC - Required Assy Qty two(2). Label these assemblies as GROUP-2.
+
+C1B>. All Qual Assemblies need to go through full MFG test prior to DVT test at CM.
+   GROUP-1: SRX380: 650-097090->650-097091->SRX380-P-SYS-JB-AC - Required Test Qty two(2).
+   GROUP-2: SRX380: 650-097090->650-097091->SRX380-P-SYS-JB-AC - Required Test Qty two(2).
+
+C1C>. DVT at CM for:
+   GROUP-1: SRX380: 650-097090->650-097091->SRX380-P-SYS-JB-AC - Required Test Qty one(1).
+   GROUP-2: SRX380: 650-097090->650-097091->SRX380-P-SYS-JB-AC - Required Test Qty one(1).
+
+C1D>. SW CERT at Juniper for:
+   GROUP-1: SRX380: 650-097090->650-097091->SRX380-P-SYS-JB-AC - Required Test Qty one(1).
+   GROUP-2: SRX380: 650-097090->650-097091->SRX380-P-SYS-JB-AC - Required Test Qty one(1).
+    *NOTE:  See Special Instructions Section of DEV for shipping directions.
+
+C2. Qualification boards will be new build or FGI.
+
+C3. Qualification units need to go through standard manufacturing and Test processes with the following specific actions:
+- Install DEV-25255 on all qual sample assemblies.
+- Record all serial numbers with DEV label and put on the NO SHIP list.
+- Send the product test yield reports as soon as all units have completed Mfg tests to CM-DVT-HTR-reports@juniper.net, mlemeshow@juniper.net and the DEV Originator.  
+- Ensure email header subject line indicates the Qual DEV#, JPN, when shipped to Juniper testing.
+
+C4. The qualification assembly, not used for DVT, shall be shipped to Juniper (see Special Instructions) as soon as the required number of units have passed Mfg Test, prior to DVT.
+
+C5. Perform DVT, as per the Accton Qual Plan.
+Please email Accton Qual Plan to CM-DVT-HTR-reports@juniper.net and mlemeshow@uniper.net for Approval and copy DEV originator before performing DVT.  Once approved, Qual plan will be added to DEV.
+
+C6. After completion of DVT, prepare and review HTR report. Email report to CM-DVT-HTR-reports@juniper.net, mlemeshow@juniper.net, and DEV Originator. Ensure email header subject line indicates the Qual JPN, Qual MFR and the DEV#.
+
+D. Completion / Closure:
+The qualification units are not to be used for any other DVT and customer shipments until the qualification has been fully completed by Juniper, reports reviewed and an ECO / MCO has been signed off.",Qualification of replacement memory modules due to Samsung announced EOL on the D1x node DDR4 DRAM.,43:58.0
+Abel Alcantar,DEV-24896A,"Proto: PTX-Octomore: 711-173321 Assy, PCA, 43.2T BXF-based 54x 800G OSFP, PTX-Octomore. This deviation authorizes flex to make the following changes to the TeelngLC P1B1 build.
+
+Instructions:
+- Take 4 LC boards to measure shadow moire for BXF Post SMT die flatness at locations U10000, U20000, and U30000.
+- Perform Die moire post-edge bonding process.
+
+- Place the press-fit connectors after Shadow moire analysis to avoid z-height interference.
+
+- Perform AOI inspection before and after shadow moire analysis.
+
+Share the report with Juniper.
+
+Take the last 4 LCs from the 37 pcs build.
+
+Special Instructions:
+- Affix the DEV-24896 label on the board.
+- Track the affected SNs.","REASON FOR EXTENSION (A): Build still in progress. New ""Effective To"" Date: 04/01/2025
+
+This effort is being asked by a FAE team to develop a single heatsink design idea for Octomore BXFs and future ASICs.",19:31.0
+Girija Amaragol,DEV-22478E,"Prod: The purpose of this Deviation is to allow FLEXTRONICS to make the following part substitutions for qualification purposes.
+
+a. Use the following assemblies:
+   i.   240-054786 -> 711-054743 -> 750-067396 -> 750-052075 -> FPC3-PTX-U3; at location: Y2
+   ii.  240-054786 -> 711-072984 -> 750-087304 -> 750-093524 -> JNP10K-LC1201; at location: Y1202
+   iii. 240-054786 -> 711-073390 -> 750-073391 -> 750-084779 -> JNP10K-LC2101; at location: Y2
+b. Substitute Rakon MPN: 105992 for JPN: 240-054786 in above assemblies at locations indicated.
+c. Build Qty: Five units of each assembly.
+
+                              FPC3-PTX-U3  JNP10K-LC1201  JNP10K-LC2101
+CMDVT                       4                            4      		          4
+Software Cert              1                            1	         	           1
+-----------------------------------------------------------------------------------------
+TOTAL                       5                           5                         5
+------------------------------------------------------------------------------------------
+
+Please update test plan:
+1.  Qual boards must be new build. No rework is allowed. 
+2.  Install label marked DEV-22478 on all affected boards.
+3.  Record all serial numbers on the DEV-22478 and put them on NO SHIP list.
+4.  All qual boards are required to go through the standard Mfg. test process. 
+5.  Upon successful completion of Mfg. test, run DVT on one each of the above two units.
+    a. PROC-8423 is applicable for products released before 2020.
+    b. PROC-9980 is applicable for products that FRS during and after 2020.
+6.  After Manufacturing tests, ship one unit each to address indicated below:
+
+           Juniper Networks Inc  
+           2200 M St NE
+           Quincy, WA 98848, USA
+           Attention: Peter Garcia pgarcia@juniper.net
+
+           Please notify by email when shipped: pgarcia@juniper.net, pallawij@juniper.net, rpt-reg-hw-sustaining@juniper.net7. 
+
+7.  Send HTR/DVT report to DVT report review alias - CM-DVT-HTR-reports CM-DVT-HTR-reports@juniper.net.
+8.  All qualified boards are not to be used for customer shipment unless and until the qualification has been fully completed by Juniper approval. Once testing approved, boards will be released back to production flow for customer shipment.","REASON FOR EXTENSION (E): 02/25/2025: activity still on going for DVT test.
+
+REASON FOR EXTENSION (D): 11/25/2024: Qual in-progress.
+
+REASON FOR EXTENSION (C): 08/25/2024: Qual in-progress need extension, estimate completion will be on June'24 
+
+REASON FOR EXTENSION (B): 05/25/2024: this DEV as Qual in-progress, Estimate completion will be on End of March'24. (Requested by Qual PIC-Nava)
+
+Reason for extension (A): 02/25/2024: DEV as Qual in-progress. Estimate completion date will be on End of Dec'23
+
+Qualification of alternate source",17:54.0
+Sherry Nguyen,M38758A,"***Revert back on 01/23/2025***
+
+Restore to EOS (Obsolete) from EOL (Inactive)
+
+Question	Answer
+Customer/ Partner	Juniper CS
+SKU(s)	 See the attached
+Description of product	 See the attached
+Quantity Requested	04
+Reason for Reactivation 	CSS EOS return
+Requestor	Sigeon Richard A
+Reason: 	To process internal transactions
+PDC Action:	Temporarily change material status from EOS to EOL",Closure of EOL Reactivation for CS EOS Returns,08:28.0
+Sherry Nguyen,DEV-25266,Proto: This deviation is being issued to have Flextronics install the fan trays and power shelf to the Octomore chassis prior to shipping them to Juniper.,The Juniper development teams have requested to receive their chassis with the fan trays and power shelves installed.,51:14.0
+Richard Hood,DEV-24976,"Proto: PTX-Aegon: Applying TPCM7200 TIM to BF Die and baking Aegon SIB8: This Deviation to instruct Flextronics-Penang to perform the following:
+
+750-182304 Assy, Top, SIB-8, Decoupled RT Heatsink, PTX-Aegon
+711-136651 Assy, PCA, SIB-8, PTX-Aegon
+430-181131 Heatsink, Vapor Chamber, Al, 4mm, 100 x 130mm, 2mm, BF, PTX-Aegon
+430-182806 PCM,TIM PAD,19.4x27mm,Tpcm 7200, 0.2mm thick, BXF fabric
+
+Flextronics-Penang (FMY) to follow the following process for the Tpcm 7200 TIM application to BF die surface. This activity is to be performed on the remaining P2A2 SIBs that have not yet started mechanical assembly.
+
+1. Clean the BF H/S's and the ASIC die surfaces 
+2. Trim 430-182806 to 17.5x25.5mm 
+3. Apply the Tpcm7200 trimmed TIM pads onto the BF die, care should be taken not to tear the TIM pads or form air pockets.
+4. Mount the H/S's per the assembly steps of the assembly drawing.
+5. Assemble the rest of the 750- assembly without the top cover 
+6. Bake the units as below to allow the Tpcm to soften to eliminate the air voids and achieve the targeted TIM bond line
+a) Ramp from 25 to 75 C at 2 degrees C/minute, 25 minutes
+b) Soak at 75C for 2 hours
+c) Ramp down using Ambient Temperature
+d) Total Profile Time:  2 Hours 50 Minutes
+e) Use only the Juniper approved burn-in ovens and the ramp-up / ramp-down temperature profiles.
+7. Complete the rest of the 750 SIB8 assembly and process the units to the BFT1 test 
+8. Before BFT2, put the SIBs in the chassis in the Hot Box and power on the chassis.
+- Allow the hot box to reach 40C and let stand until temperatures normalize.
+- Run the thermal screen using instructions per DEV-24644
+- Record the logs and provide them to Juniper thermal engineering team.
+9. Upon passing the screen, continue through normal test flow.
+10. Apply deviation label.
+
+NOTE: All the serial numbers of the BF 750- and the 750- electro-mechanical assemblies must be logged along with the Temperature screening, BFT1 and BFT2 test results and provided to Juniper thermal engineering team. Apply Deviation Label.",Factory DOE shows better yield when attaching the TCPM to the die surface.,12:10.0
+Abel Alcantar,DEV-25305,"Prod: 740-136691, Assy, OEM, DRAM, SODIMM, DDR4-2400, 8GB, 1Gx72, 1200MHz, Single Rank, Unbuffered, ECC, 260P, 1.2V, I-Temp: The purpose of this Deviation is to allow Accton Taiwan to make the following part substitutions for qualification purposes.
+
+A. Qual Assemblies:
+
+650-136135->650-136157->ACX7024-DC-2PSU - Required Assy Qty two(2)
+
+B. Sample Procurement Instructions:
+Accton Taiwan to place PO based on quote with pricing and MOQ provided by appropriate Juniper GCM. Mfg Partner to contact Juniper GCM found in Agile under “Commodity Manager” field under the respective Qual JPN. In all emails to GCM, please also copy CEs, found in Agile under “Component Engineer” and “Context Component Engineer” fields of the Qual JPN along with the DEV Originator.
+
+C. Factory Instructions:
+
+C1>. Qualification build:
+REPLACE JPN:740-136691, ATP: X4F08QD8BNRCMW-R-JP1 with SMART: SRI721G8JNP26MSASG at all locations on the following assembly:
+   1.  650-136135->650-136157->ACX7024-DC-2PSU - Required Assy Qty two(2).
+
+C1B>. All Qual Assemblies need to go through full MFG test prior to DVT test at ODM.
+   1.  650-136135->650-136157->ACX7024-DC-2PSU - Required Test Qty two(2).
+
+C1C>. DVT at ODM for:
+   1.  650-136135->650-136157->ACX7024-DC-2PSU - Required Test Qty one(1).
+
+C1D>. SW CERT at Juniper for:
+   1.  650-136135->650-136157->ACX7024-DC-2PSU - Required Test Qty one(1).
+    *NOTE:  See Special Instructions Section of DEV for shipping directions.
+
+C2. Qualification boards will be new build or FGI.
+
+C3. Qualification units need to go through standard manufacturing and Test processes with the following specific actions:
+- Install DEV-25305 on all qual sample assemblies.
+- Record all serial numbers with DEV label and put on the NO SHIP list.
+- Send the product test yield reports as soon as all units have completed Mfg tests to CM-DVT-HTR-reports@juniper.net, mlemeshow@juniper.net and the DEV Originator.  
+- Ensure email header subject line indicates the Qual DEV#, JPN, when shipped to Juniper testing.
+
+C4. The qualification assembly, not used for DVT, shall be shipped to Juniper (see Special Instructions) as soon as the required number of units have passed Mfg Test, prior to DVT
+
+C5. Perform DVT, as per the Accton Qual Plan.
+Please email Accton Qual Plan to CM-DVT-HTR-reports@juniper.net and mlemeshow@uniper.net for Approval and copy DEV originator before performing DVT.  Once approved, Qual plan will be added to DEV.
+
+C6. After completion of DVT, prepare and review HTR report. Email report to CM-DVT-HTR-reports@juniper.net, mlemeshow@juniper.net, and DEV Originator. Ensure email header subject line indicates the Qual JPN, Qual MFR",Qualification of replacement memory modules due to Samsung announced EOL on the D1x node DDR4 DRAM.,07:20.0
+Sherry Nguyen,DEV-25307,"Prod: Soft Deviation: This DEV is to allow Foxconn Vietnam to consume ENIG PCBs >24mths. FVN must bake the PCBs and ensure acceptable solderability per Juniper 165-00068 requirements prior to use. Reports were provided and are attached to this DEV.
+
+JPN: 511-049243 --> 711-046904 --> 750-049846/750-063461 --> EX9200-20F-MIC
+MPN: 511-049243
+MFR: WUS
+Qty: 87
+DC: 2248
+
+JPN: 511-049244 --> 711-046907 --> 750-049846/750-063461 --> EX9200-20F-MIC
+MPN: 511-049244 
+MFR: WUS
+Qty: 40 + 121
+DC: 2234, 2235
+
+MANDATORY REQUIREMENTS for FVN:
+- Perform incoming part inspection with record of HIC.
+- Perform proper baking and solderability testing as per 165-00068 (section 5.8.3 & 5.10). Additionally, visually inspect sample for signs of delam.
+- Solderability testing is required for each supplier/date code.
+- Provide solderability testing result to Juniper CE for review before running product (complete).
+- Record all SNs for tracking.
+- FVN to run units through standard production and testing.
+- FVN to report any abnormality to Juniper PCB team immediately.",Soft Deviation required to use old date code material; ENIG PCBs are >24 but </=30 mths at time of use.,34:44.0
+Girija Amaragol,ECO-61373,"Preliminary Bom: Accessory SKUs for Google Bundle
+
+Creating and releasing the following SKUs to Prelim BOM Lifecycle. Rev 0A:
+
+CBL-PWR-RGD-S-SYS
+JPSU-H-120W-E-DC
+
+Note::Refer attached product number key field validation report for ease of viewing product number attributes.",As per SST Request 0003042,48:56.0
+Richard Hood,ECO-61394,"Prod: 650-078097, 650-078098 ODM, Assy, Top, EX2300-Martini Royale: Update per the Affected Items Section.
+
+1. Rating label - 520-099193 rev 02A, change lifecycle phase from ""Inactive"" to ""Production"".
+
+2. 650-078097, 650-078098:
+- Add label 520-099193.
+- Updated Hybrid BOM files attached.
+
+3. EX2300-24MP, EX2300-24MP-TAA, EX2300-48MP, EX2300-48MP-TAA:
+- Rev to Track.","1. Rating label - 520-099193 rev 02 release back to Production status.
+2. Update label for 650-078097, 650-078098 to replace China CCC mark with CQC mark from rating labels and along with remove CCC marks Homologation Marking requirement.",47:46.0
+Sherry Nguyen,ECO-61075,"Prod: PROC-9136; Procedure, Product & Facility ID list for 12 Digit Chassis Serial Number Format.
+
+PROC-9136: Rev 54
+
+-Added Product IDs JK to JT for the Garnet Stage-2 64OD/QD, ORV3 SKUs of 32QD/OD, ORV3 SKUs of 64OD/QD and Fan Spares Garnet 1RU & 2RU Fan Spares.
+
+- For Garnet Stage-2 32OD/QD, SKUs number are updated as per agile.
+
+- Program Name changed in product family column from ‘Garnet Stage 2' to ‘Garnet 2' for 32OD & QD SKUs. Added Airflow-In SKUs in SKUs list of 32OD/32QD SKUs list.
+
+-Added Product ID's ‘JU"" through ‘JZ' for Old monk project.",Added product IDs for new NPI (Garnet Stage 2 64OD/QD) and Old monk products,42:46.0
+Richard Hood,ECO-61389,"Prod: SKU's, EX4300-48MP, QFX5120-32C: Update per the Affected Items Section.
+
+Replace existing Junos with new Junos 21.4R3-S8.5 for EX4300-MP and 23.4R2-S2.1 for QFX5120-32C.
+
+1. EX4300-MP SKUs:
+-----------------------------
+EX4300-48MP 
+EX4300-48MP-S 
+EX4300-48MP-TAA 
+
+For above impacted SKUs:
+- Delete Junos: 21.4R3-S6.5. Software P/N: 811-180160. Filename: install-media-host-usb-ex-4300mp-x86-64-21.4R3-S6.5-secure.img
+- Add Junos: 21.4R3-S8.5. Software P/N: 811-184246. Filename: install-media-host-usb-ex-4300mp-x86-64-21.4R3-S8.5-secure.img
+
+2. QFX5120-32C SKUs:
+--------------------------------
+QFX5120-32C-AFI 
+QFX5120-32C-AFO 
+QFX5120-32C-CHAS 
+QFX5120-32C-DC-AFI 
+QFX5120-32C-DC-AFO 
+
+For above impacted SKUs:
+- Delete Junos: 22.2R2-S1.5. Software P/N: 811-167008. Filename: install-media-host-usb-qfx-5e-flex-x86-64-22.2R2-S1.5-secure.img
+- Add Junos: 23.4R2-S2.1. Software P/N: 811-185208. Filename: install-media-host-usb-qfx-5e-flex-x86-64-23.4R2-S2.1-secure.img
+
+3. QFX5120-32C TAA SKUs:
+--------------------------------------
+QFX5120-32C-AFI-T 
+QFX5120-32C-AFO-T 
+
+For above impacted SKUs:
+- Delete Junos: 22.2R2-S1.5. Software P/N: 811-167009. Filename: install-media-host-usb-qfx-5e-x86-64-22.2R2-S1.5-secure.img
+- Add Junos: 23.4R2-S2.1. Software P/N: 811-185209. Filename: install-media-host-usb-qfx-5e-x86-64-23.4R2-S2.1-secure.img
+
+Notes:
+1. Validation pass log at factory is in ""Attachments"" tab.  
+2. *.cap file can be opened by Wordpad if the pass log is in *.cap format.
+3. Encountered missing ""hostvar"" parameter during ‘show system storage’. SW engineering advised that the removal of ""hostvar"" was intended as per PR: 1703067.",Update EX4300-48MP and QFX5120-32C SKU's with new Junos as per SW engineering recommendation.,45:41.0
+Pooja Siraskar,M38769,"Prod: MCO to update Product Type Code for the following JPNs to “41-HW “ 
+
+740-128524
+740-034568
+
+PDC Action: PDC to update the Product type code to “41-HW “post CCB Approval, prior to MCO Release.
+No approvers required in CM Confirmation, Implement directly.",PTC Update,50:52.0
+Sherry Nguyen,DEV-25262,"Proto: 750-151177  Assy, Top, JNP10K RE3-256, MX-McLaren
+
+This DEV is to allow Flex Penang to implement the following on  MX-McLaren assembly P2A2 build.
+
+Proto: P2A2  
+Build Qty: 42
+
+1.) PN 740-164747: 
+          - Build 15 boards with Swissbit (MPN: SN3002MD400GI-2MA2-3FA-JUN)
+          - Build 27 board with Virtium (MPN: VTPM28ADCI400-BJ220005)
+
+2.) Build 4 boards with old MPS parts below:
+          - Use 310-153358 in place of 310-184202 
+          - Use 310-157941	in place of 310-184375
+          - Use 310-152205	in place of 310-184895
+
+3.) Second Source Qualification Boards:
+          - Build 2 boards with MOLEX cage (MPN: 1001122119) & MOLEX connector (MPN: 170382-0003)
+          - Build 2 boards with TE cage (MPN: 2274001-1) & TE connector (MPN: 2170088-1)
+          - Build 2 boards with MOLEX cage (MPN: 1001122119) & TE connector (MPN: 2170088-1)
+          - Build 2 boards with TE cage (MPN: 2274001-1) & MOLEX connector (MPN: 170382-0003)
+
+          - Ensure these boards are built with half Virtium & half Swissbit SSDs (PN 740-164747)
+          - Build 4 boards with DIODES, INC. (JPN, 240-126496, MPN: FL2500316Z)
+          - Build 4 boards with MICROCHIP (JPN, 240-126496, MPN: VXM7-1372-25M0000000TR)
+          - Build 4 boards with AMPHENOL (JPN, 450-054216, MPN: 10124677-0011103LF)
+          - Build 4 boards with FOXCONN (JPN, 450-054216, MPN: AH58893-T9B20-2F)
+
+4.) Time Zero Analysis - units stay in FMY for validation activities
+          - Allocate 2 boards at 711-PN for Time Zero Analysis (Primary/Force Rework)
+
+5.) Remove 310-147987, add 310-149781. For 310-149781 – OH date code 2225.
+    
+Note:
+- Apply ""DEV-25262"" label on the clear area of the board.
+- FMY to track and record affected Serial Numbers",Multi-source qualification and availability of the above parts. Allocation for Time Zero analysis.,33:14.0
+Girija Amaragol,DEV-25152A,"Prod: Risk Build and Shipment Deviation affecting JPN: 740-151172, (QCS MPN DCK22002-03), Gamora DC power supplies.
+
+Background: QCS reported cracks on the green plastic handle produced by Kangyang. QCS handle P/N: 25312-310, Kangyang MPN: HAND-53V03(GR). This is used in the Gamora DC power supplies. Initial reported rejection rate is ~9.3%, refer to the attached report.
+
+In support of Juniper's Q1-2025 shipment requirement, this DEV-25152 provides conditional approval to QCS to proceed building and shipping the below listed power supply to FVN. 
+
+This DEV is effective for a limited Additional Qty of 1200 pcs.
+
+a. JPN: 740-151172 Rev. 02
+b. MPN: DCK22002-03
+c. Vendor: QCS-MUMBAI
+
+1. QCS to proceed with the risk build and shipment after performing some reliability testing, inspection and rework. Please reference the attached QCS SOP document.
+a. Perform 100% replacement of all Kangyang handles, further inspect/check for any cracks.
+b. Using lower torque, rework/replace/mount the two screws for the handle using bigger diameter screw heads.
+Reminder: Avoid multiple assembly/disassembly of screws as it will strip the threaded hole and screw will not have any material to bite into and get torqued.
+c. Inspect the fully assembled handle into the power supplies under 20x magnification, check for cracks.  
+
+2. QCS to perform additional tests on the above reworked power supplies.
+a. Total of 50 samples, thermal cycling test using the profile described on Step-6, page 7 of the attached QCS SOP. After completion, inspect and report the results to Juniper.
+b. Refer to filename: ""DCK22002-03 THERMAL CYCLING TEST REPORT FOR HANDLE CHECK.XLSX""in the Attachments folder.
+
+3. QCS to provide the list of S/Ns for the affected 1200 pcs power supplies. (attached 396 units, additional 804 pcs to provide when available)
+
+4. Foxconn Vietnam to receive, use and ship this total batch of 1200 power supplies, to fulfill orders per normal customer requirements.
+
+Notes:
+• QCS: No dev label is required for the 1200 power supplies.
+• Refer to the Attachments folder for all the relevant reports allowing and supporting the release of this DEV-25152A",""" Background - QCS reported cracks on the green plastic handle produced by Kangyang. QCS handle P/N: 25312-310, Kangyang MPN: HAND-53V03(GR). This is used in the Gamora DC power supplies. Initial reported rejection rate is ~9.3%, refer to the attached report."" This DEV-25152A provides authorization to QCS to build/rework and urgently ship 1200 pcs of the Gamora DC power supplies to FVN, in support of Juniper's Q1-2025 requirements. and, FVN to use this batch of power supplies for customer shipments.",02:03.0
+Girija Amaragol,DEV-25225,"Proto: EX-Rampur: This is to authorizes Celestica Kulim (CMY) to perform the following changes for the SKU2/3 P2B build, 
+
+- 611-171251: ODM, ASSY, PCA, RAMPUR 24MP SWITCH BOARD, 8X2.5GT POE++,16X1G POE++, EX-RAMPUR
+- 650-173259: ODM, Assy, Chassis, spare, 24F, EX-Rampur
+- 650-173258 : ODM, Assy, Chassis, spare, 24MP, EX-Rampur
+
+
+1) The offline image firmware for the R4052-H0016-01 and R4052-H1386-01 totally the same, so CMY will use existing PN: R4052-H0016-01 on switch card 611-171251 instead of R4052-H1386-01
+
+2) On chassis level 650-173258, 650-173259 to use in house inventory R4052-F0210-01 to replace 660-181545 as the change is only from a CMY part number to a Juniper part number
+
+3) On chassis level 650-173258 to use in house inventory R4052-F0200-04 to replace 660-181550 as the change is only from a CMY part number to a Juniper part number
+
+4) On chassis level 650-173259, 650-173258  to use in house inventory R4052-F0305-01 instead of 660-185434 as the change is only from a CMY part number to a Juniper part number
+
+5) On chassis level 650-173259 to use in house inventory  R4052-F0300-04 instead of  660-181553 as the change is only from a CMY part 
+number to a Juniper part number
+
+6) On chassis level 650-173259 & 650-173258 to use in-house inventory of R4052-C0003-01 & R4052-C0002-01 to replace with R4052-C0003-02,R4052-C0002-02
+
+
+Special instructions: 
+1. Track the affected SN of the reworked units.
+2. Affix deviation label on the proto units for deviation tracking purpose",To use the alternate components,34:32.0
+Abel Alcantar,DEV-25261,"Prod: 740-070983, Assy, OEM, DRAM, RDIMM, DDR4-2400, 8GB, 1Gx72, 1200MHz, Single Rank, Registered, ECC, 288P, 1.2V, CT: The purpose of this Deviation is to allow Accton Taiwan to make the following part substitutions for qualification purposes.
+
+A. Qual Assemblies:
+
+740-070983->650-071675->SRX4200-AC (QTY=2)
+740-070983->650-104496->650-109145->750-109794->750-109776->CTP151-AC (QTY=2)
+
+B. Sample Procurement Instructions:
+Accton Taiwan to place PO based on quote with pricing and MOQ provided by appropriate Juniper GCM. Mfg Partner to contact Juniper GCM found in Agile under “Commodity Manager” field under the respective Qual JPN. In all emails to GCM, please also copy CEs, found in Agile under “Component Engineer” and “Context Component Engineer” fields of the Qual JPN along with the DEV Originator.
+
+C. Factory Instructions:
+
+C1>. Qualification build:
+Replace JPN:740-070983, ATP: X4B08QD8BNRCME-R-JP1 with SMART Modular: SR5721G8JNP24KP1SG in all locations on the following assemblies:
+   1. 740-070983->650-071675->SRX4200-AC - Required Assy Qty two(2).
+   2. 740-070983->650-104496->650-109145->750-109794->750-109776->CTP151-AC - Required Assy Qty two(2).
+
+C1B>.  All Qual Assemblies need to go through full MFG test prior to DVT test at ODM.
+   1. 740-070983->650-071675->SRX4200-AC - Required Test Qty two(2).
+   2. 740-070983->650-104496->650-109145->750-109794->750-109776->CTP151-AC - Required Test Qty two(2).
+
+C1C>.  DVT at ODM for:
+   1. 740-070983->650-071675->SRX4200-AC - Required Test Qty one(1).
+   2. 740-070983->650-104496->650-109145->750-109794->750-109776->CTP151-AC - Required Test Qty one(1).
+
+C1D>.  SW Certification test at Juniper for:
+   1. 740-070983->650-071675->SRX4200-AC - Required Test Qty one(1).
+   2. 740-070983->650-104496->650-109145->750-109794->750-109776->CTP151-AC - Required Test Qty zero(0).
+ *NOTE:  See Special Instructions Section of DEV for shipping directions.
+
+C2. Qualification boards can be new build or FGI.  
+
+C3. Qualification units need to go through standard manufacturing and Test processes with the following specific actions:
+- Install DEV-25261 on all qual sample assemblies.
+- Record all serial numbers with DEV label and put on the NO SHIP list.
+- Send the product test yield reports as soon as all units have completed Mfg tests to CM-DVT-HTR-reports@juniper.net, mlemeshow@uniper.net, and the DEV Originator.  
+- Ensure email header subject line indicates the Qual JPN, Qual MFR and the DEV#.
+
+C4. The qualification assemblies shall be shipped to Juniper (see Special Instructions) as soon as the required number of units have passed Mfg Test, prior to DVT.
+
+C5. Perform DVT, as per the Accton Qual Plan.
+Please email Accton Qual Plan to CM-DVT-HTR-reports@juniper.net, mlemeshow@uniper.net for Approval and copy DEV originator before performing DVT.
+After approval, CE will request PDC to upload Accton Qual plan to DEV Attachment.
+
+C6. After completion of DVT, prepare and review HTR report with the Juniper On site TE team and then email to CM-DVT-HTR-reports@juniper.net. mlemeshow@uniper.net, and the DEV Originator. Ensure email header subject line indicates the Qual JPN, Qual MFR and the DEV#.
+
+D. Completion / Closure:
+The qualification units are not to be used for any other DVT and customer shipments until the qualification has been fully completed by Juniper, reports reviewed and an ECO / MCO has been signed off.",Qualification of replacement memory modules due to Samsung announced EOL on the D1x node DDR4 DRAM.,28:51.0
+Pradeep Holla,ECO-61380,"Prod: vJunosEvolved, 24.2/R1-S2: New SW Release per the Affected Items Section.
+
+This ECO releases ""820/822"" P/N's into Production as standalone images.
+
+1. ""820/822"" Application Package Production Release.","Production Release of vJunosEvolved, 24.2/R1-S2. This (3) image is being posted to the Web for download. Distribution Type - General.",06:23.0
+Richard Hood,ECO-61390,"Prod: SKU's, QFX5210-64C: Update per the Affected Items Section.
+
+Replace existing Junos with new Junos 23.4R2-S2.1 for QFX5210-64C.
+
+1. QFX5210-64C non TAA SKUs:
+--------------------------------------------
+QFX5210-64C-AFI 
+QFX5210-64C-AFI2 
+QFX5210-64C-AFO 
+QFX5210-64C-AFO2 
+QFX5210-64C-CHAS 
+QFX5210-64C-D-AFI2 
+QFX5210-64C-D-AFO2 
+QFX5210-64C-DC-AFI 
+QFX5210-64C-DC-AFO 
+
+For above impacted SKUs:
+- Delete Junos: 22.2R3-S2.8. Software P/N: 811-175690. Filename: install-media-host-usb-qfx-5e-flex-x86-64-22.2R3-S2.8-secure.img
+- Add Junos: 23.4R2-S2.1. Software P/N: 811-185208. Filename: install-media-host-usb-qfx-5e-flex-x86-64-23.4R2-S2.1-secure.img
+
+2. QFX5210-64C TAA SKUs:
+--------------------------------------
+QFX5210-64C-AFI-T 
+QFX5210-64C-AFI-T2 
+QFX5210-64C-AFO-T 
+QFX5210-64C-AFO-T2 
+
+For above impacted SKUs:
+- Delete Junos: 22.2R3-S2.8. Software P/N: 811-175691. Filename: install-media-host-usb-qfx-5e-x86-64-22.2R3-S2.8-secure.img
+- Add Junos: 23.4R2-S2.1. Software P/N: 811-185209. Filename: install-media-host-usb-qfx-5e-x86-64-23.4R2-S2.1-secure.img
+
+Notes:
+1. Validation pass log at factory is in ""Attachments"" tab.  
+2. *.cap file can be opened by Wordpad if the pass log is in *.cap format.",Update QFX5210-64C SKU's with new Junos as per SW Engineering recommendation.,24:17.0
+Richard Hood,ECO-61181,"Prod: S-EX-MACSEC-C1-P, SW, EX,12 port, C1,MACsec,w/out CS, Prpl: Production Release per the Affected Items Section.
+
+Note: FRS date to be updated prior to ECO release.
+
+1. S-EX-MACSEC-C1-P:
+- Release to ""Production"" status.",Production Release of software license SKU S-EX-MACSEC-C1-P.,47:33.0
+Girija Amaragol,ECO-61457,"Prod: Site Support SKUs for EX4100-H-24 Port
+
+Releasing to Production Lifecycle in Rev AA:
+
+PA3-SUP-EX41HST24F
+SV3-COR-EX41HST24F
+PA5-SUP-EX41HST24F
+SV5-COR-EX41HST24F
+PA5-SUP-EX41HST24
+PA3-SUP-EX41HST24
+SV3-COR-EX41HST24
+SV5-COR-EX41HST24
+
+Note::Refer attached product number key field validation report for ease of viewing product number attributes.",Internal Release per SST Request 0003051,12:04.0
+Ranjith Soundarrajan,ECO-61400,"Proto MX-Bugatti BOMupdated BOM for 711-170852
+
+1. BOM changes in 711-170852 to rev 03
+
+2. SCH-147999 update to REV-11
+
+3. Rev to Track: 750-170854 to rev 07","1) Update to production part for YT1.1
+2) Change YT core voltage to 0.765V",55:52.0
+Richard Hood,ECO-61333,"Prod: 611 ODM Assy PCA's, Top levels, Mist: Update per the Affected Items Section.
+
+1. SPEC-148021, SPEC-148781, SPEC-149685, SPEC-149686:
+- Add new country approvals (Philippines, Ghana, and Pakistan).
+- Commonize single box and multi-pack labels.
+- Update SPEC documents.
+
+2. 611-148806:
+- Add RF Filter 250-187687. Release to ""Production"" status.
+- Replace RJ45s (REFDES J23 and J24) on Hybrid BOM file.
+- Updated Hybrid BOM file attached.
+
+3. 611-148864, 611-149688:
+- Replace RJ45s (REFDES J23 and J24) on Hybrid BOM files.
+- No changes to Juniper BOM's.
+- Updated Hybrid BOM files attached.
+
+4. 650-148021, 650-148781, 650-149459, 650-149460, 650-149685, 650-149686:
+- Update QRCode on unit box to new 650 revisions.
+- Updated Hybrid BOM files attached.
+
+5. AP34-US, AP34-WW, AP45-US, AP45-WW, AP45E-US, AP45E-WW:
+- Rev to Track.","* Original RJ45 connectors allow the spring contacts to sink and lose connection to the mating connector if damaged.
+* Unit label: Remove Israel marking. Add Philippines, Ghana, and Pakistan markings.
+* Single/Unit box label: Update Israel marking. Add S. Africa.
+* Multi-pack box label: Update Israel marking. Add Thailand.
+* Single & Multi-pack markings now the same to eliminate confusion.",11:56.0
+Ranjith Soundarrajan,M38602,"production/inactivate/: Remove DOF-EITAIWANFGI from AVL for SKU's of the affected items tab (1165 SKU's splitting).
+
+PDC Note: Pease consider the MCOs which has added into ""Relationships"" tab. Since affected items are high, created multiple requests.",Need to remove DOF-EITAIWANFGI as approved source for AVL's of all SKU's of the affected items tab.,26:41.0
+Girija Amaragol,M38699,"Prod: Adding below ACBEL POLYTECH INC-TAIPEI CITY MPN under AVL into COMP_IPQ per Acbel PCN# P1JUNIPER NETWORKS_2441628 (Attached)-
+ 
+1. Adding below ACBEL POLYTECH INC-TAIPEI CITY MPN to Comp-IPQ
+ 
+     Old                                     New
+  FSN014-4C0G                      FSN014-4C0G REV02
+ under respective JPN to ""Comp_IPQ"" status","Adding new MPN rev under COMP_IPQ per Acbel PCN to add OTW feature, Enable STATUS_TEMPERATURE (7Dh), Bit6: OT_WARNING",55:53.0
+Girija Amaragol,M38753,"EOL Reactivation for HW - Inventory Required from CM
+
+Customer : Taiwan Mobile
+SKU : ACX2200-AC
+QTY : 5
+SCO : Katrina",EOL Reactivation for HW - Inventory Required from CM,51:03.0
+Girija Amaragol,M38749,"Prod: This mcoChanging MPN Lifecycle Status to “EOL_Notified"" and Technical Risk Reason to ""3 - EOL Notice from Supplier"" for below ANALOG DEVICES MPN's
+
+    JPN          MPN
+310-037729  VT501FQX
+
+PCN Document and Where used report is attached for reference.
+
+Note:
+PDC will update Technical Risk Reason upon approval before release this mco","ANALOG DEVICES has submitted the EOL PCN for the below reason:
+No Demand",38:57.0
+Prameela R,M38773,"EOL Reactivation for CS EOS Returns
+
+Move from EOS (Obsolete) to EOL (Inactive):
+Customer/ Partner 	Juniper CS
+SKU(s)  	Refer affected items
+Reason for Reactivation 	CS EOS Return
+Requestor 	April Flaugher
+Reason: 	Repair Location needs to move items to other locations 
+PDC Action: 	Temporarily change material status from EOS to EOL (leave all dates intact) and revert back after CS confirms processing.",EOL Reactivation for CS EOS Returns,31:43.0
+Girija Amaragol,M38715,"Proto: MCO to update AVL as illustrated below
+
+Adding Interplex-Vietnam MPN under respective JPN to ""Comp_IPQ"" status
+
+760-184086 => INTERPLEX-VIETNAM => 760-184086",Adding Interplex Vietnam to the AVL as part of multi-sourcing,35:54.0
+Sunil H K,DEV-24885A,"Prod: This deviation authorizes CMY to build as per below changes on the Lonewolf -48MXP Switch board 
+
+611-177932: ODM, Assy, PCA, Lonewolf 48MXP Switch board, EX-Lonewolf  
+
+Change: 315-161734 is part of 611-177932 Hybrid BOM but CMY has used 315-105776 part for the complete Lonewolf NPI and qualified, so team wants to use the same part for another one-year time frame since there is a huge stock 
+
+1)  Use 315-105776 in place of 315-161734
+
+a) Note: 315-105776 part is in inactive state as this MPN lifecycle is depleted as per the Lagavulin ECO-55477 (for reference only)
+
+b) attached the CMY email communication on the above stated component usage,","Reason for Extension A : Extended to 04/17/2025, extension will be needed considering the following -
+1. The new P/N 315-161734 is still not available
+2. Site continues to deplete the old P/N 315-105776
+3. Old P/N to deplete by Q3'2025 at the time being [considering OH stock at SMART]
+
+
+In lieu of ECO-55477 released as a phase in ECO to use Replace 315-105776 with 315-161734 for the “ Lagavulin assemblies only “ on 12/14/2022,  
+
+Celestica made decision to go ahead and implement this ECO for Lonewolf NPI without communicating/discussing with Juniper however Hybrid BOM has 315-161734.
+
+Since all proto & pilot build used older kit 315-105776 and qualified, so the team agreed to move forward using this 315-105776 until stock deplete. Expected timeline for stock depletion 1yr.",15:57.0
+Girija Amaragol,DEV-25249,"Proto: PTX-Octomore; 750-173322: Assy, Top, 43.2T BXF-based 54x 800G OSFP, PTX-Octomore
+
+This Deviation is to request FMY to use the on hand inventory from AVC & Cooler Master for Heatsink parts according to below split for the P1C build of the Octomore OSFP line card 750-173322
+
+Build Qty: 17
+
+For 1st 9 units of P1C build of the Octomore OSFP line card 750-173322, only use AVC part under each Heatsink JPN. For the next 8 units of P1C build of the Octomore OSFP line card 750-173322, only use Cooler Master part under each Heatsink JPN
+
+430-179255; Heatsink, Vapor Chamber, Cu, 5mm, 125 x 87 mm, 1.86mm, BXF2-Front, PTX-Octomore
+430-179247; Heatsink, Vapor Chamber, Cu, 5mm, 121 x 84 mm, 1.86mm, BXF0-Front, PTX-Octomore
+430-179254; Heatsink, Vapor Chamber, Cu, 5mm, 130 x 125 mm, 1.86mm, BXF1-Rear, PTX-Octomore
+430-179256; Heatsink, Vapor Chamber, Cu, 5mm, 120 x 125 mm, 1.86mm, BXF2-Rear, PTX-Octomore
+430-179253; Heatsink, Vapor Chamber, Cu, 5mm, 130 x 87 mm, 1.86mm, BXF1-Front, PTX-Octomore
+430-179252; Heatsink, Vapor Chamber, Cu, 5mm, 121 x 125 mm, 1.86mm, BXF0-Rear, PTX-Octomore
+
+ Track the SNs of the affected units
+- Affix the DEV-25249 label on the board (Visibility location)
+- Closely monitor the Temp of the units and report any abnormalities.
+- Record the temp
+
+Note: Even if build is not carried under this order, do not mix up different vendor heatsinks on same board",Deviation to control Heatsink AVL usage & to avoid mixing up of different vendor heatsinks on same board,39:08.0
+Abel Alcantar,ECO-61352,"Prod: vJunosEvolved 24.4/R1: New SW Release per the Affected Items Section.
+
+This ECO releases ""820/822"" P/N's into Production as standalone images.
+
+1. ""820/822"" Application Package, Application Tools Production Release.",Production Release of vJunosEvolved 24.4/R1. These (4) images are being posted to the Web for download. Distribution Type - General.,43:22.0
+Richard Hood,ECO-61386,"Pilot: 430-151059 Fan, 80x80x86mm, 165 CFM, 12V, 4 Pin Conn, 195mm cable, 8 Slot, PTX-Obsidian: Update per the Affected Items Section.
+
+1. 430-151059, Rev 02:
+- Add a PE braided jacket to the fan wire harness.
+- Attached 430-151059_DFPB0886B2HY007_D1_21dec2024.pdf to AVC MPN.
+
+2. 750-150708, 750-151198, 760-150707, 760-151202:
+- Rev to Track.",Add PE braided jacket to wire harness to prevent potential abrasion of wire insulation by Fan Tray Sheetmetal.,11:06.0
+Pooja Siraskar,ECO-61466,"***ECO-61465 is a Pre-requisite***
+
+Proto: Transition to Proto Lifecycle and Open Books (PP) the JCPO - JUNIPER CERTIFIED PRE OWNED Product Numbers.
+
+Releasing to Prototype Lifecycle, Rev 1A. Set Order Management Flag to PP-Available to Order for the following SKUs:
+
+Releasing to Prototype Lifecycle, Rev 1A:
+
+ACX2200AC-E
+MX10KLC2101E-E
+JNPMIC1MACSEC-E
+JPSU550CDCAFO-J
+SRX345SYSJBOMP-J
+JPSU550CACAFO-J
+JPSU550CACAFOOMP-J
+JNPMIC1MACSCOMP-E
+JNP10008SFOMP-E
+SRX345SYSJB2AC-J
+
+PDC Action:
+1] Order Management flag will be set to PP-Available to Order post approvals, prior to release.
+2] Attached product number key field validation report for reference.",Proto Release/Open-Books required to enable bookings in SAP,53:47.0
+Pooja Siraskar,ECO-61415,"Proto: PTX-Ardbeg 511-180219 & 511-180218 : Releasing this ECO to replace the current Fab dwg as there is a minor Rev up from REV01 to REV01A .
+
+511-180219:  FAB, PCB, Ardbeg Main Board, Etch4, PTX-Ardbeg
+511-180218:  Fab, PCB, Ardbeg RE board, Etch3, PTX-Ardbeg  
+
+- Reason for Rev Up: To specify the CoP (Co-planarity requirement) across the cSTACK location in the current Fab dwg as per connector supplier (Amphenol's dwg) recommendation 
+
+shows a max CoP of 0.08mm (~3 mils) across the entire cStack footprint pad array (~ 2"" long) and this is tighter than our PCB Workmanship Spec, so need to be noted on the fab dwg. so that Fab vendors can measure and make sure that they are inline with this CoP measurements and process the PCBs and there wont be no impact to actual PCBs or design
+
+Note: Attached the Rev Up (REV01A) Fab dwg in the attachment Tab so PDC need to replace the existing Fab dwg from both 511-180219 & 511-180218 attachments
+
+
+Reference: J3.02.P03.M01 Business Process, FAB-ASSY-CAD Deliverables and Release Procedure
+Minor Alpha-Numeric Revision change: (FAB Drawing/Documentation ONLY):
+Revision changes will reflect Alpha-Numeric (i.e. from Rev 01 to Rev 01A)
+Examples to address decision making for permissible Alpha-Numeric revision changes:
+a. Assembly drawing updates
+b. Fab notes updates (surface finish, Insertion Loss, etc.)
+c. Drill diameter (that does not have a drill file)
+d. Hole count update
+e. Panel Rotation
+Note: Under these stipulations, there is no need to generate new Gerber files, only the Fab drawing .pdf will be rev’d and replaced in Agile via an ECO (Under 511/512- attachment)",To specify the CoP (Co-planarity requirement) across the cSTACK location in the current Fab dwg as per connector supplier (Amphenol's dwg) recommendation,28:02.0
+Sunil H K,M38474,"*** Manufacturer CleanUp Activity***
+
+MCO to remove DOF-CLSMONTERREY from AVL of all the Inactive PNs in ""Affectedd Items"" as no longer shipping of any Juniper product from this site :
+
+Inactive : (151) in Affected Items list",Cleaning up AVL since DOF-CLSMONTERREY is no longer shipping any Juniper product.,41:33.0
+Girija Amaragol,M38770,"Prod: MCO for AVL DMC Supplier MPN Lifecycle update:
+
+511-125577: FAB, PCB, wolverine main board, 48x50G, 6x400G, Etch3, ACX-X-Men
+
+- Update PN: 511-125577 from DMC with laminate material EM891K
+DMC fab qualification was successful.
+
+- Attached Stack-up, PCB approval/DFM file under MPN attachment tab.
+- Attached RoHS, Reach documents under MPN attachment tab.
+- Z2 Ticket 14883 submitted for compliance update.
+
+Notes to PDC: 
+1.PDC will update the DMC with EM891K laminate before release of this MCO
+2.PDC to set AVL DMC MPN Lifecycle from ""Prod_IPQ"" to ""Active""","MCO to add DMC as an approved supplier for P/N 511-125577 using laminate EM891K.
+DMC fab qualification was successful. HTR results are added for reference.
+
+Reference # DEV-24355
+PR-1819134",59:54.0
+Prameela R,M38764A,"Closure of EOL Reactivation for CM Split
+
+Restore to EOL (Inactive):
+Customer : Microsoft
+JNP-MIC1-MACSEC
+SO# 16323139
+Requestor : Julie Lim",Closure of EOL Reactivation for CM Split,41:43.0
+Sherry Nguyen,M37563O,"***Revert back on 01/24/2025***
+
+Closure of EOL Reactivation for HW- Inventory Required from CM
+
+Restore From Production to Inactive 
+
+***Deal Value is more than 2M$, Orders are booked in multiple small Qtys***
+
+PO in hand. Hence reactivating w.r.t M36706
+
+Restore to EOL (Inactive) from SHIP (Production):
+Customer : SHENZHEN TENCENT
+Distributor : Westcon solutions
+SKU : 
+MX2K-MPC6E-RB  
+S-MPC6E-ADV-IR
+S-MPC6E-ADV-R
+MX2K-MPC9E-RB  
+S-MPC9E-IR
+S-MPC9E-R
+
+PLM Approval : Arun",Closure of EOL Reactivation for HW- Inventory Required from CM,39:43.0
+Girija Amaragol,DEV-25289,"Prod: This DEV is to allow FOXCONN-VIETNAM to use material with DC over 2 years to support production build based on good result of solderability test.
+
+1. JPN 240-046318
+Description: Osc, 187.5MHz, 20ppm, 45/55, 2.5V, LVPECL, I-temp, OEH, SMT-6, 5x7mm
+MPN: 531EC187M500DGR
+Supplier: SKYWORKS SOLUTIONS, INC.
+Site balance: FUHONG PRECISION COMPONENT BAC GIANG CO. LTD 
+Total Qty to use: 205 pcs (DC 2236) & 127 pcs (DC 2244)
+
+2. JPN 240-054842
+Description: VCXO, 77.76MHz, 20ppm Stab, Absolute Pull Range 50ppm, 45/55, 3.3V, CMOS, 15pF Load, OEH, I-temp, SMT-6, 3.2x5mm
+MPN: VV-800-EAE-KAAE-77M7600000
+Supplier: MICROCHIP TECHNOLOGY
+Site balance: FUHONG PRECISION COMPONENT BAC GIANG CO. LTD 
+Total Qty to use: 108 pcs
+DC: 2225
+
+3. JPN 240-077762
+Description: OCXO, 20MHz, 10ppb p2p temp stab, 45/55, 3.3V, LVCMOS, 15pF, Stratum 3E, I-Temp, SMT-4, 12.7x20.32x12.5mm
+MPN: OX-403-0008-A-20M000
+Supplier: MICROCHIP TECHNOLOGY
+Site balance: FUHONG PRECISION COMPONENT BAC GIANG CO. LTD 
+Total Qty to use: 139 pcs
+DC: 2242
+
+4. JPN 240-086944
+Description: OSC, 125MHz, 25ppm, 45/55, 2.3V-3.6V, diff LVPECL, 15pF, MEMS, OEH, SMT-6, 2.5x3.2mm
+MPN: SIT9120AC-1B2-XXE125.000000
+Supplier: SITIME CORP
+Site balance: FUHONG PRECISION COMPONENT BAC GIANG CO. LTD 
+Total Qty to use: 11 pcs
+DC: 2222
+
+5. JPN 240-114218
+Description: TCXO, 25.0MHz, 0.3ppm Temp Stability, 3ppm for 10 years Total stability, 45/55, 3.3V, 15pF, HCMOS, OEH, Industrial temp, SMT-10, 3.2x5.0mm
+MPN: TG5032CGN 25.00000MHZ CMGHNA
+Supplier: EPSON
+Site balance: FUHONG PRECISION COMPONENT (BAC GIANG)
+Total Qty to use: 178 pcs (DC 2202) & 5 pcs (DC 2237)
+
+6. JPN 240-121165
+Description: Osc, 25.000MHz, 50ppm, 45/55, 2.5V, CMOS, 15pF, SMT- 4, 5X3.2mm
+MPN: 7C25070017
+Supplier: TXC CORPORATION INC 
+Site balance: FUHONG PRECISION COMPONENT (BAC GIANG)
+Total Qty to use: 575 pcs
+DC: 2217",To allow FOXCONN-VIETNAM to use material with DC over 2 years to support production build based on good result of solderability test,35:17.0
+Sarangabani S,DEV-24369A,"This DEV is to allow Flex Penang to use old date code inventory for oscillator/crystal  (per attached PN) to support production.
+
+240-016305
+240-023128
+240-025638
+240-026719
+240-034503
+240-036683
+240-037947
+240-045300
+240-045826
+240-053071
+240-054786
+240-067405
+240-086944
+240-115464
+240-126496
+
+No deviation label required.","Reason for extension (A): 12/26/24: still have below QTY to deplete.
+
+PN: 240-016305, Qty: 497, DC: 2206, MFG PN: ATS25ASM-1
+PN: 240-023128, Qty: 1000, DC: 2222, MFG PN: TS250F22CLT
+PN: 240-025638, Qty: 680, DC: 2119, MFG PN: 49M4R-64.000M-C603-Z60-T
+PN: 240-034503, Qty: 556, DC: 2205, MFG PN: VCC1-B3D-25M0000000
+PN: 240-034503, Qty: 445, DC: 2222, MFG PN: VCC1-B3D-25M0000000
+PN: 240-036683, Qty: 22, DC: 2207, MFG PN: VCC1-103-25M0000000
+PN: 240-037947, Qty: 475, DC: 2220, MFG PN: MC-306 32.7680K-E0:ROHS
+PN: 240-045300, Qty: 91, DC: 2135, MFG PN: VCC6-1304-100M000000
+PN: 240-045300, Qty: 486, DC: 2205, MFG PN: VFXO401-BGGCLT-100.000MHZ
+PN: 240-045826, Qty: 413, DC: 2144, MFG PN: VC-709-PCIE2-100M000000
+
+This DEV is to allow Flex Penang to use old date part to support production.
+PN:240-016305, DC:2140, Qty:28, MFG PN:ATS25ASM-1 ,MFG:CTS , Remark:24 months and above
+PN:240-016305, DC:2205, Qty:179, MFG PN:ATS25ASM-1 ,MFG:CTS , Remark:24 months and above
+PN:240-016305, DC:2206, Qty:497, MFG PN:ATS25ASM-1 ,MFG:CTS , Remark:24 months and above
+PN:240-023128, DC:2142, Qty:15, MFG PN:9C25077004 ,MFG:TXC , Remark:24 months and above
+PN:240-023128, DC:2222, Qty:1000, MFG PN:TS250F22CLT ,MFG:CTS , Remark:24 months and above
+PN:240-025638, DC:2119, Qty:680, MFG PN:49M4R-64.000M-C603-Z60-T ,MFG:IMPACT LLC , Remark:24 months and above
+PN:240-026719, DC:2222, Qty:354, MFG PN:49MLR-25.00M-C2R2-16T ,MFG:IMPACT LLC , Remark:24 months and above
+PN:240-034503, DC:2205, Qty:567, MFG PN:VCC1-B3D-25M0000000 ,MFG:MICROCHIP , Remark:24 months and above
+PN:240-034503, DC:2222, Qty:503, MFG PN:VCC1-B3D-25M0000000 ,MFG:MICROCHIP , Remark:24 months and above
+PN:240-036683, DC:2207, Qty:22, MFG PN:VCC1-103-25M0000000 ,MFG:MICROCHIP , Remark:24 months and above
+PN:240-037947, DC:2220, Qty:475, MFG PN:MC-306 32.7680K-E0:ROHS ,MFG:EPSON , Remark:24 months and above
+PN:240-045300, DC:2135, Qty:91, MFG PN:VCC6-1304-100M000000 ,MFG:MICROCHIP , Remark:24 months and above
+PN:240-045300, DC:2205, Qty:486, MFG PN:VFXO401-BGGCLT-100.000MHZ ,MFG:CTS , Remark:24 months and above
+PN:240-045826, DC:2144, Qty:413, MFG PN:VC-709-PCIE2-100M000000 ,MFG:MICROCHIP , Remark:24 months and above
+PN:240-053071, DC:2207, Qty:19, MFG PN:531EC125M000DGR ,MFG:SKYWORKS , Remark:24 months and above
+PN:240-054786, DC:2217, Qty:64, MFG PN:9H03200031 ,MFG:TXC , Remark:24 months and above
+PN:240-067405, DC:2222, Qty:292, MFG PN:VC-820-EAE-EAAN-18M4320000 ,MFG:MICROCHIP , Remark:24 months and above
+PN:240-086944, DC:2204, Qty:529, MFG PN:SIT9120AC-1B2-XXE125.000000Y ,MFG:SITIME , Remark:24 months and above
+PN:240-115464, DC:2207, Qty:162, MFG PN:531AB50M0000DGR ,MFG:SKYWORKS , Remark:24 months and above
+PN:240-126496, DC:2144, Qty:88, MFG PN:FL2500316Z ,MFG:DIODES , Remark:24 months and above",20:58.0
+Prameela R,ECO-61430,"Proto: SRX-Casino Royale TAA SKUs Proto Release Per Affected Items Section.
+
+Structure BOM and transition the below SKUs to prototype lifecycle:
+SRX4700-1400G-AC-T
+SRX4700-1400G-DC-T
+SRX4700-700G-AC-T
+SRX4700-700G-DC-T
+
+Update AVL to add FOXCONN-VIETNAM to the below:
+750-188940
+750-188939
+SRX4700-1400G-AC-T
+SRX4700-1400G-DC-T
+SRX4700-700G-AC-T
+SRX4700-700G-DC-T",Proto release of SRX4700 TAA SKUs,11:40.0
+Sherry Nguyen,ECO-61460,"Prod: PROC-0047; Business Process, Production Line Hipot and Ground Bond Test Procedure, M160/M40e; M120, M320/T640/T320; T1600; MX-Series,QFX, SRX, TX Matrix-Hobson, TXP-Absolute, ACX-Guardian; QFX-Spectrolite-Hillside, ACX-Gamora 
+
+PROC-0047: Rev 39
+- Added SRX4700 HiPot and Ground Bond requirements in section 1.4 (ECO-61460)",To align Casino Royale SRX4700 with safety team requirements for Hipot and Ground Bond test.,21:06.0
+Pradeep Holla,ECO-61376,"Prod: vJunos-Router, 24.2/R1-S2: New SW Release per the Affected Items Section.
+
+This ECO releases ""820/822"" P/N's into Production as standalone images.
+
+1. ""820/822"" Application Package Production Release.","Production Release of vJunos-Router,24.2/R1-S2. This (3) image is being posted to the Web for download. Distribution Type - General.",09:06.0
+Sunil H K,ECO-61271,"Prod: ECO to update 650-173638 BOM as per attached Rev02 hybrid bom file
+
+Wall mount kit: Plastic Anchor and screw replaced due to vendor concern
+
+Rev02 update -
+650-173638 
+ASSY-173638","Wall mount kit: Plastic Anchor and screw replaced due to vendor concern for Hard tooling.
+Equivalent Off the shelf part selected as replacement.",05:40.0
+Sherry Nguyen,M38209,"Proto: Open books SKU's, SW bundles for BNG CUPS User Plane support on ACX Combo Bundles: Update per the Affected Items Section.
+
+1. Set Order Management flag to 'PP-Available to order' for the following SKU's.
+S-WB-CB-10K-A2-1
+S-WB-CB-10K-A2-3
+S-WB-CB-10K-A2-5
+S-WB-CB-10K-A2-P
+S-WB-CB-1K-A2-1
+S-WB-CB-1K-A2-3
+S-WB-CB-1K-A2-5
+S-WB-CB-1K-A2-P
+S-WB-UP-10K-A2-1
+S-WB-UP-10K-A2-3
+S-WB-UP-10K-A2-5
+S-WB-UP-10K-A2-P
+S-WB-UP-1K-A2-1
+S-WB-UP-1K-A2-3
+S-WB-UP-1K-A2-5
+S-WB-UP-1K-A2-P
+
+2. Update the FRS date to 11/1/2024 
+
+PDC Note: PDC will update the order management flag and FRS date before release of this MCO.",Prototype Release of SKU's for SW bundles for BNG CUPS User Plane support on ACX Combo Bundles. FRS date change also required.,07:54.0
+Sherry Nguyen,M38676,"Proto: Open books. Update per the Affected Items Section.
+
+1. Set Order Management flag to 'PP-Available to order' for the following SKU.
+QDD-800G-DAC-1M
+
+PDC Note: PDC will update the order management flag before release of this MCO.",Open books,14:57.0
+Girija Amaragol,M38703,"Proto: MCO to update AVL as illustrated below
+
+1). Adding Fanjing MPNs under respective JPNs to ""Comp_IPQ"" status
+
+540-186800 => FANJING => BHA040500
+540-173719 => FANJING => BHA060020
+540-173875 => FANJING => BHA060019
+540-173720 => FANJING => BHA060021
+
+2). Removing Fanjing MPNs under respective JPNs
+
+540-186800 => FANJING => 540-186800
+540-173719 => FANJING => 540-173719
+540-173875 => FANJING => 540-173875
+540-173720 => FANJING => 540-173720",Replacing existing Fanjing MPNs with correct orderable ones,26:43.0
+Abel Alcantar,DEV-25248,"Prod: 740-155266, Assy, OEM, DRAM, RDIMM, DDR4-2666, 16GB, 2Gx72, 1333MHz, Dual Rank, Registered, ECC, 288P, 1.2V, CT: The purpose of this Deviation is to allow Accton Taiwan to make the following part substitutions for qualification purposes.
+
+A. Qual Assemblies:
+
+740-155266->611-154810->650-155263->650-154809->SRX1600-AC (Total Assy Qty=6)
+
+B. Sample Procurement Instructions:
+Accton Taiwan can procure parts from production released JPN 740-167114.
+
+C. Factory Instructions:
+
+C1>. Qualification build:
+Replace JPN:740-155266 with INNODISK: M4RE-AGS1BCUN-GB553 at two(2) locations, CONN12, CONN13 on the following assembly:
+   1. SRX1600: 611-154810 => 650-155263 => 650-155809 => SRX1600-AC - Required Assy Qty two(2).  Label these assemblies as GROUP-1.
+
+Replace JPN:740-155266 with SMART MODULAR: SR5722G8JNP29P2-SE at two(2) locations, CONN12, CONN13 on the following assembly:
+   1. SRX1600: 611-154810 => 650-155263 => 650-155809 => SRX1600-AC - Required Assy Qty two(2).  Label these assemblies as GROUP-2.
+
+   Replace JPN:740-155266 with NANYA: NT16GA72D8PFX3K-IX at two(2) locations, CONN12, CONN13 on the following assembly:
+   1. SRX1600: 611-154810 => 650-155263 => 650-155809 => SRX1600-AC - Required Assy Qty two(2).  Label these assemblies as GROUP-3.
+
+C1B>. All Qual Assemblies need to go through full MFG test prior to DVT test at CM.
+   GROUP-1:  SRX1600: 611-154810 => 650-155263 => 650-155809 => SRX1600-AC - Required Test Qty two(2).
+   GROUP-2:  SRX1600: 611-154810 => 650-155263 => 650-155809 => SRX1600-AC - Required Test Qty two(2).
+   GROUP-3:  SRX1600: 611-154810 => 650-155263 => 650-155809 => SRX1600-AC - Required Test Qty two(2).
+
+C1C>. DVT at CM for:
+   GROUP-1: SRX1600: 611-154810 => 650-155263 => 650-155809 => SRX1600-AC - Required Test Qty one(1).
+   GROUP-2: SRX1600: 611-154810 => 650-155263 => 650-155809 => SRX1600-AC - Required Test Qty one(1).
+   GROUP-3: SRX1600: 611-154810 => 650-155263 => 650-155809 => SRX1600-AC - Required Test Qty one(1).
+
+C1D>. SW CERT at Juniper for:
+   GROUP-1: SRX1600: 611-154810 => 650-155263 => 650-155809 => SRX1600-AC - Required Test Qty one(1).
+   GROUP-2: SRX1600: 611-154810 => 650-155263 => 650-155809 => SRX1600-AC - Required Test Qty one(1).
+   GROUP-3: SRX1600: 611-154810 => 650-155263 => 650-155809 => SRX1600-AC - Required Test Qty one(1).
+    *NOTE:  See Special Instructions Section of DEV for shipping directions.
+
+C2. Qualification boards will be new build or FGI.
+
+C3. Qualification units need to go through standard manufacturing and Test processes with the following specific actions:
+- Install DEV-25248 on all qual sample assemblies.
+- Record all serial numbers with DEV label and put on the NO SHIP list.
+- Send the product test yield reports as soon as all units have completed Mfg tests to CM-DVT-HTR-reports@juniper.net, mlemeshow@juniper.net and the DEV Originator.  
+- Ensure email header subject line indicates the Qual DEV#, JPN, when shipped to Juniper testing. 
+
+C4. The qualification assembly, not used for DVT, shall be shipped to Juniper (see Special Instructions) as soon as the required number of units have passed Mfg Test, prior to DVT.
+
+C5. Perform DVT, as per the Accton Qual Plan.
+Please email Accton Qual Plan to CM-DVT-HTR-reports@juniper.net and mlemeshow@uniper.net for Approval and copy DEV originator before performing DVT.  Once approved, Qual plan will be added to DEV.
+
+C6. After completion of DVT, prepare and review HTR report. Email report to CM-DVT-HTR-reports@juniper.net, mlemeshow@juniper.net, and DEV Originator. Ensure email header subject line indicates the Qual JPN, Qual MFR and the DEV#.
+
+D. Completion / Closure:
+The qualification units are not to be used for any other DVT and customer shipments until the qualification has been fully completed by Juniper, reports reviewed and an ECO / MCO has been signed off.",Qualification of replacement memory modules due to Samsung announced EOL on the D1x node DDR4 DRAM.,55:31.0
+Pooja Siraskar,DEV-25304,"Prod:This DEV is to allow Flex Penang to use old date code part 310-013120 (MICROCHIP) to support for qual build DEV-24771. Enclose solderability report. 
+
+JPN: 310-013120
+Flex PN: JNTG-310-013120-Q1
+Supplier: MICROCHIP TECHNOLOGY IRELAND LIMITED
+MPN: TC1270ANRVRCTR
+MFR: MICROCHIP TECHNOLOGY
+Qty: 7pcs
+DC: 2214
+
+No deviation label required.",This DEV is to allow Flex Penang to use old date code part to support qual build.,17:48.0
+Sarangabani S,ECO-61168,"Prod: Power Cord CG BOM changes: Update per the Affected Items Section.
+
+1. Remove CG_CBL-C13-07 and add CG_CBL-C13-NG-02 with qty 1 for following BOMs.
+
+EX3400-48P
+EX4100-24MP
+EX4100-24P
+EX4100-48MP
+EX4100-48P
+EX4100-F-48P
+ME-X1
+ME-X1-M
+
+2. Move CG_CBL-C13-07 to ""Inactive"".",Consolidate multiple CG C13 BOM's to CG_CBL-C13-NG-02.,57:09.0
+Prameela R,ECO-61444,"Proto: Proto release of ACX-Antman SKUs as per the affected item section.
+
+-Structure BOM and release below SKU's to ""prototype"" lifecycle:
+ACX702X-RMK-19 
+ACX702X-RMK-21
+ACX702X-RMK-23
+
+Standalone release of the below JPN's to ""prototype"" lifecycle.
+740-178578
+740-178579
+
+Note: Specs, Drawings are attached in the attachment section for 740 part numbers.","Initial bom structuring and releasing to ""prototype"" lifecycle of RMK sku's",16:19.0
+Richard Hood,ECO-60895,"Prod: 611-135777, 611-168516, ODM, Assy, PCA's, Main boards, ACX-Ultron; ACX-UltronXL: Update per the Affected Items Section.
+
+JPN: 310-161934 (IC, DRAM, GDDR6, 16 Gb, 512Mx16, 2 channel, 1.25V, 0.571ns, FBGA-180, 12X14X1.1mm, SAC305, Industrial temp- ODM Use only) as a replacement for JPN: 310-137016 (IC, DRAM, GDDR6, 8Gb, 256MX16, 2-Channel, 12Gbps, 1.25V, 1.143ns, 12 x 14mm, 0.75mm ball pitch, FBGA-180, SAC305, Industrial).
+
+1. 611-135777, 611-168516:
+- JPN: 310-161934 will replace JPN: 310-137016 in PCB locations U41 and U51.
+- Add 310-143671 to 611-135777. This change reflects ""as-built"" condition.
+
+2. 650/750/SKU's:
+- Rev to Track.
+- Updated Hybrid BOM files attached for 650 levels.
+
+Do not mix the original and new products on the same PCB.","JPN: 310-137016 has been flagged as EOL and as on-hand quantities draw down, JPN: 310-161934 will begin to replace the original device.",40:37.0
+Abel Alcantar,ECO-61469,"Prod: Juniper Security Director 24.4/.1: New SW Release per the Affected Items Section.
+
+This ECO releases ""820"" P/N's into Production as standalone images.
+
+1. ""820"" Application Package Production Release.",Production Release of Juniper Security Director 24.4/.1. These (2) images are being posted to the Web for download. Distribution Type - General,24:03.0
+Sarangabani S,ECO-61336,"Prod:
+Release the following SKUs to Production life cycle 
+JNP10004-FAN3, 
+JNP10004-FAN3-BB, 
+JNP10004-FTC3, 
+JNP10004-FTC3-BB, 
+JNP10008-FAN3, 
+JNP10008-FAN3-BB,
+JNP10008-FTC3, 
+JNP10008-FTC3-BB and their lower level assemblies to Production status. 
+
+Noted:
+1.PRR and MELT slides have been attached,
+2.Release date will be a FRS Date.
+3.Weight and DIM will be updated before release.",The lifecycle change is required as part of the standard release process.,01:56.0
+Prameela R,ECO-61273,"Prod: New shippable junos release for SKU's, EX4650-48Y, QFX5120-48Y - Onyx and QFX5110-32Q/48S Pinnacle, Martini EX2300 per the affected items section.
+
+1. For Onyx EX4650-48Y  models
+
+EX4650-48Y-AFI
+EX4650-48Y-AFO
+EX4650-48Y-AO-U
+EX4650-48Y-DC-AFI
+EX4650-48Y-DC-AFO
+EX4650-48Y-DC-AO-U
+
+    - Remove Junos 22.4R3.25. Software P/N 817-179459. Filename: install-media-host-pxe-ex-4e-flex-x86-64-22.4R3.25-secure-signed.tgz
+    - Add Junos 23.4R2-S2.1 Software P/N 817-185231 Filename: install-media-host-pxe-ex-4e-flex-x86-64-23.4R2-S2.1-secure-signed.tgz
+
+2. For Onyx QFX5120-48Y models
+
+JNP48Y8C-CHAS
+QFX5120-48Y-AFI
+QFX5120-48Y-AFI2
+QFX5120-48Y-AFO
+QFX5120-48Y-AFO2
+QFX5120-48Y-D-AFI2
+QFX5120-48Y-D-AFO2
+QFX5120-48Y-DC-AFI
+QFX5120-48Y-DC-AFO
+
+- DELETE Junos 22.2R3-S2.8 Software P/N 817-175739. Filename: install-media-host-pxe-qfx-5e-flex-x86-64-22.2R3-S2.8-secure-signed.tgz
+- ADD Junos 23.4R2-S2.1 Software P/N 817-185239. Filename: install-media-host-pxe-qfx-5e-flex-x86-64-23.4R2-S2.1-secure-signed.tgz
+
+JNP48Y8C-CHAS:
+
+- DELETE Junos 21.4R3-S5.17 Software P/N 810-178422. File name: jinstall-host-ex-4e-flex-x86-64-21.4R3-S5.17-secure-signed.tgz
+- ADD Junos 23.4R2-S2.1 Software P/N 810-185131. Filename: jinstall-host-ex-4e-flex-x86-64-23.4R2-S2.1-secure-signed.tgz
+
+3. For Pinnacle QFX5110-32Q/48S
+
+QFX5110-32Q-AFI
+QFX5110-32Q-AFI2
+QFX5110-32Q-AFO
+QFX5110-32Q-AFO2
+QFX5110-32Q-CHAS
+QFX5110-32Q-D-AFI2
+QFX5110-32Q-D-AFO2
+QFX5110-32Q-DC-AFI
+QFX5110-32Q-DC-AFO
+QFX5110-48S-AFI
+QFX5110-48S-AFI2
+QFX5110-48S-AFO
+QFX5110-48S-AFO2
+QFX5110-48S-D-AFI2
+QFX5110-48S-D-AFO2
+QFX5110-48S-DC-AFI
+QFX5110-48S-DC-AFO
+
+- DELETE Junos 20.2R2.11 Software P/N 817-129610. File name: install-media-pxe-qfx-5-flex-20.2R2.11-signed.tgz
+- ADD Junos 23.4R2-S2.1 Software P/N 817-185239. Filename: install-media-host-pxe-qfx-5e-flex-x86-64-23.4R2-S2.1-secure-signed.tgz
+
+QFX5110-32Q-AFI-T
+QFX5110-32Q-AFI-T2
+QFX5110-32Q-AFO-T
+QFX5110-32Q-AFO-T2
+QFX5110-48S-AFI-T
+QFX5110-48S-AFI-T2
+QFX5110-48S-AFO-T
+QFX5110-48S-AFO-T2
+
+- DELETE Junos 20.2R2.11 Software P/N 817-129609. File name: install-media-pxe-qfx-5-flex-20.2R2.11-signed.tgz
+- ADD Junos 23.4R2-S2.1 Software P/N 817-185239. Filename: install-media-host-pxe-qfx-5e-flex-x86-64-23.4R2-S2.1-secure-signed.tgz.
+
+For EX2300-Martini Royale: 
+
+EX2300-24MP
+EX2300-24MP-TAA
+EX2300-48MP
+EX2300-48MP-TAA
+
+- Delete Junos 21.4R3-S7.6 Software P/N 811-181324. Filename: junos-install-media-net-ex-arm-32-21.4R3-S7.6.tgz
+- Add Junos 23.4R2-S2.1 Software P/N 811-185203. Filename: junos-install-media-net-ex-arm-32-23.4R2-S2.1.tgz
+
+Note:
+- New shippable Junos release, regression report / test log as attached.","1. Onyx EX4650 update shippable Junos from 22.4R3.25 to 23.4R2-S2.1.
+2. Onyx QFX5120 update shippable Junos from 22.2R3-S2.8 to 23.4R2-S2.1.
+3. Pinnacle QFX5110-32Q/48S update shippable Junos from 20.2R2.11 to 23.4R2-S2.1.
+4. Martini EX2300 Update shippable Junos from  21.4R3-S7.6 to 23.4R2-S2.1",45:32.0
+Ranjith Soundarrajan,M38774,"Prod: MCO to update AVL as illustrated below
+
+Adding Nefab Vietnam MPN under respective JPN to ""Active"" status
+
+550-074781 => NEFAB VIETNAM => 550-074781",Adding Nefab Vietnam to the AVL as part of sourcing localization based of FAI report received,58:24.0
+Abel Alcantar,ECO-61354,"Prod: vJunos-Router 24.4/R1: New SW Release per the Affected Items Section.
+
+This ECO releases ""820/822"" P/N's into Production as standalone images.
+
+1. ""820/822"" Application Package, Application Tools Production Release.",Production Release of vJunos-Router 24.4/R1. These (3) images are being posted to the Web for download. Distribution Type - General.,42:21.0
+Abel Alcantar,ECO-61408,"Prod: Update affected items per BOM redlines and part attachments
+
+1. Minor update mechanical drawing of 540-093377 to REV 03A
+    No change in design, just correct document
+
+2. Rev to track next level where used
+750-160046 	 
+750-160078	 
+750-174928
+750-174929	 
+750-175197
+750-180688
+750-186403
+750-155047
+750-180076
+750-175631
+750-099260
+750-119103
+750-175199","Updated Drawing Template Unit
+     IS: Inch      
+WAS: Millimeter",31:31.0
+Richard Hood,M38268,"Proto: Open Books/PP for MIST-SW Combo Bundles and Software licenses: Per the Affected Items Section.
+
+Set ""Order Management Flag"" to ""PP-Available to Order"" for:
+- Reference ""Affected Items"" section for list of SKU's. Too many to place on the MCO cover page.
+
+Note: PDC to update the ""Order Management Flag"" to ""PP-AVAILABLE TO ORDER"" post CCB approvals and before release.",Open Books required in order to enable bookings in SAP.,56:07.0
+Ranjith Soundarrajan,M38717,"Proto/Prod: 240-115523 ; Osc, 114.285MHz, 20ppm, 45/55, 3.3V, CMOS, 15pF, I-Temp, SMT-4, 3.2X2.5mm. Update per the Affected Items Section.
+
+- Structure/Add below MPN in Comp_IPQ LC
+
+    JPN               MPN
+240-115523    VC-820-9022-114M285000  (MICROCHIP)
+240-034561     7MA1470002 (TXC)
+
+- Remove below incorrect MPN.
+
+    JPN               MPN
+240-115523    VC-820-9022-114M2850000  (MICROCHIP)
+240-034561    7M-114.285MDIJ-T (TXC) - distributer MPN
+
+Reference email attached",Correct MPN update per supplier feedback,44:17.0
+Sherry Nguyen,M38732,"Prod: Optical Transceivers listed below need to change from PROD_IPQ state to ACTIVE. Update per the Affected Items Section.
+
+1) EOLD-168HG-10-CJ
+740-148032
+EOPTOLINK
+QDD-2X400G-LR4-10	
+
+2) LMQ3826C-PC+JP
+740-145103
+HISENSE
+QDD-2X400G-FR4","The qualification has been completed to move parts from ""Prod_IPQ"" to ""Active"". The OTR is attached.",02:42.0
+Pooja Siraskar,M38743,"Inactive: MCO to Change MPN Lifecycle Status to “EOL_Notified"" and Technical Risk Reason to ""3 - EOL Notice from Supplier"" for below TE CONNECTIVITY LTD MPN's
+
+    JPN          MPN
+450-048317  2-6116353-8
+
+PCN Document and Where used report is attached for reference.
+
+PDC Action: PDC to update the Technical Risk Reason post CCB Approval, prior to MCO Release.","TE CONNECTIVITY LTD has submitted the EOL PCN for the below reason:
+EOL the Parts due to no selling history for the past few years",38:03.0
+Sherry Nguyen,DEV-24362A,"Prod: JNP-SPC3, Services Processing Card, SPC3: This Deviation is to instruct affected sites to follow the test screening instructions at both production and repair to identify DIMM failure related issues.
+
+TEST Screening instructions for WIP/FG/Shipping/Repair (Refer attached Test screening instructions for error messages):
+1. Prepare a chassis SRX5800 with RE3 and load SW 20.4R3-S1.3.
+2. Insert all SPC3 into slot 1-10 if UUTs are available.
+3. Make sure all spc3 are online (command => show chassis fpc).
+4. Keep the system up for 1.5  to 2 hrs.
+5. Login the system and change directory to /var/log/.
+6. Grep errors as show from an example below. (command:  grep error messages*).
+7. If the system can detect this error messages from example below, please tag it as DIMM failure and move UUT to debug area.
+
+NOTE: 
+For Repair team (CSU) - Please share a running list of all incoming failures for JNP-SPC3 which after debug/repair results in NTF, with TE Joseph Le (jle@juniper.net) and PQE Aiswarya Shanmugam (aiswaryas@juniper.net) for review, before declaring as NTF.
+
+For Production (FJZ, FVN) - Please retest the units in WIP/FG and shipping as well, even if all the tests are already completed.","Reason for Extension(A): The SW fix for the test script update in production and repair is still under validation. New ""Effective To"" Date: 01/19/2025
+
+Multiple customers reported memory errors with SPC3 when upgrading to latest Junos releases. 
+ACE team is working on performing FA on the failed SPC3 cards and identified the root cause as defective DIMM memory. 
+This deviation is required for both production and Repair to test all units with Junos 20.4 as the failure is detected only in newer version. Currently, Manufacturing and Repair uses older Junos image which does not detect this error.
+
+NOTE: This deviation is extension of DEV-23415 as the SW need to be implemented at both Repair and production",57:19.0
+Ranjith Soundarrajan,DEV-24284A,"Reason for extension: Since CM having a old PN in inventory. To utilize the OH qty extending deviation for another 3 months.
+
+
+Prod: EX-Aberlour:This DEV is to allow CMY and EI Hubs to extend the Implementation date of ECO-58001 with old rev, at WIP/FGI/3PL..CMY had already implemented the CLAIM code change before the release of ECO-58001.  
+
+Note: CHAS SKUs without “Claim Code label"" under the impacted items will be quarantined at all EI-hubs and sent back to partner for application of QR Claim Code.
+
+All new build shall implement ECO-58001  with new rev.",CLAIM CODE restructuring to CHAS level (to align with DEV_ID level) per ECO-58001 has been implemented by CMY since mid Feb 2024.,09:30.0
+Girija Amaragol,DEV-25197,"Prod/Proto: This DEV is to allow Flex Penang to use old date code part 210-035306 from NIC COMPONENTS to support immediate shortages. Enclosed the COC report. 
+
+JPN: 210-035306
+MPN: NTP107M10TRD(55)F
+MFR: NIC COMPONENTS
+Qty: 2000pcs
+DC: 2236
+
+No deviation label required.",This DEV is to allow Flex Penang to use old date code part to support production build.,26:24.0
+Sherry Nguyen,DEV-25264,"Prod: 740-148505, Assy, Pwr Sply, DC, 2200W, 48/60V. While discussion is ongoing in Juniper performing additional qualification for the change, this deviation is to allow AcBel Polytech Inc-Taipei City to ship 287 reworked pilot power supply units to Flextronics Penang, Malaysia, to support the customer need.
+
+***Issuing this new DEV-25264 as an extension of the previously released DEV-24824 which expired on December 25, 2024. Flextronics Malaysia has highlighted of having 9 remaining PSMs under DEV-24824 that needs to be consumed. See emails in the Attachment folder***
+
+This is in completion of Purge-05623, FMY's RTV, supplier's rework/upgrade and Power Engineering test validation of the following change.
+
+Resistor R40 change to 20K ohm and addition of 100pF C57 filter capacitor to stabilize the Vbe signal of Q7 mosfet.
+
+Reports and other info. in the Attachments folder:
+1. Revised FA/CA report, received on 8/23/24
+2. Rework Instruction, received on 8/30/24
+3. List of SNs for the 287 units, received on 9/3/24
+4. AcBel PCN P1JUNIPER NETWORKS_2441368, received on 9/16/24.
+5. Juniper Power Engineering test validation report, refer to Section 7.5 on the test results for 2.2KW.
+6. Meeting minutes and email discussion in August, related to issuing this DEV for the reworked Pilot units.
+
+Reworked/upgraded Pilot PSUs will keep the same CLEI code no., JPN & MPN Rev. nos. and JNPR model/rev no. for a total of 287 units.
+
+DEV-24824 label applied to the reworked/upgraded units for traceability.",This new DEV-25264 acts as an extension of DEV-24824 that previously provides authorization to the supplier-AcBel to ship the reworked Pilot power supplies to Flextronics Malaysia. ECO-60955 has been issued and has already been released in Agile for the permanent change.,35:03.0
+Sherry Nguyen,DEV-25103,"Prod: Add product barcode label p/n 520-016689 (1x) to the following 5 assemblies:
+
+010252
+010365
+010374
+010375
+740-025995",BOM assemblies are not calling for any product p/n barcode label and to have a better traceability for the assemblies,37:16.0
+Abel Alcantar,DEV-25293,"Proto: PTX-Octomore: 750-175154., Assy, Top, Teeling 800G OSFP, MezzA, 36 Ports, PTX-Octomore
+
+Apply kepton tape on the GND stitch vias as per the attached instruction and make sure do not to place the tape on the busbar PCB PAD.
+
+Build: P1C
+Qty: 17 pcs.
+
+- Affix the DEV-25293 label.
+- Track the affected SNs.",Discovered busbar contact very close to the GND stitching Vias and it will cause potential short issues. This issue will be fixed in next etch.,11:07.0
+Girija Amaragol,DEV-25208,"Inactive/Prod: This DEV is to instruct Accton to gang rework the high power loading locations with new TI part for rework verification and TZA sample
+
+X-men ACX7100-32C * 3 units.
+
+1. Rework:
+-Replace CSD95490Q5MC/310-088617 with CSD96497Q5MC/ 310-174365
+
+611-112469 ODM, Assy, PCA, Storm Main Board, ACX-X-Men
+
+Rework locations:
+U6,U7,U8,U9,U10,U11,U12,U13,U14,U15,U16,U18
+U73,U74,U76,U77,U78,U79
+U42,U43,U50,U51,U52,U53
+total: 24 high power loading locations
+
+611-112446 ODM, Assy, PCA, CPU Board, ACX-X-Men
+
+Rework locations: U33, U42.
+Total: 2 high power loading locations
+
+2. 3 rework units should go thru complete manufacturing test and provide test result to Juniper for review.
+ 
+Note.
+1. REFER to ECO-60443
+2. Attached file for ACX7100-32C MB selective rework plan","Selective rework - High current devices
+Rework the high power loading locations with new TI part based on RDT result.",13:55.0
+Girija Amaragol,DEV-25257,"Prod: Mechanical Hard tool parts qualification. This DEVIATION is to instruct FMY to perform qualification on the following P/Ns and per the Affected Items:
+
+A) PTX-Balerion: 760-180477: Hard tooled parts/assy by Interplex VN as multi-source
+
+760-178440 - Assy, Sub, Rack Rail Front, RMK, 2RU, V2, QFX-Tomatin  
+760-165350 - Assy, Sub, Chassis side U-Bracket, RMK, 2RU, PTX-Balerion  
+760-178444 - Assy, Sub, Floating Rail, RMK, 2RU, V2, QFX-Tomatin
+
+B) Qualification samples procurement info:
+
+- Interplex VN has already built & sent the HT samples/assy to FMY for qualification
+- FMY did the HT samples FFF Check
+
+C) Qualification instructions to FMY:
+
+1. Qualification to be done through standard incoming inspection process (In-process inspection & assembly check).
+2. Items will go through standard production assembly process to evaluate form, fit and functional checks. In addition, cosmetics compliance as well.
+3. Assemble the respective items according to Assy DWG & findings to be shared in FFF.
+4. Compare the qualifications of new HT items wrt older HT items. Report all findings during the overall assembly process.
+5. FMY to release the qualification build report (i.e. inspection and FFF results) after completing the build & same will be attached during MCO (Post DEV release).
+
+Notes:
+- No functional tests are required as this is a mechanical hard tooled parts qualification. Change will not impact mfg. test and the electrical function of the product.
+- Qual was already completed & this deviation is just for record purpose. AVL update to be made in Agile thru MCO post DEV release.",This DEV will qualify the mechanical hard-tooled production solution parts from Interplex VN as part of VE qual.,20:07.0
+Richard Hood,ECO-61365,"Prod: SKU's, 750 level assemblies, CTP: Update per the Affected Items Section.
+
+1. BOM updates to remove 750's assy p/n as follows:
+750-188047 from 010252.
+750-188048 from 010365.
+750-188049 from 010374.
+750-188050 from 010375.
+
+2. BOM updates to add below assemblies to the following 750's:
+Add 010252 into 750-188047.
+Add 010365 into 750-188048.
+Add 010374 into 750-188049.
+Add 010375 into 750-188050.
+
+3. Add and remove the p/n's as follows:
+a). For BOM's 750-056276, 750-161543, CTP2000-PWR-R:
+- Add 750-188047.
+- Remove 010252.
+b). For BOM's 750-056277, 750-161541:
+- Add 750-188047 and 750-188049.
+- Remove 010252 and 010374.
+c). For BOM's 750-056279 and 750-161539:
+- Add 750-188047 and 750-188050.
+- Remove 010252 and 010375.
+d). For BOM's 750-056275, 750-161542, CTP2000-PWR-DC-R:
+- Add 750-188048.
+- Remove 010365.
+e). For BOM's 750-056278 and 750-161540:
+- Add 750-188048 and 750-188049.
+- Remove 010365 and 010374.
+f). For BOM's 750-056280 and 750-161538:
+- Add 750-188048 and 750-188050.
+- Remove 010365 and 010375.
+g). For BOM CTP2024-ASSY-FANTRAY:
+- Add 750-188049.
+- Remove 010374.
+h). For BOM CTP2056-ASSY-FANTRAY:
+- Add 750-188050.
+- Remove 010375.
+
+4. Rev to Track the following SKU's:
+CTP2008-AC-03, CTP2008-AC-04, CTP2008-DC-03, CTP2008-DC-04, CTP2024-AC-03, CTP2024-AC-04, CTP2024-DC-03, CTP2024-DC-04, CTP2056-AC-03, CTP2056-AC-04, CTP2056-DC-03, CTP2056-DC-04.",Correct BOM's which were not structured correctly at ECO-61260.,05:59.0
+Ranjith Soundarrajan,ECO-61435,"Proto:QFX-Garnet: Release to ""prototype"" lifecycle as per the affected item sections.
+
+-Release below SKU to ""prototype"" lifecycle as per the attached ""REDLINE_BOM_OSFP-4x200G-DAC.xls"".
+OSFP-4x200G-D-1M
+OSFP-4X200G-D-2M
+QDD-4x200G-D-1M
+
+releasing child items to proto lifecycle
+720-185349 
+720-185350
+720-185351","Initial BOM structuring and releasing to ""prototype"" lifecycle of OSFP-4x200G-D-1M, OSFP-4X200G-D-2M and QDD-4x200G-D-1M cables",42:21.0
+Richard Hood,ECO-61027,"Prod: Power Cord CG BOM changes: Update per the Affected Items Section.
+
+1. Remove CG_CBL-C13-05 and add CG_CBL-C13-NG-01 with qty 1 for following BOM's:
+EX2300-24MP
+EX2300-24MP-TAA
+EX2300-24P
+EX2300-24T
+EX2300-48MP
+EX2300-48MP-TAA
+EX2300-48P
+EX2300-48T
+EX2300-C-12P
+EX2300-C-12T
+EX3400-24P
+EX3400-24T
+EX3400-48T
+EX3400-48T-AFI
+EX4100-24T
+EX4100-48T
+EX4100-48T-AFI
+EX4100-F-24P
+EX4100-F-24T
+EX4100-F-48T
+EX4300-32F
+EX4300-32F-TAA
+EX4400-24T
+EX4400-24T-AFI
+EX4400-24X
+EX4400-24X-AFI
+EX4400-48F
+EX4400-48F-AFI
+EX4400-48T
+EX4400-48T-AFI
+LWC
+NFX150-S1
+NFX150-S1E
+NFX250-LS1
+NFX250-S1
+NFX250-S1E
+NFX250-S2
+NFX350-S1-AC
+NFX350-S2-AC
+NFX350-S3-AC
+SRX4300-AC
+SRX4300-AC-LT
+
+2. Move CG_CBL-C13-05 to ""Inactive"".",Consolidate multiple CG C13 BOM's to CG_CBL-C13-NG-01.,50:01.0
+Ranjith Soundarrajan,M38564,"prelim/proto/production/inactivate: Remove DOF-EITAIWANFGI from AVL for SKU's of the affected items tab (1165 SKU's).
+
+PDC Note: Pease consider the MCOs which has added into ""Relationships"" tab. Since affected items are high, created multiple requests.",Need to remove DOF-EITAIWANFGI as approved source for AVL's of all SKU's of the affected items tab.,42:36.0
+Pooja Siraskar,M38664,"Prod: MCO to Change new INNODISK CORPORATION MPN: DGM28-B56M71EW1QF-B553A lifecycle status to ""Active"" under JPN: 740-167430.","INNODISK submitted PCN (F2314-US) to update the firmware to A23411 for the following reasons:
+
+1.Fix Smart ID 0xF8, 0xF9 Value/Threshold
+2.Improve Security Erase Flow
+3.Fix BADQ issue.
+
+ACX-Gamora program qualified this new firmware A23411 as part of NPI qualification process. Refer PR#1789380 and HTR report (Gamora_RE_SSD_qualification.doc) for reference.
+
+QFX-Tomatin program qualified this new firmware as part of 2nd source qualification via DEV-24187. Refer attached HTR report (HTR-4728_Tomatin.docx).
+
+PDC Action: HTR report for QFX-Glenlivet will be added before MCO release.
+
+PDC Action: PDC to update the Technical Risk Reason to 0 - Low Risk :No identified Technical Risks post CCB Approval, prior to MCO Release",28:31.0
+Sherry Nguyen,M38765A,"***Revert back on 01/24/2025***
+
+Closure of EOL Reactivation for CS EOS Returns
+
+Restore from Inactive to Obsolete 
+SKU(s)  	
+EX4200-24F-DC
+EX4550-32F-S
+EX4550-EM-8XSFP
+CFP-100GBASE-LR4
+SIB-I-T4000
+BT8A78UFM3
+QFXC08-FANS
+FAN-R-TXP-3D-LCC-S
+SIB-I-T4000-S
+
+
+Customer/ Partner 	Juniper CS
+Quantity Requested 	4
+Reason for Reactivation 	CS EOS Return
+Requestor 	April Flaugher
+Reason: 	Repair Location needs to move items to other locations 
+PDC Action: 	Temporarily change material status from EOS to EOL (leave all dates intact) and revert back after CS confirms processing.",Closure of EOL Reactivation for CS EOS Returns,42:20.0
+Girija Amaragol,M38697,"NOTE: DO NOT RELEASE MCO till ROB Fontaine gives approval to release
+Add Rob F into CCB please
+
+Prod: Product Name(s): MX-Bugatti: This mco is to update Claim Code FLAG as explained below:
+
+Claim Code FLAG to be set to ""Yes""
+
+Model Numbers
+JNP304-CHAS
+JNP304-CHAS-BB 
+
+Set ""Claim Code FLAG"" flag to ""Yes"" in ""Product Number - Process Engineering"" section of Model cover pages.",Claim Code flag enablement on models for SAP data integrity checks.,49:45.0
+Girija Amaragol,M38748,"Prod: This mco is to update Changing MPN Lifecycle Status to “EOL_Notified"" and Technical Risk Reason to ""3 - EOL Notice from Supplier"" for below AMPHENOL MPN's
+
+    JPN          MPN
+450-017728  AA622-02006
+
+PCN Document and Where used report is attached for reference.
+
+Note:
+PDC will update upon approval before release this mco.","AMPHENOL has submitted the EOL PCN for the below reason:
+Considering huge raw material MOQ and long LT, Airmax ""AA"" series can be no longer effectively be supported.",49:50.0
+Sherry Nguyen,DEV-25291,"Proto : PTX-Octomore: 740-124639 DC-DC Conv, 40-60Vin, 10-15Vout, 60A, 98%EFF, Baseplate SMD version, 57.9 x 25 x 9.9 mm
+
+Allow to use Old DC parts on octomore SIB PWR DC boards.
+
+Affected assy: 711-176919
+
+DC;2239,2237
+Qty:248
+MSL:3
+
+Instructions:
+If the units are in the dry pack and the HIC indicator card is fine, FMY should be able to use the products without further testing.
+If the HIC shows moisture, it's recommended to bake them according to JEDEC before using. Instructions are also on the HIC card, please follow that.
+
+Special Instructions:
+- Affix the DEV-25291label on the board
+- Track the SN & usage details",Due to part shortage,35:13.0
+Girija Amaragol,DEV-25310,"Prod: JPN 760-181964 and 760-165373 Mechanical qualification of 2nd source parts from MD-Penang. This Deviation is to instruct Flex Penang (FMY) and MD-Penang to perform the following:
+
+Instructions for MD-Penang:
+
+1. Produce and Ship total of 10 samples of the 760-181964 and 760-165373  to:  Flex Penang
+2. Mark/label the samples with ""DEV-25310"".
+3. Produce the FAI reports for the parts and assemblies.
+4. Send copies of the FAI reports to Billy Wu (billy@juniper.net) and Nestlin Sudhakaran nsudhakaran@juniper.net.
+5. Send copies of the RoHS/REACH documents to Billy Wu (billy@juniper.net) and Nestlin Sudhakaran nsudhakaran@juniper.net.
+
+Instructions for Flex Penang (FMY):
+1. FMY to receive parts, to undergo through normal incoming inspection process.
+2. Prepare the materials for inspection and assembly check. Use the parts through the normal production assembly process, observe fitment and check for cosmetics.
+3. Report and raise any findings found during the assembly process and with the rest of the other parts in the 750-assemblies.
+4. Report the overall result of the installation of 540- qualification into their 750- assemblies.
+5. When available, include comparing the qualification samples to the existing parts made by the current approved supplier.
+6. FMY to release the qualification build report (i.e. inspection and FFF results, supported with photos) after completing the build.
+7. FMY can using this qualification part to fulfill end customer requirement base on Juniper's approval.",Due to China +1 strategy . We need MD Xiamen to move production out of China for these two parts to MD Penang .Using this Deviation to qualify the part from MD Penang,03:18.0
+Richard Hood,DEV-24983,"Programmable update of following devices on Ardmore:
+BIOS v34.04: 560-181952
+Boot CPLD v1.6: 560-186728
+Port CPLD v17h: 560-117624
+
+Files are copied to FMY server at /nfs/home/flex/Ardbeg/ECO-60896
+Remote upgrade steps:
+Copy the prog files to /var/tmp/ of the router.
+
+A. BIOS
+1. Copy CBSKD_U_ADB1.efi to /boot/efi/UpdateCapsule/
+2. Run """"OsIndicate.sh -s FILE_CAPSULE_DELIVERY"""" from root prompt.
+3. Reboot
+
+B. Boot CPLD
+root@ re0:/var/tmp# boot-fpga -P 560-186728_ardbeg_boot_cpld_v16.jed
+
+C. Port CPLD
+1. Copy the CPLD image file (560-117624_Ardbeg_Port_CPLD_REV_17.svf file) to /etc/sysconfig/jtag-test/ of the router 
+Issue the below command at root prompt
+2. root@re0:~# jtag-test
+3. root@re0:~# jtag-test -Fui -d0
+4. root@re0:~# lattice-isp /etc/sysconfig/jtag-test/560-117624_Ardbeg_Port_CPLD_REV_17.svf
+
+After upgrading both boot CPLD and port CPLD, power cycle the system.","A. The latest BIOS for Skylake, V34, supports:
+     1. Intel recommended security, booting, Capsule update, and recovery changes. New Bios fixed the Primary BIOS corruption issue during the in-system upgrade.
+     2. Fixes the issue (JTAC Case 2023-1025-795667), where the CPU to BT2 link came up in x1 mode instead of x2 mode after a SW upgrade.
+B. Port CPLD Upgrades – To support Remote power cycling Feature Enhancement.
+C. Boot CPLD Upgrade – To support logout-on-disconnect knob for console.",15:38.0
+Girija Amaragol,M38740,"Prod: MCO for Lifecycle change from ""COMP_IPQ "" to ""Active"" for the MPN mentioned below
+
+450-018170 =>TE Connectivity =>1625854-1
+
+Qual at Foxconn Vietnam is successful.
+Ref Dev# DEV-23330
+qual report is added in the MCO attachment
+ submitted for Compliance Update
+
+Note to PDC Team: Please make the redlining for Active move
+
+Note to RoHS CE Review Group: Z2 ticket 14813 for compliance field update",Helpful Hints: Identify and describe the main reason why an MCO/Purge is necessary.,12:27.0
